@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', cursive;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background-color: transparent;
+    backdrop-filter: blur(0.3rem) brightness(95%);
+}
+/* This is used when the logo in the topleft is just a word .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+} */
+
+.logo {
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 10; /* Position it at the left of the viewport */
+    z-index: 9999; /* Optional: Adjust the z-index as needed to control stacking */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.logo img {
+    width: 100px; /* Set the width to the desired size for your icon */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.navlist{
+    display: flex;
+    margin-left: auto;
+    z-index: 9999;
+
+}
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color:white;
+    font-size: 30px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #36393f 0%, #242629 38.53%, #050505 68.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section{
+    padding: 0 19%;
+}
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.hero-text h1{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+.hero-img img{
+    width: 700px;
+    height: auto;
+}
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #36393f;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+.hero-text a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.hero-text a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+.scroll-down i{
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    background: #36393f;
+    border-radius: 30px;
+    transition: all .50s ease;
+}
+.scroll-down i:hover{
+    transform: translateY(-5px);
+}
+
+@media (max-width: 1535px){
+    header{
+        padding: 15px 3%;
+        transition:  .2s;
+    }
+    .scroll-down{
+        right: 3%;
+        transition: .2s;
+    }
+}
+@media (max-width: 1460px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+}
+@media (max-width: 1340px){
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+    .hero-text h1{
+        font-size: 75px;
+        margin: 0 0 30px;
+    }
+    .hero-text h5{
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 1195px){
+    section{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .hero-text{
+        padding-top: 115px;
+    }
+    .hero-img{
+        text-align: center;
+    }
+    .hero-img img{
+        width: 560px;
+        height: auto;
+    }
+    .hero{
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .scroll-down{
+        display: none;
+    }
+}
+@media (max-width: 990px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+    }
+    .navlist.open{
+        right: 0;
+    }
+}
+
+@media (max-width: 680px){
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* !!!!!!!!!!!!!!!!!!! STANDINGS CSS BEGINS HERE!!!!!!!!!!!!! */
+
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.tableclass {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.table {
+    width: 82vw;
+    max-width: 1000px;
+    height: 90vh;
+    background-color: #fff5;
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.table_header {
+width: 100%;
+height: 10%;
+background-color: #fff4;
+padding: .8rem 1rem;
+}
+
+.table_body {
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table_body:hover:-webkit-scrollbar-thumb{
+visibility: visible;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+tbody tr:hover {
+    background-color: #fff6;
+}
+
+/*!!!!!!!!!!!!!!! THIS NEXT SECTION COVERS ABOUT.HTML!!!!!!!!!!!!!!!!!*/
+
+.team {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    right: -50%;
+}
+
+.team .icon {
+    position: relative;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.team .icon .imgBx {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    box-shadow: 0 0 0 4px #222 0 0 0 6px #fff;
+    transform: rotate(calc(360deg/8 * var(--i)));
+    transform-origin: 340px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.team .icon .imgBx.active {
+    box-shadow: 0 0 0 4px #222 0 0 0 12px #ff1d50;
+}
+
+.team .icon .imgBx img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: rotate(calc(-360deg/8 * var(--i)));
+    transition: 0.5s;
+    filter: grayscale(1);
+}
+
+.team .icon .imgBx.active img {
+    filter: grayscale(0)
+}
+.teamcontent {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBx {
+    position: absolute;
+    transform: scale(0);
+    transition: 0.5s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBx.active {
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.contentBx .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contentBx .card .imgBx {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contentBx .card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentBx .card .textBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentBx .card .textBx h2 {
+    position: relative;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contentBx .card .textBx h2 span {
+    font-size: 0.65em;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+/* !!!!!!!!!!!!!! FAQ STYLE CSS !!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!! TEAMS.HTML CSS !!!!!!!!!!!!!!!!!!*/
+
+.teamcard{
+    width: 350px;
+    height: 515px;
+    margin: 100px auto 0;
+    perspective: 1000px;
+}
+
+.card-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card-front, .card-back{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-front{
+    background: url(img/shroombg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.card-front h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000; /* Adjust values as needed */
+}
+
+.card-back{
+    background-color: #dddddd;
+    color: #111111;
+    padding: 20px 40px;
+    transform: rotateY(180deg);
+}
+
+.card-back h1{
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the text horizontally within the container */
+}
+
+.card-back h1 span{
+    font-weight: 400;
+}
+
+.card-back img{
+    width: 120px;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally using margin */
+}
+
+.card-row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-col{
+    flex: 1;
+    text-align: center;
+    color: #242424;
+    font-size: 12px;
+    position: relative;
+}
+
+.card-col h2{
+    font-size: 20px;
+}
+
+/* LINES BETWEEN IMAGES ON BACK OF CARD
+
+.card-col::after{
+    content: '';
+    width: 1.5px;
+    height: 20px;
+    background: #222222;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.card-col:last-child::after{
+    display: none;
+}
+
+*/
+
+.card-col p{
+    margin-top: 5px;
+}
+
+.teamcard:hover .card-inner{
+    transform: rotateY(180deg);
+}
+
+.card-back a img{
+    width: 95%;
+    border-radius: 70px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* CSS FOR SAVE FILES */
+
+.savefiles h1{
+    color: #fff;
+}

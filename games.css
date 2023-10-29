@@ -85,10 +85,9 @@ header{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
-    transform: translateX(-250px);
 }
 section{
-    padding: 0 19%;
+    padding: 0 15%;
 }
 .hero-text h5{
     font-size: 14px;
@@ -641,7 +640,7 @@ tbody tr:hover {
     backface-visibility: hidden;
 }
 .card-front{
-    background: url(img/shroombg.png);
+    background: url(img/goldensun.png);
     background-size: cover;
     background-position: center;
     padding: 60px 40px;
@@ -805,7 +804,7 @@ tbody tr:hover {
 
 .teamcard-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Display 4 cards in one row */
+    grid-template-columns: repeat(3, 1fr); /* Display 4 cards in one row */
     grid-gap: 20px; /* Adjust the gap as needed */
 }
 

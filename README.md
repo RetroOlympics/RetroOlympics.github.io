@@ -7,7 +7,7 @@ Index:
 
 Teams:
 
-- Allign 4 cards per row, top off with a header per row (Group A, Group B, etc.) - DRISC
+- Make a better fit width for the 4 cards on one line. Add a group A/B/etc title - ANY
 - Better spacing between team title and player icons - VOICE
 
 Standings: 

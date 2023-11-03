@@ -607,11 +607,16 @@ tbody tr:hover {
 
 /*!!!!!!!!!!!!!!!!!!! TEAMS.HTML CSS !!!!!!!!!!!!!!!!!!*/
 
-.teamcard{
-    width: 350px;
-    height: 515px;
-    margin: 100px auto 0;
+.teamcard {
+    min-width: 300px;
+    height: 500px;
     perspective: 1000px;
+}
+
+@media (max-width: 1300px) {
+    .teamcard {
+        min-width: 200px;
+    }
 }
 
 .card-inner{
@@ -629,89 +634,32 @@ tbody tr:hover {
     position: absolute;
     backface-visibility: hidden;
 }
+
 .card-front{
-    background: url(img/shroombg.png);
-    background-size: cover;
-    background-position: center;
-    padding: 60px 40px;
+    background-color: #000;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-.card-front h2{
-    font-size: 50px;
-    font-weight: 500;
-    color: #fff;
-    text-shadow: 2px 2px 4px #000; /* Adjust values as needed */
+    overflow: hidden;
 }
 
-.card-front2{
+.card-front img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 15px;
-    position: absolute;
-    backface-visibility: hidden;
-}
-.card-front2{
-    background: url(img/falcon.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 60px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.card-front2 h2{
-    font-size: 50px;
-    font-weight: 500;
-    color: #fff;
-    text-shadow: 2px 2px 4px #000; /* Adjust values as needed */
+    object-fit: cover;
 }
 
-.card-front3{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    position: absolute;
-    backface-visibility: hidden;
-}
-.card-front3{
-    background: url(img/Imakuni.png);
-    background-size: cover;
-    background-position: center;
-    padding: 60px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.card-front3 h2{
-    font-size: 50px;
+.card-front h2 {
+    font-size: 36px;
     font-weight: 500;
     color: #fff;
-    text-shadow: 2px 2px 4px #000; /* Adjust values as needed */
-}
-
-.card-front4{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    position: absolute;
-    backface-visibility: hidden;
-}
-.card-front4{
-    background: url(img/lossantos.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 60px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.card-front4 h2{
-    font-size: 50px;
-    font-weight: 500;
-    color: #fff;
-    text-shadow: 2px 2px 4px #000; /* Adjust values as needed */
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    z-index: 0;
 }
 
 .card-back{
@@ -793,9 +741,12 @@ tbody tr:hover {
 }
 
 .teamcard-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Display 4 cards in one row */
-    grid-gap: 20px; /* Adjust the gap as needed */
+    height: 100%;
+    grid-column: 1 / span 2;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* CSS FOR SAVE FILES */

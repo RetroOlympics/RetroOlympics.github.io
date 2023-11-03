@@ -298,7 +298,7 @@
         <script>
             let imgBx = document.querySelectorAll('.imgBx')
             let contentBx = document.querySelectorAll('.contentBx')
-			let randomVolunteer = Math.round(Math.random() * 10);
+			let randomVolunteer = Math.floor(Math.random() * 17) + 1;
 
 			contentBx[randomVolunteer].className = 'contentBx active';
 			imgBx[randomVolunteer].className = 'imgBx active';

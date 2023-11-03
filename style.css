@@ -606,14 +606,29 @@ tbody tr:hover {
 
 
 /*!!!!!!!!!!!!!!!!!!! TEAMS.HTML CSS !!!!!!!!!!!!!!!!!!*/
+#teams-container {
+    padding-top: 10%;
+}
 
-.teamcard-container {
+.teamgroup {
+    position: relative;
     height: 100%;
     grid-column: 1 / span 2;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 36px 1fr;
     gap: 20px;
+    margin-bottom: 100px;
+}
+
+.teamgroup > h1 {
+    font-size: 36px;
+    color: #fff;
+    grid-column: 1 / span 4;
+    border-bottom: 2px white solid;
 }
 
 .teamcard {

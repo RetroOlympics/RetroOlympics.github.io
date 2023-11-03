@@ -366,7 +366,7 @@ tbody tr:hover {
     transition: 0.5s;
     border: 1px solid #fff;
     box-shadow: 0 0 0 4px #222 0 0 0 6px #fff;
-    transform: rotate(calc(360deg/8 * var(--i)));
+    transform: rotate(calc(360deg/17 * var(--i) + 90deg - 360deg/17));
     transform-origin: 340px;
     z-index: 100;
     overflow: hidden;
@@ -384,7 +384,7 @@ tbody tr:hover {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    transform: rotate(calc(-360deg/8 * var(--i)));
+    transform: rotate(calc(-360deg/17 * var(--i) - 90deg + 360deg/17));
     transition: 0.5s;
     filter: grayscale(1);
 }

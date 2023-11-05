@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
-    grid-column: 1 / span 2;
 }
 
 .gamegroup {

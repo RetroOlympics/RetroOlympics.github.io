@@ -7,8 +7,7 @@ Index:
 
 Teams:
 
-- Make a better fit width for the 4 cards on one line. Add a group A/B/etc title - ANY
-- Better spacing between team title and player icons - VOICE
+- Track teams knocked out in JSON data, add group for past teams with knocked out dates, sorted by most recently knocked out - BUG
 
 Standings: 
 

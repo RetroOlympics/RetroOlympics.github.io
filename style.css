@@ -74,6 +74,7 @@ header{
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    /*display: inline;*/
 }
 
 section{
@@ -182,7 +183,7 @@ section{
         margin-bottom: 25px;
     }
 }
-@media (max-width: 1195px){
+@media (max-width: 999995px){
     section{
         padding: 0 3%;
         transition: .2s;
@@ -250,17 +251,28 @@ td img {
     vertical-align: middle;
 }
 
+.standingsclass {
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    display: inline-table;
+}
+
 .tableclass {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    /*position: relative;
+    top: 40px;*/
+    display: inline-table;
 }
 
-main.table {
-    width: 82vw;
+/*main.table {*/
+.innertableclass {
+    /*width: 82vw;
     max-width: 1000px;
-    height: 90vh;
+    height: 90vh;*/
     background-color: #fff5;
     box-shadow: 0 .4rem .8rem #0005;
     border-radius: .8rem;
@@ -283,6 +295,8 @@ padding: .8rem 1rem;
     border-radius: .6rem;
 
     overflow: auto;
+    
+    /*display: inline;*/
 }
 
 .table_body::-webkit-scrollbar{
@@ -307,7 +321,9 @@ table, th, td {
 }
 
 table {
-    width: 100%;
+    width: 25%;
+    /*display: inline-table;*/
+    display: inline;
 }
 
 thead th{

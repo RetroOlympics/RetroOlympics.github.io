@@ -70,11 +70,14 @@ header{
     background: linear-gradient(245.59deg, #36393f 0%, #242629 38.53%, #050505 68.52%, #050505 100%);
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     gap: 2rem;
     /*display: inline;*/
+}
+
+.hero-main-page {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 section{
@@ -349,7 +352,6 @@ tbody tr:hover {
     height: 600px;
     border: 2px solid #fff;
     border-radius: 50%;
-    right: -50%;
 }
 
 .team .icon {

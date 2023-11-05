@@ -1,19 +1,14 @@
+/* Card CSS common to teams and games */
 .card {
-    min-width: 300px;
-    height: 500px;
     perspective: 1000px;
 }
 
-.card:hover .card-inner {
-    transform: rotateY(180deg);
+.card:hover .card-front {
+    transform: rotateY(-180deg);
 }
 
-.card-inner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transition: transform 1s;
-    transform-style: preserve-3d;
+.card:hover .card-back {
+    transform: rotateY(0deg);
 }
 
 .card-front, .card-back {
@@ -25,7 +20,10 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
+    transition: transform 0.75s;
+    transform-style: preserve-3d;
 }
 
 .card-front {
@@ -34,7 +32,7 @@
     justify-content: flex-end;
 }
 
-.card-front img {
+.card-front > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +41,7 @@
     object-fit: cover;
 }
 
-.card-front h1 {
+.card-front > h1 {
     font-size: 36px;
     font-weight: 500;
     color: #fff;
@@ -59,19 +57,16 @@
     transform: rotateY(180deg);
 }
 
-.card-back h1 {
+.card-back > h1 {
     font-size: 30px;
-    text-align: center; /* Center the text horizontally within the container */
+    text-align: center;
 }
 
-.card-back h1 span {
-    font-weight: 400;
-}
-
-.card-back img {
-    width: 120px;
-    display: block; /* Make the image a block-level element */
-    margin: 0 auto; /* Center the image horizontally using margin */
+.card-back > img {
+    width: 100px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
 }
 
 .card-row {
@@ -94,30 +89,36 @@
 
 .card-teamlist {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    min-height: 0;
-    min-width: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
     flex: 1;
-    gap: 8px;
+    align-self: stretch;
 }
 
-.card-user:last-child {
-    grid-column: 1 / span 2;
+.card-user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10px;
 }
 
-.card-user a img {
-    width: 100px;
-    height: 100px;
+.card-user > a {
+    grid-column: 1;
+}
+
+.card-user > p {
+    grid-column: 2 / span 2;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-user > a > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     border: 4px white solid;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.card-user p {
-    font-size: 16px;
-    margin-top: 4px;
-    text-align: center;
 }
 
 /* LINES BETWEEN IMAGES ON BACK OF CARD

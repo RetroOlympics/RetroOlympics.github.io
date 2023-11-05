@@ -1,19 +1,23 @@
 #teams-container {
-    padding-top: 10%;
+    padding-top: 100px;
+    grid-column: 1 / span 2;
 }
 
 .teamgroup {
     position: relative;
     height: 100%;
-    grid-column: 1 / span 2;
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 36px 1fr;
     gap: 20px;
-    margin-bottom: 100px;
+    margin: 50px 0;
+}
+
+.teamgroup .card {
+    min-width: 300px;
+    height: 500px;
 }
 
 .teamgroup > h1 {
@@ -21,4 +25,48 @@
     color: #fff;
     grid-column: 1 / span 4;
     border-bottom: 2px white solid;
+}
+
+@media (max-width: 1300px) {
+    .teamgroup .card {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 5 / 3;
+    }
+
+    .teamgroup {
+        grid-template-columns: 1fr;
+        grid-template-rows: 36px repeat(4, 1fr);
+        max-width: 500px;
+    }
+
+    .teamgroup > h1 {
+        grid-column: 1;
+    }
+
+    .teamgroup .card-back {
+        flex-direction: row;
+        padding: 40px 20px;
+    }
+
+    .teamgroup .card-back > h1 {
+        display: none;
+    }
+
+    .teamgroup .card-back > img {
+        width: 25%;
+        height: auto;
+    }
+
+    .teamgroup .card-teamlist {
+        align-self: center;
+    }
+
+    .teamgroup .card-user {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .teamgroup .card-user > p {
+        grid-column: 2 / span 3;
+    }
 }

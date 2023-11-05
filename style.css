@@ -807,19 +807,19 @@ body {
 	
 	/* test */
 	.section__headline {
-	  font-family: "Varela Round", sans-serif;
-	  font-size: 62px;
-	  font-weight: light;
-	  color: #1e88e5;
-	  padding-left: 15px;
-	  padding-top: 30px;
+		font-family: "Varela Round", sans-serif;
+		font-size: 62px;
+		font-weight: light;
+		color: #1e88e5;
+		padding-left: 15px;
+		padding-top: 30px;
 	}
 	
 	.container {
-	  margin-left: 0 auto;
-	  margin-right: auto;
-	  padding-left: 0;
-	  justify-content: flex-start;
+		margin-left: 0 auto;
+		margin-right: auto;
+		padding-left: 0;
+		justify-content: flex-start;
 	}
 	
     /* grandparent */
@@ -837,78 +837,78 @@ body {
 
 	/* RIGHT COLUMN */	
 	.teamcontent {
-	    position: fixed;
+		position: fixed;
 		overflow: hidden;
 		display: flex;
 		justify-content: left;
-    	align-items: flex-start;
-	    transform: none;
+    		align-items: flex-start;
+	    	transform: none;
 		top: 220px;
-        left: 160px;
-	    max-height: none;
+        	left: 160px;
+		max-height: none;
 	}
 	
     /* parent */
 	.team {
 		position: fixed;
-        width: 300px;
+        	width: 300px;
 		height: 300px;
 		border: none;
 		border-radius: 0%;
-        top: 100px;
-        left: 0px;
-        justify-content: left;
-        align-items: left;
+        	top: 100px;
+        	left: 0px;
+        	justify-content: left;
+        	align-items: left;
 	}
 
 	/* LEFT COLUMN */
 	.team .icon {
 		position: fixed;
-        height: 480px;
-        width: 95px;
+        	height: 480px;
+	        width: 95px;
 		display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        gap: 15px;
+        	flex-direction: column;
+        	flex-shrink: 0;
+        	gap: 15px;
 		justify-content: left;
 		align-items: left;
 		cursor: pointer;
-        flex-wrap: wrap;
-        flex-grow: 0;
-        top: 115px;
-        left: 15px;
+        	flex-wrap: wrap;
+        	flex-grow: 0;
+        	top: 135px;
+        	left: 15px;
 		overflow-x: hidden;
-        overflow-y: hidden;
-        direction: rtl;
+        	overflow-y: hidden;
+        	direction: rtl;
 	}
 	
      /* token thumbnail container */
 	.team .icon .imgBx {
-        position: relative;
+        	position: relative;
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
 		transition: 0.5s;
 		border: 1px solid #fff;
 		box-shadow: 0 0 0 4px #222 0 0 0 6px #fff;
-        transform: none;
-        transform-origin: none;
+        	transform: none;
+        	transform-origin: none;
 		z-index: 100;
-        overflow-y: hidden;
-        direction: ltr;
+        	overflow-y: hidden;
+        	direction: ltr;
 	}
 	
     /* thumbnail */
 	.team .icon .imgBx img {
 		position: relative;
-        top: 0px;
+        	top: 0px;
 		left: 0px;
-        width: 40px;
+        	width: 40px;
 		height: 40px;
 		border-radius: 50%;
-        object-fit: cover;
+        	object-fit: cover;
 		transform: none;
-        transition: 0.5s;
+        	transition: 0.5s;
 		filter: grayscale(1);
 	}
 	
@@ -942,13 +942,13 @@ body {
 		position: relative;
 		width: 150px;
 		height: 150px;
-        border-radius: 0px;
+        	border-radius: 0px;
 		overflow: hidden;
 	}
 
     /* profile avatar */
 	.contentBx .card .imgBx img {
-        position: relative;
+        	position: relative;
 		top: 100;
 		left: 100;
 		width: 100%;

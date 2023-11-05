@@ -7,7 +7,9 @@
         <link rel="icon" type="image" href="img/favicon.ico">
 
         <!--custom CSS link-->
-        <link rel="stylesheet" type="text/css" href="games.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/cards.css">
+        <link rel="stylesheet" type="text/css" href="css/games.css">
 
         <!---boxicons link--->
         <link rel="stylesheet"
@@ -42,89 +44,43 @@
             <div class="bx bx-menu" id="menu-icon"></div>
         </header>
 
+        <!--TEXT FOR WHEN LAUNCH IS LIVE AND TEAMS SHOULDNT BE DISPLAYED:-Signups are still open! Once signups are closed, the teams will be displayed here-->   
         <section class="hero">
-        
-<!--TEXT FOR WHEN LAUNCH IS LIVE AND TEAMS SHOULDNT BE DISPLAYED:-Signups are still open! Once signups are closed, the teams will be displayed here-->   
-
-<div class="teamcard-container">
-
-<div class="teamcard">
-    <div class="card-inner">
-        <div class="card-front">
-            <h2>Golden <span>Sun</span></h2>
-        </div>
-        <div class="card-back">
-            <img src="img/gba.png">
-            <p> Challenge Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
-            <div class="card-row">
-                <div class="card-col">
-                    <a href="https://retroachievements.org/game/767"><img src="img/raicon.png"></a>
-                </div>
-                <div class="card-col">
-                    <a href="X"><img src="img/save.png"></a>
-                </div>
-            </div>
-            <p></br><i>1cdd7f33c9a27061201e1d1ce029a700</i></p>
-        </div>
-        
-</div>
-</div>
-
-<div class="teamcard">
-    <div class="card-inner">
-        <div class="card-front2">
-            <h2>Falcon <span>Fighters</span></h2>
-        </div>
-        <div class="card-back">
-            <img src="img/FZeroSymbol.png">
-            <h1>Falcon <span>Fighters</span></h1>
-            <div class="card-row">
-                <div class="card-col">
-                    <a href="https://retroachievements.org/user/voiceofautumn"><img src="https://media.retroachievements.org/UserPic/voiceofautumn.png"></a>
-                    <p>VoiceOfAutumn</p>
-                </div>
-                <div class="card-col">
-                    <a href="https://retroachievements.org/user/Searo"><img src="https://media.retroachievements.org/UserPic/Searo.png"></a>
-                    <p>Searo</p>
-                </div>
-                <div class="card-col">
-                    <a href="https://retroachievements.org/user/drisc"><img src="https://media.retroachievements.org/UserPic/drisc.png"></a>
-                    <p>Drisc</p>
-                </div>
-            </div>
-        </div>
-</div>
-</div>
-
-<div class="teamcard">
-    <div class="card-inner">
-        <div class="card-front3">
-            <h2>Imakuni's <span>Idiots</span></h2>
-        </div>
-        <div class="card-back">
-            <img src="img/shroom.png">
-            <h1>Imakuni's <span>Idiots</span></h1>
-            <div class="card-row">
-                <div class="card-col">
-                    <a href="https://retroachievements.org/user/voiceofautumn"><img src="https://media.retroachievements.org/UserPic/voiceofautumn.png"></a>
-                    <p>VoiceOfAutumn</p>
-                </div>
-                <div class="card-col">
-                    <a href="https://retroachievements.org/user/Searo"><img src="https://media.retroachievements.org/UserPic/Searo.png"></a>
-                    <p>Searo</p>
-                </div>
-                <div class="card-col">
-                    <a href="https://retroachievements.org/user/drisc"><img src="https://media.retroachievements.org/UserPic/drisc.png"></a>
-                    <p>Drisc</p>
-                </div>
-            </div>
-        </div>
-</div>
-</div>
-
-</div> <!--- this is the closing div for the teamcard-container--->
+        <div id="games-container"></div>
 
         </section>
-
+        <script type="module">
+            "use strict";
+            const container = document.getElementById("games-container");
+            const games = await fetch("/games.json").then(res => res.json());
+            let output = "";
+            for (const group of games) {
+                output += `<div class="gamegroup"><h1>${group.groupname}</h1>`;
+                for (const game of group.games) {
+                    let challenge = typeof game.challenge === "string" ? game.challenge : game.challenge.join(" ");
+                    output += `<div class="card">
+                        <div class="card-front">
+                            <img src="${game.image}">
+                            <h1>${game.name}</h1>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-links">
+                                <img src="${game.console}">
+                                <a href="https://retroachievements.org/game/${game.ra_id}">
+                                    <img src="img/raicon.png">
+                                </a>
+                                <a href="#savefile">
+                                    <img src="img/save.png">
+                                </a>
+                            </div>
+                            <p>${challenge}</p>
+                        </div>
+                    </div>
+                    `;
+                }
+                output += "</div>";
+            }
+            container.innerHTML = output;
+        </script>
     </body>
 </html>

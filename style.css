@@ -348,17 +348,17 @@ tbody tr:hover {
 }
 
 .team .icon .imgBx {
-	position: absolute;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	transition: 0.5s;
-	border: 1px solid #fff;
-	box-shadow: 0 0 0 4px #222 0 0 0 6px #fff;
-	transform: rotate(calc(360deg/17 * var(--i) + 90deg - 360deg/17));
-	transform-origin: 340px;
-	z-index: 100;
-	overflow: hidden;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    box-shadow: 0 0 0 4px #222 0 0 0 6px #fff;
+    transform: rotate(calc(360deg/17 * var(--i) + 90deg - 360deg/17));
+    transform-origin: 340px;
+    z-index: 100;
+    overflow: hidden;
 }
 
 .team .icon .imgBx.active {

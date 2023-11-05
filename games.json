@@ -1,0 +1,70 @@
+[
+{
+    "groupname": "Week 1",
+    "games": [
+        {
+            "name": "Super Mario All-Stars (SNES)",
+            "challenge": "Fastest time to beat 1-1 in all four games",
+            "image": "img/goldensun.png",
+            "console": "img/gba.png",
+            "type": "ra",
+            "ra_id": "253",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
+        },
+        {
+            "name": "Street Fighter III: 3rd Strike - Fight for the Future",
+            "challenge": [
+                "(FightCade) Both contestants select 3 fighters and submit these ahead of the match to the referee.",
+                "You can keep using each character until you lose a fight with them.",
+                "First one to run out of characters, loses."
+            ],
+            "image": "img/goldensun.png",
+            "console": "img/fightcade.png",
+            "type": "fightcade"
+        },
+        {
+            "name": "Streets of Rage 2 (MD)",
+            "challenge": "Fastest time to complete Stage 1, Hardest, One Life. If both players fail to finish, the player that got the furthest wins.",
+            "image": "img/goldensun.png",
+            "console": "img/mascot.png",
+            "type": "ra",
+            "ra_id": "3",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
+        }
+    ]
+},
+{
+    "groupname": "Week 2",
+    "games": [
+        {
+            "name": "Super Mario All-Stars (SNES)",
+            "challenge": "Fastest time to beat 1-1 in all four games",
+            "image": "img/goldensun.png",
+            "console": "img/gba.png",
+            "type": "ra",
+            "ra_id": "253",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
+        },
+        {
+            "name": "Street Fighter III: 3rd Strike - Fight for the Future",
+            "challenge": [
+                "(FightCade) Both contestants select 3 fighters and submit these ahead of the match to the referee.",
+                "You can keep using each character until you lose a fight with them.",
+                "First one to run out of characters, loses."
+            ],
+            "image": "img/goldensun.png",
+            "console": "img/fightcade.png",
+            "type": "fightcade"
+        },
+        {
+            "name": "Streets of Rage 2 (MD)",
+            "challenge": "Fastest time to complete Stage 1, Hardest, One Life. If both players fail to finish, the player that got the furthest wins.",
+            "image": "img/goldensun.png",
+            "console": "img/mascot.png",
+            "type": "ra",
+            "ra_id": "3",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
+        }
+    ]
+}
+]

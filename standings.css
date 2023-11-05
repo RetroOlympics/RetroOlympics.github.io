@@ -1,0 +1,22 @@
+section{
+    padding: 0 3%;
+    transition: .2s;
+}
+.hero-text{
+    padding-top: 115px;
+}
+.hero-img{
+    text-align: center;
+}
+.hero-img img{
+    width: 560px;
+    height: auto;
+}
+.hero{
+    height: 100%;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+.scroll-down{
+    display: none;
+}

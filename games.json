@@ -8,7 +8,8 @@
             "image": "img/goldensun.png",
             "console": "img/gba.png",
             "type": "ra",
-            "ra_id": 253
+            "ra_id": "253",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
         },
         {
             "name": "Street Fighter III: 3rd Strike - Fight for the Future",
@@ -27,7 +28,8 @@
             "image": "img/goldensun.png",
             "console": "img/mascot.png",
             "type": "ra",
-            "ra_id": 3
+            "ra_id": "3",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
         }
     ]
 },
@@ -40,7 +42,8 @@
             "image": "img/goldensun.png",
             "console": "img/gba.png",
             "type": "ra",
-            "ra_id": 253
+            "ra_id": "253",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
         },
         {
             "name": "Street Fighter III: 3rd Strike - Fight for the Future",
@@ -59,7 +62,8 @@
             "image": "img/goldensun.png",
             "console": "img/mascot.png",
             "type": "ra",
-            "ra_id": 3
+            "ra_id": "3",
+            "ra_hash": "1cdd7f33c9a27061201e1d1ce029a700"
         }
     ]
 }

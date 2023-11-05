@@ -43,14 +43,37 @@
     gap: 20px;
 }
 
-.gamegroup .card-back > p {
-    font-size: 20px;
+.gamegroup .card-back > .card-info {
+    display: flex;
+    flex-direction: column;
     grid-column: 2 / span 4;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.gamegroup .card-info > p {
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.gamegroup .card-info > p.card-hash {
+    font-size: 14px;
+    flex: 0;
+    display: inline-block;
+    padding: 4px;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .gamegroup .card-links {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    height: 100%;
 }
 
 .gamegroup .card-links img {

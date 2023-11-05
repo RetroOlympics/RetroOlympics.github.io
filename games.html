@@ -65,15 +65,22 @@
                         </div>
                         <div class="card-back">
                             <div class="card-links">
-                                <img src="${game.console}">
-                                <a href="https://retroachievements.org/game/${game.ra_id}">
-                                    <img src="img/raicon.png">
-                                </a>
-                                <a href="#savefile">
-                                    <img src="img/save.png">
-                                </a>
+                                ${game.type === "ra" ? `
+                                    <img src="${game.console}">
+                                    <a href="https://retroachievements.org/game/${game.ra_id}">
+                                        <img src="img/raicon.png">
+                                    </a>
+                                    <a href="#savefile">
+                                        <img src="img/save.png">
+                                    </a>
+                                ` : `
+                                    <img src="${game.console}" style="grid-row: 1 / span 3">
+                                `}
                             </div>
-                            <p>${challenge}</p>
+                            <div class="card-info">
+                                <p>${challenge}</p>
+                                ${game.type === "ra" ? `<p class="card-hash">${game.ra_hash}</p>` : ""}
+                            </div>
                         </div>
                     </div>
                     `;

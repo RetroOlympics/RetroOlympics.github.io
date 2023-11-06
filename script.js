@@ -22,4 +22,4 @@ sr.reveal('.scroll-down',{delay:500, origin:'right'});
 $('body').delegate('.c-faq', 'click', function(){
     $('.c-faq').removeClass('c-faq--active');
     $(this).addClass('c-faq--active');
-  });
+});

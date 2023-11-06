@@ -171,7 +171,8 @@
             "console": "img/gba.png",
             "type": "ra",
             "ra_id": "770",
-            "ra_hash": "35ae64b0f27e60107c14ab956f6cdf70"
+            "ra_hash": "35ae64b0f27e60107c14ab956f6cdf70",
+            "ra_save": "saves/Kirby_-_Nightmare_in_Dream_Land_USA.sav"
         },
         {
             "name": "Street Hoop",
@@ -288,7 +289,8 @@
             "console": "img/n64.png",
             "type": "ra",
             "ra_id": "10075",
-            "ra_hash": "9ec41abf2519fc386cadd0731f6e868c"
+            "ra_hash": "9ec41abf2519fc386cadd0731f6e868c",
+            "ra_save": "saves/Donkey_Kong_64_USA.z64.sram"
         },
         {
             "name": "Armored Core",
@@ -297,7 +299,8 @@
             "console": "img/ps1.png",
             "type": "ra",
             "ra_id": "11348",
-            "ra_hash": "d19713356a6b3b382820d8b2b9bfa49b"
+            "ra_hash": "d19713356a6b3b382820d8b2b9bfa49b",
+            "ra_save": "saves/Armored_Core_USA_v1.1.srm"
         }
     ]
 },
@@ -311,7 +314,8 @@
             "console": "img/gba.png",
             "type": "ra",
             "ra_id": "12713",
-            "ra_hash": "58495bb95bd130a980821fd1e8ca38b5"
+            "ra_hash": "58495bb95bd130a980821fd1e8ca38b5",
+            "ra_save": "saves/Hamtaro_-_Ham-Ham_Games_Europe_EnFrDeEsIt.sav"
         },
         {
             "name": "DoDonPachi DaiOuJou",
@@ -345,7 +349,8 @@
             "console": "img/gba.png",
             "type": "ra",
             "ra_id": "782",
-            "ra_hash": "b24a17d080a01a404cbf018ba42b9803"
+            "ra_hash": "b24a17d080a01a404cbf018ba42b9803",
+            "ra_save": "saves/Mega_Man_Zero_USA_Europe.sav"
         },
         {
             "name": "Neo Turf Masters",

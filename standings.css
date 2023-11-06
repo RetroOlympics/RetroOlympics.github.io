@@ -20,3 +20,11 @@ section{
 .scroll-down{
     display: none;
 }
+td img {
+    width: auto;
+    height: auto;
+    max-width: 36px;
+    max-height: 36px;
+    object-fit: cover;
+    border-radius: 0%;
+}

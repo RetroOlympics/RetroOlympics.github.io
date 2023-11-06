@@ -73,24 +73,6 @@
     object-fit: contain;
 }
 
-.card-row {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.card-col {
-    flex: 1;
-    text-align: center;
-    color: #242424;
-    font-size: 12px;
-    position: relative;
-}
-
-.card-col p {
-    margin-top: 5px;
-}
-
 .card-teamlist {
     display: grid;
     grid-template-columns: 1fr;
@@ -106,8 +88,10 @@
     gap: 10px;
 }
 
-.card-user > a {
+.card-user > ra-userpic {
     grid-column: 1;
+    border: 4px white solid;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-user > p {
@@ -115,30 +99,3 @@
     font-size: 20px;
     text-align: center;
 }
-
-.card-user > a > img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    border: 4px white solid;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* LINES BETWEEN IMAGES ON BACK OF CARD
-
-.card-col::after{
-    content: '';
-    width: 1.5px;
-    height: 20px;
-    background: #222222;
-    position: absolute;
-    top: 5px;
-    right: 0;
-}
-
-.card-col:last-child::after{
-    display: none;
-}
-
-*/

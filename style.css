@@ -320,14 +320,14 @@ td img {
 visibility: visible;
 }
 
-table, th, td {
-    border-collapse: collapse;
+th, td {
     padding: 1rem;
     text-align: left;
 }
 
 table {
     width: 25%;
+    border-collapse: collapse;
     /*display: inline-table;*/
     display: inline;
 }

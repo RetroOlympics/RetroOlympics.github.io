@@ -65,10 +65,10 @@
                         <div class="card-back">
                             <img src="${team.icon}">
                             <h1>${team.name}</h1>
-                            <div class="card-teamlist">
+                            <div class="teamlist">
                     `;
                     for (const user of team.members) {
-                        output += `<div class="card-user">
+                        output += `<div class="user">
                             <ra-userpic>${user}</ra-userpic><p>${user === "" ? "???" : user}</p>
                         </div>`;
                     }

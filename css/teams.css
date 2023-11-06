@@ -1,3 +1,7 @@
+.hero {
+    grid-template-columns: 1fr;
+}
+
 #teams-container {
     width: 100%;
     display: flex;

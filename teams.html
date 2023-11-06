@@ -48,11 +48,11 @@
         <section class="hero">
         <div id="teams-container"></div>
         </section>
-        <script type="module" src="elements.js"></script>
+        <script type="module" src="js/elements.js"></script>
         <script type="module">
             "use strict";
             const container = document.getElementById("teams-container");
-            const teams = await fetch("/teams.json").then(res => res.json());
+            const teams = await fetch("/json/teams.json").then(res => res.json());
             let output = "";
             for (const group of teams) {
                 output += `<div class="teamgroup"><h1>${group.groupname}</h1>`;

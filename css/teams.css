@@ -34,6 +34,45 @@
     border-bottom: 2px white solid;
 }
 
+.teamgroup .card-back > h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.teamgroup .card-back > img {
+    width: 100px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.teamgroup .card-back .teamlist {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    flex: 1;
+    align-self: stretch;
+}
+
+.teamgroup .card-back .user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+.teamgroup .card-back .user > ra-userpic {
+    grid-column: 1;
+    border: 4px white solid;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.teamgroup .card-back .user > p {
+    grid-column: 2 / span 2;
+    font-size: 20px;
+    text-align: center;
+}
+
 @media (max-width: 1300px) {
     .teamgroup .card {
         width: 100%;
@@ -66,15 +105,15 @@
         height: auto;
     }
 
-    .teamgroup .card-teamlist {
+    .teamgroup .card-back .teamlist {
         align-self: center;
     }
 
-    .teamgroup .card-user {
+    .teamgroup .card-back .user {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .teamgroup .card-user > p {
+    .teamgroup .card-back .user > p {
         grid-column: 2 / span 3;
     }
 }

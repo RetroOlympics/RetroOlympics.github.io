@@ -48,6 +48,7 @@
         <section class="hero">
         <div id="teams-container"></div>
         </section>
+        <script type="module" src="elements.js"></script>
         <script type="module">
             "use strict";
             const container = document.getElementById("teams-container");
@@ -64,21 +65,12 @@
                         <div class="card-back">
                             <img src="${team.icon}">
                             <h1>${team.name}</h1>
-                            <div class="card-teamlist">
+                            <div class="teamlist">
                     `;
                     for (const user of team.members) {
-                        output += `<div class="card-user">`;
-                        if (user == "") {
-                            output += `<a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="></a><p>???</p>`;
-                        } else {
-                            output += `
-                                <a href="https://retroachievements.org/user/${user}">
-                                    <img src="https://media.retroachievements.org/UserPic/${user}.png">
-                                </a>
-                                <p>${user}</p>
-                            `;
-                        }
-                        output += "</div>";
+                        output += `<div class="user">
+                            <ra-userpic>${user}</ra-userpic><p>${user === "" ? "???" : user}</p>
+                        </div>`;
                     }
                     output += "</div></div></div>";
                 }

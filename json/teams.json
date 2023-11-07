@@ -1,77 +1,25 @@
 {
 "A": [
     {
-        "name": "Imakuni's Idiots",
-        "image": "img/Imakuni2.png",
-        "icon": "img/imaicon.png",
-        "members": [ "voiceofautumn", "drisc", "MonkeyBug" ]
-    },
-    {
-        "name": "TBA-A2",
-        "image": "img/emptycard.png",
-        "icon": "img/FZeroSymbol.png",
-        "members": [ "", "", "" ]
-    },
-    {
-        "name": "TBA-A3",
+        "name": "TBA",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA-A4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    }
-],
-"B": [
-    {
-        "name": "TBA-B1",
+        "name": "TBA",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA-B2",
+        "name": "TBA",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA-B3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    },
-    {
-        "name": "TBA-B4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    }
-],
-"C": [
-    {
-        "name": "TBA-C1",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    },
-    {
-        "name": "TBA-C2",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    },
-    {
-        "name": "TBA-C3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    },
-    {
-        "name": "TBA-C4",
+        "name": "TBA",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]

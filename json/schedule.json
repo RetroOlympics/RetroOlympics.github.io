@@ -5,57 +5,27 @@
     "timeslots": [
         {
             "time": "17:00",
-            "hosts": [ "TimeCrush" ],
+            "hosts": [],
             "group": "A",
             "team1": 1,
-            "team2": 2,
-            "results": [ 1, 2, 2 ]
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
         },
         {
             "time": "17:30",
             "hosts": [],
             "group": "A",
-            "team1": 3,
-            "team2": 4,
+            "team1": 1,
+            "team2": 1,
             "results": [ 0, 0, 0 ]
         },
         {
             "time": "18:00",
-            "hosts": [ "starblades", "Taysuu" ],
-            "group": "B",
-            "team1": 2,
-            "team2": 4,
-            "results": [ 2, 1, 1 ]
-        }
-    ]
-},
-{
-    "name": "Week 2",
-    "date": "2024-01-13",
-    "timeslots": [
-        {
-            "time": "17:00",
-            "hosts": [ "TimeCrush", "wolfman2000" ],
+            "hosts": [],
             "group": "A",
             "team1": 1,
-            "team2": 2,
-            "results": [ 1, 2, 2 ]
-        },
-        {
-            "time": "17:30",
-            "hosts": [ "StingX2", "Wimpyfox" ],
-            "group": "A",
-            "team1": 3,
-            "team2": 4,
-            "results": [ 2, 1, 2 ]
-        },
-        {
-            "time": "18:00",
-            "hosts": [ "starblades", "Taysuu" ],
-            "group": "B",
-            "team1": 2,
-            "team2": 4,
-            "results": [ 1, 1, 2 ]
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
         }
     ]
 }

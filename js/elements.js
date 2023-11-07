@@ -13,6 +13,9 @@ class RAUserPic extends HTMLElement {
             img {
                 width: 100%;
                 height: 100%;
+                object-fit: cover;
+                image-rendering: pixelated;
+                filter: grayscale(100%);
             }
         `;
 
@@ -32,7 +35,8 @@ class RAUserPic extends HTMLElement {
             img.title = user;
         } else {
             link.href = "";
-            img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=";
+            img.src = "img/SMB_Qblock.png";
+            img.classList.add("empty");
             img.alt = "?";
             img.title = "?";
         }

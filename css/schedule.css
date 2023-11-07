@@ -17,6 +17,7 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 50px 0;
+    font-size: 20px;
 }
 
 .schedule .header {
@@ -50,7 +51,6 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    min-height: 100px;
 }
 
 .schedule .table .head {
@@ -69,9 +69,11 @@
 .schedule .table .hosts {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .schedule .table .hosts > ra-userpic {
+    width: 2.5em;
     border: 4px white solid;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -86,29 +88,27 @@
     align-items: center;
 }
 
-.schedule .table .matchup-team img {
-    width: 2em;
-    height: 2em;
+.schedule .table .icon {
+    width: 1.5em;
+    aspect-ratio: 1 / 1;
     object-fit: contain;
+}
+
+.schedule .table .matchup-team .icon {
     margin-left: -2em;
     margin-right: 10px;
 }
 
 .schedule .table .results {
     display: grid;
-    grid-template: 2fr 1fr / 1fr 1fr 1fr;
+    grid-template: 1.5fr 1fr / 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
-    /* gap: 10px; */
-}
-
-.schedule .table .results img {
-    width: 2em;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
 }
 
 .schedule .table .results img.game {
     width: 75%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+    border-radius: 10px;
 }

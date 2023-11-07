@@ -81,9 +81,9 @@
                         </div>
                         <div class="group">Group ${slot.group}</div>
                         <div class="matchup">
-                            <div class="matchup-team"><img src="${icons[1]}">${team1.name}</div>
+                            <div class="matchup-team"><img class="icon" src="${icons[1]}">${team1.name}</div>
                             <div>VS</div>
-                            <div class="matchup-team"><img src="${icons[2]}">${team2.name}</div>
+                            <div class="matchup-team"><img class="icon" src="${icons[2]}">${team2.name}</div>
                         </div>
                         <div class="results">
                             <img class="game" src="${games[0].image}">
@@ -91,7 +91,7 @@
                             <img class="game" src="${games[2].image}">
                     `;
                     for (let i = 0; i < 3; i++) {
-                        output += `<img class="result" src="${icons[slot.results[i]]}">`;
+                        output += `<img class="icon" src="${icons[slot.results[i]]}">`;
                     }
                     output += "</div></div>";
                 }

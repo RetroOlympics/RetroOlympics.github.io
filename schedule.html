@@ -67,10 +67,12 @@
                     </div>
                 `;
                 for (const slot of week.timeslots) {
-                    const team1 = groups[slot.group][slot.team1 - 1];
-                    const team2 = groups[slot.group][slot.team2 - 1];
+                    const teams = [
+                        groups[slot.group][slot.team1 - 1],
+                        groups[slot.group][slot.team2 - 1],
+                    ];
                     const games = allgames.find(gr => gr.groupname === week.name).games;
-                    const icons = [ "img/unown.png", team1.icon, team2.icon ];
+                    const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
                     output += `<div class="row">
                         <div class="hosts">
                             <ra-userpic>${slot.hosts[0]}</ra-userpic>
@@ -81,17 +83,26 @@
                         </div>
                         <div class="group">Group ${slot.group}</div>
                         <div class="matchup">
-                            <div class="matchup-team"><img class="icon" src="${icons[1]}">${team1.name}</div>
+                            <div class="matchup-team">
+                                <img class="icon" title="${teams[0].name}" src="${icons[1]}">
+                                ${teams[0].name}
+                            </div>
                             <div>VS</div>
-                            <div class="matchup-team"><img class="icon" src="${icons[2]}">${team2.name}</div>
+                            <div class="matchup-team">
+                                <img class="icon" title="${teams[1].name}" src="${icons[2]}">
+                                ${teams[1].name}
+                            </div>
                         </div>
                         <div class="results">
-                            <img class="game" src="${games[0].image}">
-                            <img class="game" src="${games[1].image}">
-                            <img class="game" src="${games[2].image}">
                     `;
                     for (let i = 0; i < 3; i++) {
-                        output += `<img class="icon" src="${icons[slot.results[i]]}">`;
+                        const alt = games[i].name;
+                        output += `<img class="game" alt="${alt}" title="${alt}" src="${games[i].image}">`
+                    }
+                    for (let i = 0; i < 3; i++) {
+                        const res = slot.results[i];
+                        const alt = res != 0 ? teams[res - 1].name : "?";
+                        output += `<img class="icon" alt="${alt}" title="${alt}" src="${icons[res]}">`;
                     }
                     output += "</div></div>";
                 }

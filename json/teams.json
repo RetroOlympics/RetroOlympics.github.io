@@ -7,19 +7,19 @@
         "members": [ "voiceofautumn", "drisc", "MonkeyBug" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-A2",
+        "image": "img/emptycard.png",
+        "icon": "img/FZeroSymbol.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "TBA-A3",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    },
-    {
-        "name": "TBA",
+        "name": "TBA-A4",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
@@ -27,25 +27,25 @@
 ],
 "B": [
     {
-        "name": "TBA",
+        "name": "TBA-B1",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-B2",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-B3",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-B4",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
@@ -53,25 +53,25 @@
 ],
 "C": [
     {
-        "name": "TBA",
+        "name": "TBA-C1",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-C2",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-C3",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]
     },
     {
-        "name": "TBA",
+        "name": "TBA-C4",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
         "members": [ "", "", "" ]

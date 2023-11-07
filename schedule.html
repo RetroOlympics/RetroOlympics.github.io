@@ -24,9 +24,9 @@
         
     </head>
     <body>
+        <script type="module" src="js/elements.js"></script>
 
         <header>
-            <!--old code: <a href="#" class="logo">RETRO OLYMPICS</a>-->
             <a href="index.html" class="logo">
                 <img src="img/logo.png" alt="Retro Olympics">
             </a>
@@ -44,100 +44,60 @@
         </header>
 
         <section class="hero">
-        
-            <div class="tableclass">
-                <main class="table">
-                    <section class="table_header">
-                        <h1>DATE 1</h1>
-                    </section>
-                    <section class="table_body">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Hosts</th>
-                                    <th class="no-wrap">Time UTC</th>
-                                    <th>Matchup</th>
-                                    <th>Games</th>
-                                    <th></th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-    
-                                <tr>
-                                    <td>
-                                        <a href="https://retroachievements.org/user/TimeCrush"><img src="https://media.retroachievements.org/UserPic/TimeCrush.png"></a>
-                                        <a href="https://retroachievements.org/user/soltyd"><img src="https://media.retroachievements.org/UserPic/soltyd.png"></a>
-                                    </td>
-                                    <td>5:00 PM</td>
-                                    <td class="no-wrap"><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/SMB_Qblock.png">
-                                    </td>
-                                </tr>
-    
-                                <tr>
-                                    <td>
-                                        <a href="https://retroachievements.org/user/TimeCrush"><img src="https://media.retroachievements.org/UserPic/TimeCrush.png"></a>
-                                        <a href="https://retroachievements.org/user/soltyd"><img src="https://media.retroachievements.org/UserPic/soltyd.png"></a>
-                                    </td>
-                                    <td>5:30 PM</td>
-                                    <td><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/Block_Super_Mario_World.png">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="https://retroachievements.org/user/wolfman2000"><img src="https://media.retroachievements.org/UserPic/wolfman2000.png"></a>
-                                        <a href="https://retroachievements.org/user/Pampa50"><img src="https://media.retroachievements.org/UserPic/Pampa50.png"></a>
-                                    </td>
-                                    <td>6:00 PM</td>
-                                    <td><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/SMB_Qblock.png">
-                                    </td>
-                                </tr>
-    
-                                <tr>
-                                    <td>
-                                        <p>T.B.D.</p>
-                                    </td>
-                                    <td>6:30 PM</td>
-                                    <td><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/SMB_Qblock.png">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                </main>
-    
-    
-    
-            </div>
-
-
-
-            
+        <div id="schedule-container"></div>
         </section>
 
+        <script type="module">
+            "use strict";
+            const container = document.getElementById("schedule-container");
+            const groups = await fetch("/json/teams.json").then(res => res.json());
+            const allgames = await fetch("/json/games.json").then(res => res.json());
+            const schedule = await fetch("/json/schedule.json").then(res => res.json());
+            let output = "";
+            for (const week of schedule) {
+                const date = new Date(`${week.date}T${week.timeslots[0].time}Z`).toDateString();
+                output += `<div class="schedule"><div class="header"><span>${week.name}</span>${date}</div>`;
+                output += `<div class="table">
+                    <div class="row">
+                        <span class="head">Hosts</span>
+                        <span class="head">Time</span>
+                        <span class="head">Group</span>
+                        <span class="head">Matchup</span>
+                        <span class="head">Results</span>
+                    </div>
+                `;
+                for (const slot of week.timeslots) {
+                    const team1 = groups[slot.group][slot.team1 - 1];
+                    const team2 = groups[slot.group][slot.team2 - 1];
+                    const games = allgames.find(gr => gr.groupname === week.name).games;
+                    const icons = [ "img/unown.png", team1.icon, team2.icon ];
+                    output += `<div class="row">
+                        <div class="hosts">
+                            <ra-userpic>${slot.hosts[0]}</ra-userpic>
+                            <ra-userpic>${slot.hosts[1]}</ra-userpic>
+                        </div>
+                        <div class="time">
+                            ${new Date(`${week.date}T${slot.time}Z`).toLocaleTimeString()}
+                        </div>
+                        <div class="group">Group ${slot.group}</div>
+                        <div class="matchup">
+                            <div class="matchup-team"><img src="${icons[1]}">${team1.name}</div>
+                            <div>VS</div>
+                            <div class="matchup-team"><img src="${icons[2]}">${team2.name}</div>
+                        </div>
+                        <div class="results">
+                            <img class="game" src="${games[0].image}">
+                            <img class="game" src="${games[1].image}">
+                            <img class="game" src="${games[2].image}">
+                    `;
+                    for (let i = 0; i < 3; i++) {
+                        output += `<img class="result" src="${icons[slot.results[i]]}">`;
+                    }
+                    output += "</div></div>";
+                }
+                output += "</div></div>";
+            }
+            container.innerHTML = output;
+        </script>
     </body>
 </html>

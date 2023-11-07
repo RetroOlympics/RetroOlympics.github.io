@@ -52,11 +52,11 @@
         <script type="module">
             "use strict";
             const container = document.getElementById("teams-container");
-            const teams = await fetch("/json/teams.json").then(res => res.json());
+            const groups = await fetch("/json/teams.json").then(res => res.json());
             let output = "";
-            for (const group of teams) {
-                output += `<div class="teamgroup"><h1>${group.groupname}</h1>`;
-                for (const team of group.teams) {
+            for (const group in groups) {
+                output += `<div class="teamgroup"><h1>Group ${group}</h1>`;
+                for (const team of groups[group]) {
                     output += `<div class="card">
                         <div class="card-front">
                             <img src="${team.image}">

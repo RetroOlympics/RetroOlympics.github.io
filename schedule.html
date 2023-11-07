@@ -75,8 +75,8 @@
                     const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
                     output += `<div class="row">
                         <div class="hosts">
-                            <ra-userpic>${slot.hosts[0]}</ra-userpic>
-                            <ra-userpic>${slot.hosts[1]}</ra-userpic>
+                            <ra-userpic>${slot.hosts[0] !== undefined ? slot.hosts[0] : ""}</ra-userpic>
+                            ${slot.hosts[1] !== undefined ? `<ra-userpic>${slot.hosts[1]}</ra-userpic>` : ""}
                         </div>
                         <div class="time">
                             ${new Date(`${week.date}T${slot.time}Z`).toLocaleTimeString()}

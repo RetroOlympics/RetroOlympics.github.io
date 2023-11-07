@@ -5,7 +5,7 @@
     "timeslots": [
         {
             "time": "17:00",
-            "hosts": [ "TimeCrush", "wolfman2000" ],
+            "hosts": [ "TimeCrush" ],
             "group": "A",
             "team1": 1,
             "team2": 2,
@@ -13,7 +13,7 @@
         },
         {
             "time": "17:30",
-            "hosts": [ "StingX2", "Wimpyfox" ],
+            "hosts": [],
             "group": "A",
             "team1": 3,
             "team2": 4,

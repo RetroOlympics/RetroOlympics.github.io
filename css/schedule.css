@@ -112,3 +112,8 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+.schedule .table .results img.game.empty {
+    image-rendering: pixelated;
+    filter: grayscale(100%);
+}

@@ -14,6 +14,8 @@ class RAUserPic extends HTMLElement {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+            }
+            img.empty {
                 image-rendering: pixelated;
                 filter: grayscale(100%);
             }
@@ -35,7 +37,7 @@ class RAUserPic extends HTMLElement {
             img.title = user;
         } else {
             link.href = "";
-            img.src = "img/SMB_Qblock.png";
+            img.src = "img/qblock.png";
             img.classList.add("empty");
             img.alt = "?";
             img.title = "?";

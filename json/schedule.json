@@ -6,23 +6,147 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "A",
+            "group": "TBA",
             "team1": 1,
             "team2": 1,
             "results": [ 0, 0, 0 ]
-        },
+        }
+    ]
+},
+{
+    "name": "Week 2",
+    "date": "2024-01-13",
+    "timeslots": [
         {
-            "time": "17:30",
+            "time": "17:00",
             "hosts": [],
-            "group": "A",
+            "group": "TBA",
             "team1": 1,
             "team2": 1,
             "results": [ 0, 0, 0 ]
-        },
+        }
+    ]
+},
+{
+    "name": "Week 3",
+    "date": "2024-01-20",
+    "timeslots": [
         {
-            "time": "18:00",
+            "time": "17:00",
             "hosts": [],
-            "group": "A",
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Week 4",
+    "date": "2024-01-27",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Week 5",
+    "date": "2024-02-03",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Week 6",
+    "date": "2024-02-10",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Week 7",
+    "date": "2024-02-17",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Last 16",
+    "date": "2024-02-24",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Quarter Finals",
+    "date": "2024-03-02",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Semi Finals",
+    "date": "2024-03-09",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
+            "team1": 1,
+            "team2": 1,
+            "results": [ 0, 0, 0 ]
+        }
+    ]
+},
+{
+    "name": "Finals",
+    "date": "2024-03-16",
+    "timeslots": [
+        {
+            "time": "17:00",
+            "hosts": [],
+            "group": "TBA",
             "team1": 1,
             "team2": 1,
             "results": [ 0, 0, 0 ]

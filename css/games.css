@@ -1,9 +1,18 @@
+.hero {
+    grid-template-columns: 1fr;
+}
+
 #games-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
+}
+
+#games-container > h1 {
+    font-size: 4rem;
+    color: #fff;
 }
 
 .gamegroup {
@@ -41,6 +50,7 @@
     justify-content: center;
     padding: 20px;
     gap: 20px;
+    font-size: 20px;
 }
 
 .gamegroup .card-back > .card-info {
@@ -52,14 +62,13 @@
 }
 
 .gamegroup .card-info > p {
-    font-size: 20px;
     flex: 1;
     display: flex;
     align-items: center;
 }
 
 .gamegroup .card-info > p.card-hash {
-    font-size: 14px;
+    font-size: 0.75em;
     flex: 0;
     display: inline-block;
     padding: 4px;
@@ -70,9 +79,11 @@
 }
 
 .gamegroup .card-links {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
     height: 100%;
 }
 
@@ -86,14 +97,24 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.gamegroup .card-links > img {
+.gamegroup .card-links img.console {
+    border-radius: 0; 
     border: none;
     box-shadow: none;
 }
 
+.gamegroup .card-links img.console.pixel {
+    image-rendering: pixelated;
+}
+
 @media (max-width: 1550px) {
-    .gamegroup, .gamegroup .card {
+    .gamegroup .card {
         width: 100%;
+        min-width: 400px;
+    }
+
+    .gamegroup .card-back {
+        font-size: 16px;
     }
 }
 
@@ -105,11 +126,21 @@
         max-width: 500px;
     }
 
+    .gamegroup .card {
+        min-width: 0;
+    }
+
     .gamegroup > h1 {
         grid-column: 1;
     }
 
-    .gamegroup .card-back > p {
+    .gamegroup .card-back {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gamegroup .card-back {
         font-size: 16px;
     }
 }

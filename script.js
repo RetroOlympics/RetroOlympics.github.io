@@ -1,11 +1,3 @@
-let menu = document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
-
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    navlist.classList.toggle('open');
-}
-
 const sr = ScrollReveal ({
     distance: '65px',
     duration: 2600,
@@ -22,4 +14,4 @@ sr.reveal('.scroll-down',{delay:500, origin:'right'});
 $('body').delegate('.c-faq', 'click', function(){
     $('.c-faq').removeClass('c-faq--active');
     $(this).addClass('c-faq--active');
-  });
+});

@@ -46,45 +46,13 @@
 
         <!--TEXT FOR WHEN LAUNCH IS LIVE AND TEAMS SHOULDNT BE DISPLAYED:-Signups are still open! Once signups are closed, the teams will be displayed here-->   
         <section class="hero">
-        <div id="teams-container"></div>
+        <div id="teams-container">
+            <h1>Signups are still open!</h1>
+            <h2>Once signups are closed, the teams will be displayed here.</h2>
+            <a href="https://forms.gle/JFp9fJysfWk3qYLLA">Sign Up!</a>
+        </div>
         </section>
-        <script type="module">
-            "use strict";
-            const container = document.getElementById("teams-container");
-            const teams = await fetch("/teams.json").then(res => res.json());
-            let output = "";
-            for (const group of teams) {
-                output += `<div class="teamgroup"><h1>${group.groupname}</h1>`;
-                for (const team of group.teams) {
-                    output += `<div class="card">
-                        <div class="card-front">
-                            <img src="${team.image}">
-                            <h1>${team.name}</h1>
-                        </div>
-                        <div class="card-back">
-                            <img src="${team.icon}">
-                            <h1>${team.name}</h1>
-                            <div class="card-teamlist">
-                    `;
-                    for (const user of team.members) {
-                        output += `<div class="card-user">`;
-                        if (user == "") {
-                            output += `<a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="></a><p>???</p>`;
-                        } else {
-                            output += `
-                                <a href="https://retroachievements.org/user/${user}">
-                                    <img src="https://media.retroachievements.org/UserPic/${user}.png">
-                                </a>
-                                <p>${user}</p>
-                            `;
-                        }
-                        output += "</div>";
-                    }
-                    output += "</div></div></div>";
-                }
-                output += "</div>";
-            }
-            container.innerHTML = output;
-        </script>
+        <script type="module" src="js/navlist.js"></script>
+        <script type="module" src="js/elements.js"></script>
     </body>
 </html>

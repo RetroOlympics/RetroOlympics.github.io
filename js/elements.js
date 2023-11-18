@@ -13,6 +13,11 @@ class RAUserPic extends HTMLElement {
             img {
                 width: 100%;
                 height: 100%;
+                object-fit: cover;
+            }
+            img.empty {
+                image-rendering: pixelated;
+                filter: grayscale(100%);
             }
         `;
 
@@ -28,9 +33,14 @@ class RAUserPic extends HTMLElement {
         if (user !== "") {
             link.href = `https://retroachievements.org/user/${user}`;
             img.src = `https://media.retroachievements.org/UserPic/${user}.png`;
+            img.alt = user;
+            img.title = user;
         } else {
             link.href = "";
-            img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=";
+            img.src = "img/qblock.png";
+            img.classList.add("empty");
+            img.alt = "?";
+            img.title = "?";
         }
 
         link.appendChild(img);

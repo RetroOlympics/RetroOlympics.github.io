@@ -7,7 +7,8 @@
         <link rel="icon" type="image" href="img/favicon.ico">
 
         <!--custom CSS link-->
-        <link rel="stylesheet" type="text/css" href="schedule.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/schedule.css">
 
         <!---boxicons link--->
         <link rel="stylesheet"
@@ -23,9 +24,7 @@
         
     </head>
     <body>
-
         <header>
-            <!--old code: <a href="#" class="logo">RETRO OLYMPICS</a>-->
             <a href="index.html" class="logo">
                 <img src="img/logo.png" alt="Retro Olympics">
             </a>
@@ -43,100 +42,11 @@
         </header>
 
         <section class="hero">
-        
-            <div class="tableclass">
-                <main class="table">
-                    <section class="table_header">
-                        <h1>DATE 1</h1>
-                    </section>
-                    <section class="table_body">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Hosts</th>
-                                    <th class="no-wrap">Time UTC</th>
-                                    <th>Matchup</th>
-                                    <th>Games</th>
-                                    <th></th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-    
-                                <tr>
-                                    <td>
-                                        <a href="https://retroachievements.org/user/TimeCrush"><img src="https://media.retroachievements.org/UserPic/TimeCrush.png"></a>
-                                        <a href="https://retroachievements.org/user/soltyd"><img src="https://media.retroachievements.org/UserPic/soltyd.png"></a>
-                                    </td>
-                                    <td>5:00 PM</td>
-                                    <td class="no-wrap"><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/SMB_Qblock.png">
-                                    </td>
-                                </tr>
-    
-                                <tr>
-                                    <td>
-                                        <a href="https://retroachievements.org/user/TimeCrush"><img src="https://media.retroachievements.org/UserPic/TimeCrush.png"></a>
-                                        <a href="https://retroachievements.org/user/soltyd"><img src="https://media.retroachievements.org/UserPic/soltyd.png"></a>
-                                    </td>
-                                    <td>5:30 PM</td>
-                                    <td><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/Block_Super_Mario_World.png">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="https://retroachievements.org/user/wolfman2000"><img src="https://media.retroachievements.org/UserPic/wolfman2000.png"></a>
-                                        <a href="https://retroachievements.org/user/Pampa50"><img src="https://media.retroachievements.org/UserPic/Pampa50.png"></a>
-                                    </td>
-                                    <td>6:00 PM</td>
-                                    <td><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/SMB_Qblock.png">
-                                    </td>
-                                </tr>
-    
-                                <tr>
-                                    <td>
-                                        <p>T.B.D.</p>
-                                    </td>
-                                    <td>6:30 PM</td>
-                                    <td><img src="img/shroom.png">Mushroom Mauraders VS Falcon's Fighters<img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/076401.png">
-                                        <img src="img/shroom.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/054347.png">
-                                        <img src="img/FZeroSymbol.png"></td>
-                                    <td><img src="https://media.retroachievements.org/Images/051849.png">
-                                        <img src="img/SMB_Qblock.png">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                </main>
-    
-    
-    
-            </div>
-
-
-
-            
+        <div id="schedule-container"></div>
         </section>
 
+        <script type="module" src="js/elements.js"></script>
+        <script type="module" src="js/navlist.js"></script>
+        <script type="module" src="js/schedule.js"></script>
     </body>
 </html>

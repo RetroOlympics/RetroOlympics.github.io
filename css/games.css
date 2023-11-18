@@ -10,6 +10,11 @@
     padding-top: 100px;
 }
 
+#games-container > h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
 .gamegroup {
     height: 100%;
     display: grid;

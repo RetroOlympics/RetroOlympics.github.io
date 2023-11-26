@@ -1,12 +1,9 @@
-.hero {
-    grid-template-columns: 1fr;
-}
-
 #games-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 #games-container > h1 {

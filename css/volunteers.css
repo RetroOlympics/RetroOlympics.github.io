@@ -144,19 +144,6 @@
 		padding-left: 0;
 		justify-content: flex-start;
 	}
-	
-    /* grandparent */
-	.hero{
-		height: 100%;
-		width: 100%;
-		min-height: 100vh;
-		background: linear-gradient(245.59deg, #36393f 0%, #242629 38.53%, #050505 68.52%, #050505 100%);
-		position: relative;
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		gap: 2rem;
-	}
 
 	/* RIGHT COLUMN */	
 	.teamcontent {

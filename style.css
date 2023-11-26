@@ -28,6 +28,7 @@ body .bg {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding-top: 100px;
 }
 
 .hero-main-page {
@@ -112,10 +113,6 @@ section{
 }
 
 @media (max-width: 1535px){
-    header{
-        padding: 40px 9%;
-        transition:  .2s;
-    }
     .scroll-down{
         right: 3%;
         transition: .2s;
@@ -145,12 +142,6 @@ section{
         padding: 0 3%;
         transition: .2s;
     }
-    .hero-text{
-        padding-top: 115px;
-    }
-    .hero-img{
-        text-align: center;
-    }
     .hero-img img{
         width: 560px;
         height: auto;
@@ -162,32 +153,6 @@ section{
     }
     .scroll-down{
         display: none;
-    }
-}
-@media (max-width: 990px){
-    #menu-icon{
-        display: block;
-    }
-    .navlist{
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 100%;
-        height: 40vh;
-        background: #4d9559;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 50px 20px;
-        transition: all .55s ease;
-    }
-    .navlist a{
-        margin-left: 0;
-        display: block;
-        margin: 7px 0;
-    }
-    .navlist.open{
-        right: 0;
     }
 }
 

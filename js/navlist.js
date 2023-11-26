@@ -1,7 +1,6 @@
 const menu = document.querySelector('#menu-icon');
-const navlist = document.querySelector('.navlist');
+const navlist = document.querySelector('header nav');
 
 menu.addEventListener("click", () => {
-    menu.classList.toggle('bx-x');
     navlist.classList.toggle('open');
 });

@@ -9,14 +9,9 @@
     text-decoration: none;
 }
 
-body .bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+body {
     background: linear-gradient(245.59deg, #36393f 0%, #242629 38.53%, #050505 68.52%, #050505 100%);
-    z-index: -1;
+    background-attachment: fixed;
 }
 
 .hero {
@@ -49,7 +44,6 @@ section{
     margin-bottom: 40px;
 }
 .hero-text h1{
-    font-family: 'Pixelify Sans', cursive;
     font-size: 90px;
     line-height: 1;
     color: white;

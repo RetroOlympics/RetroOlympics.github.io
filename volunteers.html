@@ -39,9 +39,8 @@
         </nav>
     </header>
 
-    <!---OUR TEAM CIRCULAR BEGINT HIER-->
-    <div id="volunteers-container">
-    </div>
+    <div id="volunteers-container"></div>
+
     <script>
         
         const volunteers = {
@@ -92,7 +91,7 @@
             `;
         }
 
-        container.innerHTML = `<div class="team"><div class="icon">${icons}</div><div class="teamcontent">${content}</div></div>`;
+        container.innerHTML = `<div class="team"><div class="icon" style="--n:${Object.keys(volunteers).length}">${icons}</div><div class="teamcontent">${content}</div></div>`;
 
         // randomizer
         let imgBx = document.querySelectorAll('.icon > .imgBx')

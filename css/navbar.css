@@ -33,12 +33,9 @@ header nav a:hover {
     border-bottom: 2px solid white;
 }
 
-#menu-icon {
-    color:white;
-    font-size: 40px;
-    cursor: pointer;
+
+#menu, #menu-label {
     display: none;
-    transition: all 0.5s ease;
 }
 
 @media (max-width: 990px) {
@@ -49,8 +46,17 @@ header nav a:hover {
         padding: 0;
     }
 
-    #menu-icon {
+    #menu-label {
         display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 50px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     header nav {
@@ -62,11 +68,11 @@ header nav a:hover {
         transition: all 0.5s ease;
     }
 
-    header nav.open {
+    #menu:checked ~ nav {
         margin-top: 0;
     }
 
-    header nav.open ~ #menu-icon {
+    #menu:checked + label {
         transform: rotateZ(180deg);
     }
 }

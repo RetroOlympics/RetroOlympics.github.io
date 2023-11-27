@@ -128,23 +128,6 @@
 }
 
 @media (max-width: 960px) {
-	/* test */
-	.section__headline {
-		font-family: "Varela Round", sans-serif;
-		font-size: 62px;
-		font-weight: light;
-		color: #1e88e5;
-		padding-left: 15px;
-		padding-top: 30px;
-	}
-	
-	.container {
-		margin-left: 0 auto;
-		margin-right: auto;
-		padding-left: 0;
-		justify-content: flex-start;
-	}
-
 	/* RIGHT COLUMN */	
 	.teamcontent {
 		position: fixed;

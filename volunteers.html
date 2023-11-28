@@ -41,8 +41,8 @@
 
     <div id="volunteers-container"></div>
 
+    <script type="module" src="js/elements.js"></script>
     <script>
-        
         const volunteers = {
             "voiceofautumn": "Host & Jack-Of-All-Trades",
             "Searo": "Co-Host & Leaderboard Developer",
@@ -64,57 +64,46 @@
         };
 
         const container = document.getElementById("volunteers-container");
-        let icons = "";
-        let content = "";
+        const wheel = document.createElement("div");
+        wheel.classList.add("wheel");
+        wheel.style.setProperty("--n", Object.keys(volunteers).length.toString());
+
+        let active = null;
 
         for (const [index, [user, desc]] of Object.entries(Object.entries(volunteers))) {
-            icons += `
-                <div class="imgBx" style="--i:${index};" data-id="content${index}">
-                    <img src="https://media.retroachievements.org/UserPic/${user}.png">
+            const icon = document.createElement("div");
+            icon.classList.add("icon");
+            icon.style.setProperty("--i", index.toString());
+            icon.innerHTML = `<img src="https://media.retroachievements.org/UserPic/${user}.png">`;
+
+            const card = document.createElement("div")
+            card.classList.add("card");
+            card.innerHTML = `
+                <ra-userpic>${user}</ra-userpic>
+                <div class="text">
+                    <a href="https://retroachievements.org/user/${user}">${user}</a>
+                    ${desc}
                 </div>
             `;
-            content += `
-                <div class="contentBx" id="content${index}">
-                    <div class="card">
-                        <div class="imgBx">
-                            <a href="https://retroachievements.org/user/${user}">
-                                <img src="https://media.retroachievements.org/UserPic/${user}.png">
-                            </a>
-                        </div>
-                        <div class="textBx">
-                            <a href="https://retroachievements.org/user/${user}">
-                                <h2>${user}<br><span>${desc}</span></h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            `;
+
+            icon.firstChild.addEventListener("mouseenter", () => {
+                if (active !== null) {
+                    active.classList.remove("active");
+                }
+                card.classList.add("active");
+                active = card;
+            });
+
+            wheel.append(icon, card);
         }
 
-        container.innerHTML = `<div class="team"><div class="icon" style="--n:${Object.keys(volunteers).length}">${icons}</div><div class="teamcontent">${content}</div></div>`;
+        container.appendChild(wheel);
 
         // randomizer
-        let imgBx = document.querySelectorAll('.icon > .imgBx')
-        let contentBx = document.querySelectorAll('.contentBx')
-        let randomVolunteer = Math.floor(Math.random() * Object.keys(volunteers).length);
-        contentBx[randomVolunteer].className = 'contentBx active';
-        imgBx[randomVolunteer].className = 'imgBx active';
-
-        for (let i = 0; i < imgBx.length; i++) {
-            // changed from 'mouseover', 'pointerdown'
-            imgBx[i].addEventListener('mouseover', function () {
-                for (let i = 0; i < contentBx.length; i++) {
-                    contentBx[i].className = 'contentBx';
-                }
-                document.getElementById(this.dataset.id).
-                    className = 'contentBx active';
-
-                for (let i = 0; i < imgBx.length; i++) {
-                    imgBx[i].className = 'imgBx';
-                }
-                this.className = 'imgBx active';
-            })
-        }
+        const n = Math.floor(Math.random() * Object.keys(volunteers).length);
+        const card = document.querySelectorAll(".card")[n];
+        card.classList.add("active");
+        active = card;
     </script>
 </body>
 

@@ -8,16 +8,20 @@
 
 }
 
-.team {
+.wheel {
     position: relative;
 	width: 80cqmin;
-	aspect-ratio: 1 / 1;
+	height: 80cqmin;
     border: 2px solid #fff;
     border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	container-type: size;
 }
 
-.team .icon .imgBx {
-	--size: 10cqmin;
+.wheel .icon {
+	--size: 14cqmin;
     position: absolute;
 	top: calc(-1 * (var(--size) / 2));
 	left: calc(50% - (var(--size) / 2));
@@ -28,97 +32,59 @@
     overflow: hidden;
 }
 
-.team .icon .imgBx.active {
+.wheel .icon.active {
     box-shadow: 0 0 0 4px #222 0 0 0 12px #ff1d50;
 }
 
-.team .icon .imgBx img {
+.wheel .icon img {
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
     border: 2px solid #fff;
-    box-shadow: 0 0 0 4px #222 0 0 0 6px #fff;
     transform: rotate(calc(-360deg / var(--n) * var(--i)));
     filter: grayscale(1);
     transition: filter 0.5s ease;
 }
 
-.team .icon .imgBx.active img {
-    filter: grayscale(0)
+.wheel .icon img:hover {
+    filter: grayscale(0);
 }
 
-.teamcontent {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
+.wheel .card {
+	position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.contentBx {
-    position: absolute;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 40cqmin;
     transform: scale(0);
-    transition: 0.5s;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transition: transform 0.25s ease;
+    z-index: 9999;
 }
 
-.contentBx.active {
-    transform: scale(1);
-    opacity: 1;
-    transition-delay: 0.5s;
+.wheel .card.active {
+	transform: scale(1);
 }
 
-.contentBx .card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-    width: 50cqmin;
-}
-
-.contentBx .card .imgBx {
-    position: relative;
-	width: 50%;
-	aspect-ratio: 1 / 1;
-    border-radius: 0px;
-    overflow: hidden;
-}
-
-.contentBx .card .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
+.wheel .card ra-userpic {
+    border-radius: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
-.contentBx .card .textBx {
+.wheel .card .text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.contentBx .card .textBx h2 {
-    position: relative;
-    font-size: 1.25em;
-    font-weight: 600;
     color: #fff;
-    line-height: 1em;
     text-transform: uppercase;
     text-align: center;
+    gap: 0.25em;
 }
 
-.contentBx .card .textBx h2 span {
-    font-size: 0.65em;
+.wheel .card .text a {
     color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+    font-size: 1.25em;
+    font-weight: 600;
 }

@@ -79,7 +79,6 @@
   width: calc(50% - 40px);
   display: flex;
   position: relative;
-  transform: translateY(-80px);
 }
 .timeline-item:before {
   content: attr(data-text);
@@ -158,7 +157,7 @@
   top: 0;
   width: 100%;
   height: 100%;
- background: rgba(0,0,0,0.6);
+ background: rgba(0,0,0,0.7);
   content: "";
 }
 .timeline-header {
@@ -266,25 +265,12 @@
     );
     var itemLength = selectors.item.length;
     $(window).scroll(function() {
-      var max, min;
       var pos = $(this).scrollTop();
       selectors.item.each(function(i) {
-        min = $(this).offset().top;
-        max = $(this).height() + $(this).offset().top;
-        var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+        let min = $(this).offset().top - (window.innerHeight / 2);
+        let max = min + $(this).height();
+        if (pos >= min && pos <= max) {
           selectors.item.removeClass(selectors.activeClass);
-          selectors.id.css(
-            "background-image",
-            "url(" +
-              selectors.item
-                .last()
-                .find(selectors.img)
-                .attr("src") +
-              ")"
-          );
-          selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max - 40 && pos >= min) {
           selectors.id.css(
             "background-image",
             "url(" +
@@ -293,7 +279,6 @@
                 .attr("src") +
               ")"
           );
-          selectors.item.removeClass(selectors.activeClass);
           $(this).addClass(selectors.activeClass);
         }
       });

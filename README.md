@@ -17,3 +17,16 @@ Index:
 Teams:
 
 - Track teams knocked out in JSON data, add group for past teams with knocked out dates, sorted by most recently knocked out - BUG
+
+Standings:
+
+- Generate standings from results stored in schedule.json - BUG
+
+Schedule:
+
+- Remove seconds from start times - BUG
+
+Refactoring:
+
+- Abstract out table css used in standings/schedule - BUG
+- Redo colors in tables

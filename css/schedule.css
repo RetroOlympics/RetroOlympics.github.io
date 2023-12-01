@@ -49,6 +49,7 @@
     position: relative;
     z-index: 2;
     align-items: center;
+    justify-items: center;
 }
 
 .schedule .table .row {
@@ -59,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 0.5em;
 }
 
 .schedule .table .table-data .icon {
@@ -67,10 +68,6 @@
     min-width: 1.5em;
     aspect-ratio: 1 / 1;
     object-fit: contain;
-}
-
-.schedule .table .table-head {
-    justify-items: center;
 }
 
 .schedule .table .table-head span {

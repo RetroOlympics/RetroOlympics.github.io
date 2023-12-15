@@ -1,14 +1,10 @@
-.hero {
-    grid-template-columns: 1fr;
-}
-
 #teams-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
     color: #fff;
+    text-align: center;
 }
 
 #teams-container > h1 {

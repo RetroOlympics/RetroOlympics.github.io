@@ -25,553 +25,69 @@
 </head>
 
 <body>
-
     <header>
-        <!--old code: <a href="#" class="logo">RETRO OLYMPICS</a>-->
-        <a href="index.html" class="logo">
-            <img src="img/logo.png" alt="Retro Olympics">
-        </a>
-
-        <ul class="navlist">
-            <li><a href="teams.html">Teams</a></li>
-            <li><a href="standings.html">Standings</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="games.html">Games</a></li>
-            <li><a href="volunteers.html">Volunteers</a></li>
-            <li><a href="history.html">History</a></li>
-        </ul>
-
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="Retro Olympics"></a>
+        <input type="checkbox" id="menu">
+        <label for="menu" id="menu-label"><i class="bx bx-chevron-down"></i></label>
+        <nav>
+            <a href="teams.html">Teams</a>
+            <a href="standings.html">Standings</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="games.html">Games</a>
+            <a href="volunteers.html">Volunteers</a>
+            <a href="history.html">History</a>
+        </nav>
     </header>
-
-    <section class="hero">
-        <!---This is a test for using the body seperately, can remove the div table body class if neeeded-->
-
-        <main class="standingsclass">
-        
-        <!-- first column -->
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group A</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
+    <main>
+        <div class="group">
+            <div class="header">Group A</div>
+            <div class="table">
+                <div class="row head">
+                    <span>Rank</span>
+                    <span>Team</span>
+                    <span>Points</span>
+                </div>
+                <div class="row">
+                    <div class="rank">1st</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+                <div class="row">
+                    <div class="rank">2nd</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+                <div class="row">
+                    <div class="rank">3rd</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+                <div class="row">
+                    <div class="rank">4th</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
             </div>
         </div>
-
-
-        
-        <!-- second column -->
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group B</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>
-        
-        
-        
-        <!-- second row of first column -->
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group C</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>
-
-
-        
-        <!-- second row of second column -->
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group D</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>
-
-            
-            
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group E</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>            
-
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group F</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>
-
-
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group G</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>
-
-
-        <div class="tableclass">
-            <div class="innertableclass">
-                <section class="table_header">
-                    <h1>Group H</h1>
-                </section>
-                <section class="table_body">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ranking</th>
-                                <th>Team</th>
-                                <th>W</th>
-                                <th>L</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <p>1st</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>2nd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>3rd</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <p>4th</p>
-                                </td>
-                                <td> <img src="img/unown.png" alt="To Be Announced">To Be Announced</td>
-                                <td> 0 </td>
-                                <td> 0 </td>
-                                <td> <strong>0</strong> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-        </div>
-            
-            
-        </main>
-    </section>
-
-    <script type="module" src="js/navlist.js"></script>
+        <script type="module">
+            const main = document.querySelector("main");
+            const group = document.querySelector(".group");
+            for (let i = 0; i < 7; i++) {
+                main.appendChild(group.cloneNode(true));
+            }
+        </script>
+    </main>
 </body>
-
 </html>

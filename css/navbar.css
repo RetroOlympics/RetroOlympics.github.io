@@ -1,0 +1,78 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px) brightness(95%);
+}
+
+header > a img {
+    max-height: 100px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+header nav a {
+    color: white;
+    font-size: 1.25em;
+    border-bottom: 2px solid transparent;
+    transition: border 0.25s ease;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+#menu, #menu-label {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding: 0;
+    }
+
+    #menu-label {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 50px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav {
+        height: 14em;
+        flex-direction: column;
+        grid-area: 1 / 1 / 1 / span 2;
+        gap: 0.5em;
+        margin-top: -14em;
+        transition: all 0.5s ease;
+    }
+
+    #menu:checked ~ nav {
+        margin-top: 0;
+    }
+
+    #menu:checked + label {
+        transform: rotateZ(180deg);
+    }
+}

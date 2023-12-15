@@ -9,10 +9,7 @@
 
 #teams-container > h1 {
     font-size: 4rem;
-}
-
-#teams-container > h1 {
-    font-size: 3rem;
+    color: #fff;
 }
 
 #teams-container > a {

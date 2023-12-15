@@ -1,7 +1,8 @@
 "use strict";
 
 const container = document.getElementById("schedule-container");
-const schedule = await fetch("/json/schedule.json").then(res => res.json());
+const groups = await fetch("/json/teams.json", { cache: "no-cache" }).then(res => res.json());
+const schedule = await fetch("/json/schedule.json", { cache: "no-cache" }).then(res => res.json());
 let output = "";
 
 for (const week of schedule) {
@@ -19,16 +20,30 @@ for (const week of schedule) {
         <div class="table-data">
     `;
     for (const slot of week.timeslots) {
+        const teams = [
+            groups[slot.group][slot.team1 - 1],
+            groups[slot.group][slot.team2 - 1],
+        ];
+        const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
         output += `<div class="row">
-            <div class="hosts"><ra-userpic></ra-userpic></div>
+            <div class="hosts">
+                <ra-userpic>${slot.hosts[0] !== undefined ? slot.hosts[0] : ""}</ra-userpic>
+                ${slot.hosts[1] !== undefined ? `<ra-userpic>${slot.hosts[1]}</ra-userpic>` : ""}
+            </div>
             <div class="time">
                 ${new Date(`${week.date}T${slot.time}Z`).toLocaleTimeString()}
             </div>
             <div class="group">Group ${slot.group}</div>
             <div class="matchup">
-                <div class="matchup-team"><img class="icon" title="TBA" src="img/unown.png"><span>TBA</span></div>
+                <div class="matchup-team">
+                    <img class="icon" title="${teams[0].name}" src="${icons[1]}">
+                    ${teams[0].name}
+                </div>
                 <div class="matchup-vs"><hr>vs<hr></div>
-                <div class="matchup-team"><img class="icon" title="TBA" src="img/unown.png"><span>TBA</span></div>
+                <div class="matchup-team">
+                    <img class="icon" title="${teams[1].name}" src="${icons[2]}">
+                    ${teams[1].name}
+                </div>
             </div>
             <div class="results">
                 <img class="game empty" alt="TBA" title="TBA" src="img/qblock.png">

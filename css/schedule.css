@@ -13,7 +13,7 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 50px 0;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .schedule .header {
@@ -76,9 +76,9 @@
     padding: 0.5em;
 }
 
-.schedule .table .table-head span:nth-child(4) {
+/* .schedule .table .table-head span:nth-child(4) {
     padding-left: 2em;
-}
+} */
 
 .schedule .table .row:nth-child(even) > * {
     background-color: #ccc;
@@ -115,7 +115,7 @@
     flex-grow: 1;
     font-size: 0.75em;
     color: #777;
-    margin-left: 2.5em;
+    /* margin-left: 2.5em; */
 }
 
 .schedule .table .matchup-vs hr {
@@ -130,6 +130,10 @@
     display: flex;
     align-items: center;
     gap: 0.5em;
+}
+
+.schedule .table .matchup-team .icon {
+    margin-left: -2em;
 }
 
 .schedule .table .matchup-team span {

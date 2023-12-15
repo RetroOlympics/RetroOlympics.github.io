@@ -6,41 +6,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
             "team1": 1,
-            "team2": 1,
+            "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
             "time": "17:30",
             "hosts": [],
-            "group": "TBA",
-            "team1": 1,
-            "team2": 1,
+            "group": "A",
+            "team1": 3,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
             "time": "18:00",
             "hosts": [],
-            "group": "TBA",
-            "team1": 1,
+            "group": "A",
+            "team1": 5,
             "team2": 1,
             "results": [ 0, 0, 0 ]
         },
         {
             "time": "18:30",
             "hosts": [],
-            "group": "TBA",
+            "group": "B",
             "team1": 1,
-            "team2": 1,
+            "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
             "time": "19:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "B",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
             "team1": 1,
-            "team2": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 3,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         }
     ]
@@ -52,9 +100,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
             "team1": 1,
-            "team2": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "17:30",
+            "hosts": [],
+            "group": "A",
+            "team1": 2,
+            "team2": 5,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:00",
+            "hosts": [],
+            "group": "A",
+            "team1": 4,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:30",
+            "hosts": [],
+            "group": "B",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:00",
+            "hosts": [],
+            "group": "B",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 2,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         }
     ]
@@ -66,9 +194,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
             "team1": 1,
-            "team2": 1,
+            "team2": 5,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "17:30",
+            "hosts": [],
+            "group": "A",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:00",
+            "hosts": [],
+            "group": "A",
+            "team1": 3,
+            "team2": 5,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:30",
+            "hosts": [],
+            "group": "B",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:00",
+            "hosts": [],
+            "group": "B",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 2,
+            "team2": 3,
             "results": [ 0, 0, 0 ]
         }
     ]
@@ -80,9 +288,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
             "team1": 1,
-            "team2": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "17:30",
+            "hosts": [],
+            "group": "A",
+            "team1": 3,
+            "team2": 5,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:00",
+            "hosts": [],
+            "group": "A",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:30",
+            "hosts": [],
+            "group": "B",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:00",
+            "hosts": [],
+            "group": "B",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 3,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         }
     ]
@@ -94,9 +382,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "17:30",
+            "hosts": [],
+            "group": "A",
+            "team1": 4,
+            "team2": 5,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:00",
+            "hosts": [],
+            "group": "A",
             "team1": 1,
-            "team2": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:30",
+            "hosts": [],
+            "group": "B",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:00",
+            "hosts": [],
+            "group": "B",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 2,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 2,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         }
     ]
@@ -108,9 +476,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
             "team1": 1,
-            "team2": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "17:30",
+            "hosts": [],
+            "group": "A",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:00",
+            "hosts": [],
+            "group": "A",
+            "team1": 5,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:30",
+            "hosts": [],
+            "group": "B",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:00",
+            "hosts": [],
+            "group": "B",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 2,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 2,
+            "team2": 3,
             "results": [ 0, 0, 0 ]
         }
     ]
@@ -122,9 +570,89 @@
         {
             "time": "17:00",
             "hosts": [],
-            "group": "TBA",
+            "group": "A",
             "team1": 1,
+            "team2": 3,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "17:30",
+            "hosts": [],
+            "group": "A",
+            "team1": 4,
+            "team2": 5,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:00",
+            "hosts": [],
+            "group": "A",
+            "team1": 2,
             "team2": 1,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "18:30",
+            "hosts": [],
+            "group": "B",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:00",
+            "hosts": [],
+            "group": "B",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "19:30",
+            "hosts": [],
+            "group": "C",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:00",
+            "hosts": [],
+            "group": "C",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "20:30",
+            "hosts": [],
+            "group": "D",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:00",
+            "hosts": [],
+            "group": "D",
+            "team1": 3,
+            "team2": 4,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "21:30",
+            "hosts": [],
+            "group": "E",
+            "team1": 1,
+            "team2": 2,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "time": "22:00",
+            "hosts": [],
+            "group": "E",
+            "team1": 3,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         }
     ]

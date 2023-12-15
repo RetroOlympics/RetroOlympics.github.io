@@ -1,0 +1,146 @@
+{
+"TBA": [
+    {
+        "name": "TBA",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    }
+],
+"A": [
+    {
+        "name": "A1",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "A2",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "A3",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "A4",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "A5",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    }
+],
+"B": [
+    {
+        "name": "B1",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "B2",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "B3",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "B4",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    }
+],
+"C": [
+    {
+        "name": "C1",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "C2",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "C3",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "C4",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    }
+],
+"D": [
+    {
+        "name": "D1",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "D2",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "D3",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "D4",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    }
+],
+"E": [
+    {
+        "name": "E1",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "E2",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "E3",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    },
+    {
+        "name": "E4",
+        "image": "img/emptycard.png",
+        "icon": "img/unown.png",
+        "members": [ "", "", "" ]
+    }
+]
+}

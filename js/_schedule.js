@@ -10,13 +10,15 @@ for (const week of schedule) {
     const date = new Date(`${week.date}T${week.timeslots[0].time}Z`).toDateString();
     output += `<div class="schedule"><div class="header"><span>${week.name}</span>${date}</div>`;
     output += `<div class="table">
-        <div class="row">
+        <div class="table-head">
             <span class="head">Hosts</span>
             <span class="head">Time</span>
             <span class="head">Group</span>
             <span class="head">Matchup</span>
             <span class="head">Results</span>
         </div>
+        <div class="more-left">←</div>
+        <div class="table-data">
     `;
     for (const slot of week.timeslots) {
         const teams = [
@@ -39,7 +41,7 @@ for (const week of schedule) {
                     <img class="icon" title="${teams[0].name}" src="${icons[1]}">
                     ${teams[0].name}
                 </div>
-                <div>VS</div>
+                <div class="matchup-vs"><hr>vs<hr></div>
                 <div class="matchup-team">
                     <img class="icon" title="${teams[1].name}" src="${icons[2]}">
                     ${teams[1].name}
@@ -58,7 +60,26 @@ for (const week of schedule) {
         }
         output += "</div></div>";
     }
-    output += "</div></div>";
+    output += `</div><div class="more-right">→</div></div></div>`;
 }
 
 container.innerHTML = output;
+
+for (const table of document.querySelectorAll(".schedule .table")) {
+    const data = table.querySelector(".table-data")
+    const left = table.querySelector(".more-left");
+    const right = table.querySelector(".more-right");
+    const width = 20;
+
+    const setWidths = (el) => {
+        const distR = el.scrollWidth - (el.offsetWidth + el.scrollLeft);
+        left.style.width = `${Math.min(width, el.scrollLeft)}px`;
+        right.style.right = `${Math.min(0, (distR - width))}px`;
+    }
+
+    setWidths(data);
+
+    data.addEventListener("scroll", (ev) => {
+        setWidths(ev.target);
+    });
+}

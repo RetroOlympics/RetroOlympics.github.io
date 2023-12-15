@@ -1,11 +1,14 @@
+body {
+    display: grid;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
 #volunteers-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	container-type: size;
-	width: 100%;
-	flex: 1;
-
 }
 
 .wheel {

@@ -7,7 +7,7 @@ let output = "";
 for (const group of games) {
     output += `<div class="gamegroup"><h1>${group.groupname}</h1>`;
     for (const game of group.games) {
-        let challenge = typeof game.challenge === "string" ? game.challenge : game.challenge.join(" ");
+        let challenge = (typeof game.challenge === "string" ? game.challenge : game.challenge.join("\n")).replaceAll("\n", "<br>");
         output += `<div class="card">
             <div class="card-front">
                 <img src="${game.image}">

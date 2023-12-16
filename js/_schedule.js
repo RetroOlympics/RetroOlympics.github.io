@@ -1,9 +1,8 @@
 "use strict";
 
 const container = document.getElementById("schedule-container");
-const groups = await fetch("/json/teams.json").then(res => res.json());
-const allgames = await fetch("/json/games.json").then(res => res.json());
-const schedule = await fetch("/json/schedule.json").then(res => res.json());
+const groups = await fetch("/json/teams.json", { cache: "no-cache" }).then(res => res.json());
+const schedule = await fetch("/json/schedule.json", { cache: "no-cache" }).then(res => res.json());
 let output = "";
 
 for (const week of schedule) {
@@ -25,7 +24,6 @@ for (const week of schedule) {
             groups[slot.group][slot.team1 - 1],
             groups[slot.group][slot.team2 - 1],
         ];
-        const games = allgames.find(gr => gr.groupname === week.name).games;
         const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
         output += `<div class="row">
             <div class="hosts">
@@ -48,17 +46,15 @@ for (const week of schedule) {
                 </div>
             </div>
             <div class="results">
+                <img class="game empty" alt="TBA" title="TBA" src="img/qblock.png">
+                <img class="game empty" alt="TBA" title="TBA" src="img/qblock.png">
+                <img class="game empty" alt="TBA" title="TBA" src="img/qblock.png">
+                <img class="icon" alt="TBA" title="TBA" src="img/unown.png">
+                <img class="icon" alt="TBA" title="TBA" src="img/unown.png">
+                <img class="icon" alt="TBA" title="TBA" src="img/unown.png">
+            </div>
+        </div>
         `;
-        for (let i = 0; i < 3; i++) {
-            const alt = games[i].name;
-            output += `<img class="game" alt="${alt}" title="${alt}" src="${games[i].image}">`
-        }
-        for (let i = 0; i < 3; i++) {
-            const res = slot.results[i];
-            const alt = res != 0 ? teams[res - 1].name : "?";
-            output += `<img class="icon" alt="${alt}" title="${alt}" src="${icons[res]}">`;
-        }
-        output += "</div></div>";
     }
     output += `</div><div class="more-right">→</div></div></div>`;
 }

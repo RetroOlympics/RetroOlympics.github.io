@@ -12,7 +12,7 @@
 body {
     background: linear-gradient(245.59deg, #36393f 0%, #242629 38.53%, #050505 68.52%, #050505 100%);
     background-attachment: fixed;
-    padding: 100px 1rem 0;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +175,7 @@ section{
     justify-content: center;
     margin: 0 -1rem;
     background-color: #fff;
-    width: 100vw;
+    width: 100%;
 }
 
 .faq-container {

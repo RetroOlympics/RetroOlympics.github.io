@@ -13,6 +13,7 @@
 Index:
 
 - Adjust colouring of the FAQ  - VOICE
+- Fix issue with container width not accounting for scrollbars (replace vw) - BUG
 
 Teams:
 
@@ -24,7 +25,12 @@ Standings:
 
 Schedule:
 
-- Remove seconds from start times - BUG
+- Remove seconds from start times
+- Signify play-in teams with tooltip explaining
+
+History:
+
+- Fix issue with container width not accounting for scrollbars (replace vw) - BUG
 
 Refactoring:
 

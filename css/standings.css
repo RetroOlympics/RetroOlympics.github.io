@@ -28,7 +28,7 @@ main {
     background-color: #ddd;
     border-radius: 10px;
     margin: 10px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .group .table .row {

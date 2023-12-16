@@ -5,6 +5,8 @@
     align-items: center;
     width: 100%;
     max-width: 1000px;
+    padding: 2rem 1rem;
+    gap: 2rem;
 }
 
 .schedule {
@@ -12,7 +14,6 @@
     background-color: #777;
     border-radius: 10px;
     overflow: hidden;
-    margin: 50px 0;
     font-size: 1.25rem;
 }
 

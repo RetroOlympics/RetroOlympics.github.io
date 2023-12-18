@@ -6,6 +6,11 @@ main {
     width: 100%;
 }
 
+main > h1 {
+    font-size: 4em;
+    color: #fff;
+}
+
 .group {
     background-color: #777;
     border-radius: 10px;

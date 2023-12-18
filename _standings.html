@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standings</title>
+    <link rel="icon" type="image" href="img/favicon.ico">
+
+    <!--custom CSS link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/standings.css">
+
+    <!---boxicons link--->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!---remixicon link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!---google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="Retro Olympics"></a>
+        <input type="checkbox" id="menu">
+        <label for="menu" id="menu-label"><i class="bx bx-chevron-down"></i></label>
+        <nav>
+            <a href="teams.html">Teams</a>
+            <a href="standings.html">Standings</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="games.html">Games</a>
+            <a href="volunteers.html">Volunteers</a>
+            <a href="history.html">History</a>
+        </nav>
+    </header>
+    <main>
+        <div class="group">
+            <div class="header">Group A</div>
+            <div class="table">
+                <div class="row head">
+                    <span>Rank</span>
+                    <span>Team</span>
+                    <span>Points</span>
+                </div>
+                <div class="row">
+                    <div class="rank">1st</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+                <div class="row">
+                    <div class="rank">2nd</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+                <div class="row">
+                    <div class="rank">3rd</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+                <div class="row">
+                    <div class="rank">4th</div>
+                    <div class="team">
+                        <img class="icon" src="img/unown.png" alt="To Be Announced">
+                        <p>To Be Announced <span class="record">(0-0)</span></p>
+                    </div>
+                    <div class="points">0</div>
+                </div>
+            </div>
+        </div>
+        <script type="module">
+            const main = document.querySelector("main");
+            const group = document.querySelector(".group");
+            for (let i = 0; i < 7; i++) {
+                main.appendChild(group.cloneNode(true));
+            }
+        </script>
+    </main>
+</body>
+</html>

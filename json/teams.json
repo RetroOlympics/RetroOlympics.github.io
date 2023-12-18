@@ -1,146 +1,138 @@
 {
-"TBA": [
-    {
-        "name": "TBA",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
-    }
-],
 "A": [
     {
-        "name": "A1",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Proto Man's Protectors",
+        "image": "img/team/ProtomansProtectors.png",
+        "icon": "img/icon/ProtomansProtectors.png",
+        "members": [ "Bendyhuman", "KlydeKadell", "Gamechamp" ]
     },
     {
-        "name": "A2",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Giovanni's Grunts",
+        "image": "img/team/GiovannisGrunts.png",
+        "icon": "img/icon/GiovannisGrunts.png",
+        "members": [ "ilikepie345", "Blazekickn", "Fruitpop" ]
     },
     {
-        "name": "A3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Uchida's Ushers",
+        "image": "img/team/UchidasUshers.png",
+        "icon": "img/icon/UchidasUshers.png",
+        "members": [ "ChocoMilk", "Maize", "Probored" ]
     },
     {
-        "name": "A4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Dark Link's Demons",
+        "image": "img/team/DarkLinksDemons.png",
+        "icon": "img/icon/DarkLinksDemons.png",
+        "members": [ "r0ach3d", "Wimpyfox", "genesislover" ]
     },
     {
-        "name": "A5",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Porky's Pork Troopers",
+        "image": "img/team/PorkysPorkTroopers.png",
+        "icon": "img/icon/PorkysPorkers.png",
+        "members": [ "Nafania", "shahar", "GoYardiG0", "oofuk" ]
     }
 ],
 "B": [
     {
-        "name": "B1",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Alucard's Angels",
+        "image": "img/team/AlucardsAngels.png",
+        "icon": "img/icon/AlucardsAngels.png",
+        "members": [ "xClawz", "Xymjak", "Sairotra" ]
     },
     {
-        "name": "B2",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Yang & Yun's Yappers",
+        "image": "img/team/YangYunsYappers.png",
+        "icon": "img/icon/YangYunsYappers.png",
+        "members": [ "Retrokaiser", "BloodParade", "freezestar" ]
     },
     {
-        "name": "B3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Knuckles's Kommandos",
+        "image": "img/team/KnucklesKommandos.png",
+        "icon": "img/icon/KnucklesKommandos.png",
+        "members": [ "VenHur", "TheoVellum", "AlexC25" ]
     },
     {
-        "name": "B4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Kirby's Knights",
+        "image": "img/team/KirbysKnights.png",
+        "icon": "img/icon/KirbysKnights.png",
+        "members": [ "GalacticSpear", "LivRetro", "DavidYTBR2" ]
     }
 ],
 "C": [
     {
-        "name": "C1",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Ryu's Ronin",
+        "image": "img/team/RyusRonin.png",
+        "icon": "img/icon/RyusRonin.png",
+        "members": [ "mankodax", "SebaMardo", "ialfaro", "WikiKiwi" ]
     },
     {
-        "name": "C2",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Belmont's Brawlers",
+        "image": "img/team/BelmontsBrawlers.png",
+        "icon": "img/icon/BelmontsBrawlers.png",
+        "members": [ "Nepiki", "Kiutgh", "Raichi" ]
     },
     {
-        "name": "C3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Sonic's Speedsters",
+        "image": "img/team/SonicSpeedsters.png",
+        "icon": "img/icon/SonicSpeedsters.png",
+        "members": [ "missiray", "DanielARP", "justyellow" ]
     },
     {
-        "name": "C4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Terra's Titans",
+        "image": "img/team/TerrasTitans.png",
+        "icon": "img/icon/TerrasTitans.png",
+        "members": [ "Eldorian", "Zexerous", "BalrogRPG", "Iggore" ]
     }
 ],
 "D": [
     {
-        "name": "D1",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Delfino Devils",
+        "image": "img/team/DelfinoDevils.png",
+        "icon": "img/icon/DelfinoDevils.png",
+        "members": [ "MannedTooth", "Fleakee", "NicoPlaysThings", "Jimmsixx" ]
     },
     {
-        "name": "D2",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Cress's Crusaders",
+        "image": "img/team/CresssCrusaders.png",
+        "icon": "img/icon/CresssCrusaders.png",
+        "members": [ "Prota", "AmazingBaha", "MonkeyBug" ]
     },
     {
-        "name": "D3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Roll's Raiders",
+        "image": "img/team/RollsRaiders.png",
+        "icon": "img/icon/RollsRaiders.png",
+        "members": [ "psyduck", "Keywiz", "Zegjita" ]
     },
     {
-        "name": "D4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Hyrule Heroes",
+        "image": "img/team/HyruleHeroes.png",
+        "icon": "img/icon/HyruleHeroes.png",
+        "members": [ "Nickyy", "A3r1uS", "Doggy227", "Proph" ]
     }
 ],
 "E": [
     {
-        "name": "E1",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Eggman's Emeralds",
+        "image": "img/team/EggmansEmeralds.png",
+        "icon": "img/icon/EggmansEmeralds.png",
+        "members": [ "Crazeuh", "Blueby", "HardSonicStorm" ]
     },
     {
-        "name": "E2",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Ganondorf's Guardians",
+        "image": "img/team/GanondorfsGuardians.png",
+        "icon": "img/icon/GanondorfsGuardians.png",
+        "members": [ "Yoshikiller109", "Evllnk2565", "Readycard53", "MrRockTable" ]
     },
     {
-        "name": "E3",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Peach's Power Stars",
+        "image": "img/team/PeachsPowerStars.png",
+        "icon": "img/icon/PeachsPowerStars.png",
+        "members": [ "Pampa50", "hirumaspace", "Adenothe" ]
     },
     {
-        "name": "E4",
-        "image": "img/emptycard.png",
-        "icon": "img/unown.png",
-        "members": [ "", "", "" ]
+        "name": "Pepsiman's Phantoms",
+        "image": "img/team/PepsimansPhantoms.png",
+        "icon": "img/icon/PepsimansPhantoms.png",
+        "members": [ "AuburnRDM", "Amir96lx", "jelloknifee" ]
     }
 ]
 }

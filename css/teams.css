@@ -5,49 +5,29 @@
     align-items: center;
     color: #fff;
     text-align: center;
-}
-
-#teams-container > h1 {
-    font-size: 4rem;
-    color: #fff;
-}
-
-#teams-container > a {
-    display: inline-block;
-    color: white;
-    background: #36393f;
-    border: 1px solid transparent;
-    padding: 12px 30px;
-    line-height: 1.4;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    text-transform: uppercase;
-    transition: all .55s ease;
-    margin-top: 2rem;
-}
-
-#teams-container > a:hover {
-    background: transparent;
-    border: 1px solid white;
-    transform: translateX(8px);
+    max-width: 1300px;
+    gap: 2rem;
+    padding-top: 1rem;
 }
 
 .teamgroup {
-    position: relative;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 36px 1fr;
-    gap: 20px;
-    margin: 50px 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.teamgroup .teams {
+    display: flex;
+    gap: 2rem;
 }
 
 .teamgroup .card {
-    width: 300px;
-    height: 500px;
+    aspect-ratio: 4 / 6;
+    flex: 1;
+}
+
+.teamgroup#groupA .card {
+    aspect-ratio: 3 / 5;
+    flex: 1;
 }
 
 .teamgroup > h1 {
@@ -55,11 +35,17 @@
     color: #fff;
     grid-column: 1 / span 4;
     border-bottom: 2px white solid;
+    margin-bottom: 2rem;
+}
+
+.teamgroup .card-back {
+    padding: 5% 15%;
 }
 
 .teamgroup .card-back > h1 {
-    font-size: 30px;
+    font-size: 1.5em;
     text-align: center;
+    min-height: 2em;
 }
 
 .teamgroup .card-back > img {
@@ -69,10 +55,15 @@
     object-fit: contain;
 }
 
+.teamgroup#groupA .card-back > img {
+    width: 80px;
+}
+
 .teamgroup .card-back .teamlist {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     flex: 1;
     align-self: stretch;
 }
@@ -85,6 +76,7 @@
 }
 
 .teamgroup .card-back .user > ra-userpic {
+    width: 100%;
     grid-column: 1;
     border: 4px white solid;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -100,6 +92,10 @@
     .teamgroup .card {
         width: 100%;
         height: auto;
+    }
+
+    .teamgroup .card,
+    .teamgroup#groupA .card {
         aspect-ratio: 5 / 3;
     }
 
@@ -110,33 +106,38 @@
         max-width: 500px;
     }
 
+    .teamgroup .teams {
+        flex-direction: column;
+    }
+
     .teamgroup > h1 {
         grid-column: 1;
     }
 
     .teamgroup .card-back {
         flex-direction: row;
-        padding: 40px 20px;
+        padding: 5%;
     }
 
     .teamgroup .card-back > h1 {
         display: none;
     }
 
-    .teamgroup .card-back > img {
-        width: 25%;
-        height: auto;
+    .teamgroup#groupA .card-back > img {
+        width: 100px;
     }
 
     .teamgroup .card-back .teamlist {
         align-self: center;
+        gap: 1rem;
+        margin-left: 1rem;
     }
 
     .teamgroup .card-back .user {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .teamgroup .card-back .user > p {
-        grid-column: 2 / span 3;
+        grid-column: 2 / span 4;
     }
 }

@@ -23,11 +23,15 @@
     width: 100%;
     background-color: #ddd;
     padding: 1rem 1rem;
+    gap: 1em;
 }
 
 .schedule .header span {
     font-size: 1.5em;
-    padding-right: 20px;
+}
+
+.schedule .header span.tbd {
+    margin-left: auto;
 }
 
 .schedule .table {
@@ -64,6 +68,10 @@
     padding: 0.5em;
 }
 
+.schedule .table .row a {
+    color: #000;
+}
+
 .schedule .table .table-data .icon {
     width: 1.5em;
     min-width: 1.5em;
@@ -76,10 +84,6 @@
     min-height: 0;
     padding: 0.5em;
 }
-
-/* .schedule .table .table-head span:nth-child(4) {
-    padding-left: 2em;
-} */
 
 .schedule .table .row:nth-child(even) > * {
     background-color: #ccc;
@@ -116,7 +120,6 @@
     flex-grow: 1;
     font-size: 0.75em;
     color: #777;
-    /* margin-left: 2.5em; */
 }
 
 .schedule .table .matchup-vs hr {
@@ -128,17 +131,11 @@
 }
 
 .schedule .table .matchup-team {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
+    text-align: center;
 }
 
 .schedule .table .matchup-team .icon {
-    margin-left: -2em;
-}
-
-.schedule .table .matchup-team span {
-    text-align: center;
+    vertical-align: middle;
 }
 
 .schedule .table .results {
@@ -226,7 +223,6 @@
         padding: 0;
         font-size: 20px;
         font-weight: bold;
-        /* min-width: 1em; */
         width: 1em;
         height: 100%;
         z-index: 1;

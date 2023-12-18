@@ -7,19 +7,24 @@ const schedule = await fetch("/json/schedule.json").then(res => res.json());
 let output = "";
 
 for (const week of schedule) {
-    const date = new Date(`${week.date}T${week.timeslots[0].time}Z`).toDateString();
-    output += `<div class="schedule"><div class="header"><span>${week.name}</span>${date}</div>`;
-    output += `<div class="table">
-        <div class="table-head">
-            <span class="head">Hosts</span>
-            <span class="head">Time</span>
-            <span class="head">Group</span>
-            <span class="head">Matchup</span>
-            <span class="head">Results</span>
-        </div>
-        <div class="more-left">←</div>
-        <div class="table-data">
-    `;
+    const date = new Date(`${week.date}T17:00Z`).toDateString();
+    output += `<div class="schedule"><div class="header"><span>${week.name}</span>${date}`;
+    if (week.timeslots.length == 0) {
+        output += `<span class="tbd">TBD</span></div></div>`;
+        continue;
+    } else {
+        output += `</div><div class="table">
+            <div class="table-head">
+                <span class="head">Hosts</span>
+                <span class="head">Time</span>
+                <span class="head">Group</span>
+                <span class="head">Matchup</span>
+                <span class="head">Results</span>
+            </div>
+            <div class="more-left">←</div>
+            <div class="table-data">
+        `;
+    }
     for (const slot of week.timeslots) {
         const teams = [
             groups[slot.group][slot.team1 - 1],
@@ -35,16 +40,16 @@ for (const week of schedule) {
             <div class="time">
                 ${new Date(`${week.date}T${slot.time}Z`).toLocaleTimeString()}
             </div>
-            <div class="group">Group ${slot.group}</div>
+            <div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>
             <div class="matchup">
                 <div class="matchup-team">
                     <img class="icon" title="${teams[0].name}" src="${icons[1]}">
-                    ${teams[0].name}
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}">${teams[0].name}</a>
                 </div>
                 <div class="matchup-vs"><hr>vs<hr></div>
                 <div class="matchup-team">
                     <img class="icon" title="${teams[1].name}" src="${icons[2]}">
-                    ${teams[1].name}
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}">${teams[1].name}</a>
                 </div>
             </div>
             <div class="results">

@@ -3,11 +3,13 @@
     perspective: 1000px;
 }
 
-.card:hover .card-front {
+.card:hover .card-front,
+.card.active .card-front {
     transform: rotateY(-180deg);
 }
 
-.card:hover .card-back {
+.card:hover .card-back,
+.card.active .card-back {
     transform: rotateY(0deg);
 }
 
@@ -52,11 +54,11 @@
     position: absolute;
     width: 100%;
     z-index: 0;
+    padding: 0.5em;
 }
 
 .card-back {
-    background-color: #dddddd;
-    color: #111111;
-    padding: 20px 40px;
+    background-color: #ddd;
+    color: #111;
     transform: rotateY(180deg);
 }

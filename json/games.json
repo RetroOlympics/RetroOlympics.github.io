@@ -20,7 +20,7 @@
         },
         {
             "name": "Streets of Rage 2",
-            "challenge": "Fastest time to complete Stage 1, Hardest, One Life. If both players fail to finish, the player that got the furthest wins.",
+            "challenge": "Fastest time to complete Stage 1, Hardest, Original Life only (dying ends your run). If both players fail to finish, the player that got the furthest wins.",
             "image": "img/sr2.png",
             "console": "img/console/md.png",
             "type": "ra",
@@ -39,7 +39,8 @@
             "console": "img/console/ds.png",
             "type": "ra",
             "ra_id": "9985",
-            "ra_hash": "92d27bc2848d5cdf0750c9cbd6a6592a"
+            "ra_hash": "92d27bc2848d5cdf0750c9cbd6a6592a",
+            "ra_save": "saves/Rhythm_Heaven_Touchless_USA.dsv"
         },
         {
             "name": "Gran Turismo 4",
@@ -71,7 +72,8 @@
             "console": "img/console/snes.png",
             "type": "ra",
             "ra_id": "337",
-            "ra_hash": "30c5f292ff4cbbfcc00fd8fa96c2de3b"
+            "ra_hash": "30c5f292ff4cbbfcc00fd8fa96c2de3b",
+            "ra_save": "saves/Donkey_Kong_Country_U_V1.0_.smc.sram"
         },
         {
             "name": "Metal Slug X",
@@ -89,7 +91,8 @@
             "console": "img/console/ps2.png",
             "type": "ra",
             "ra_id": "2772",
-            "ra_hash": "fe8b1b6c64c24e7eaaef6de8af1aeb9e"
+            "ra_hash": "fe8b1b6c64c24e7eaaef6de8af1aeb9e",
+            "ra_save": "saves/GTA_San_Andreas.ps2"
         }
     ]
 },
@@ -147,7 +150,8 @@
             "console": "img/console/dc.png",
             "type": "ra",
             "ra_id": "3441",
-            "ra_hash": "6f9352c89bb8e9c12cbead45743e3464"
+            "ra_hash": "6f9352c89bb8e9c12cbead45743e3464",
+            "ra_save": "saves/Typing_of_the_Dead_The_USA.A1.bin"
         }
     ]
 },
@@ -174,7 +178,7 @@
         {
             "name": "Dance Dance Revolution: 5th Mix",
             "challenge": [
-                "BO3 - Highest Score Wins (Game Mode - Single - EX Scoring. Perfect X2 Points - Great X1 Point)",
+                "BO3 - Highest Score Wins (Game Mode - Single - Maniac - EX Scoring. Perfect X2 Points - Great X1 Point)",
                 "Song 1: No Limit (RM Remix) / 2 Unlimited",
                 "Song 2: Broken My Heart / Naoki",
                 "Song 3: Insertion / Naoki underground"

@@ -660,57 +660,21 @@
 {
     "name": "Last 16",
     "date": "2024-02-24",
-    "timeslots": [
-        {
-            "time": "17:00",
-            "hosts": [],
-            "group": "TBA",
-            "team1": 1,
-            "team2": 1,
-            "results": [ 0, 0, 0 ]
-        }
-    ]
+    "timeslots": []
 },
 {
     "name": "Quarter Finals",
     "date": "2024-03-02",
-    "timeslots": [
-        {
-            "time": "17:00",
-            "hosts": [],
-            "group": "TBA",
-            "team1": 1,
-            "team2": 1,
-            "results": [ 0, 0, 0 ]
-        }
-    ]
+    "timeslots": []
 },
 {
     "name": "Semi Finals",
     "date": "2024-03-09",
-    "timeslots": [
-        {
-            "time": "17:00",
-            "hosts": [],
-            "group": "TBA",
-            "team1": 1,
-            "team2": 1,
-            "results": [ 0, 0, 0 ]
-        }
-    ]
+    "timeslots": []
 },
 {
     "name": "Finals",
     "date": "2024-03-16",
-    "timeslots": [
-        {
-            "time": "17:00",
-            "hosts": [],
-            "group": "TBA",
-            "team1": 1,
-            "team2": 1,
-            "results": [ 0, 0, 0 ]
-        }
-    ]
+    "timeslots": []
 }
 ]

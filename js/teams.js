@@ -33,7 +33,10 @@ if (url.searchParams.has("group")) {
     if (url.searchParams.has("team")) {
         const team = group.children[url.searchParams.get("team")];
         team.scrollIntoView({ behavior: "smooth", block: "center" });
-        setTimeout(() => { team.classList.add("active"); }, 500);
+        setTimeout(() => { team.classList.add("active"); }, 1000);
+        document.body.addEventListener("mousedown", () => {
+            team.classList.remove("active");
+        }, { once: true })
     } else {
         group.scrollIntoView({ behavior: "smooth", block: "center" });
     }

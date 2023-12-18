@@ -40,16 +40,16 @@ for (const week of schedule) {
             <div class="time">
                 ${new Date(`${week.date}T${slot.time}Z`).toLocaleTimeString()}
             </div>
-            <div class="group">Group ${slot.group}</div>
+            <div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>
             <div class="matchup">
                 <div class="matchup-team">
                     <img class="icon" title="${teams[0].name}" src="${icons[1]}">
-                    ${teams[0].name}
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}">${teams[0].name}</a>
                 </div>
                 <div class="matchup-vs"><hr>vs<hr></div>
                 <div class="matchup-team">
                     <img class="icon" title="${teams[1].name}" src="${icons[2]}">
-                    ${teams[1].name}
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}">${teams[1].name}</a>
                 </div>
             </div>
             <div class="results">

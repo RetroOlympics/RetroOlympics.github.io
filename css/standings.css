@@ -7,8 +7,9 @@ main {
 }
 
 main > h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
+    text-align: center;
 }
 
 .group {

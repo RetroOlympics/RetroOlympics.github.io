@@ -26,7 +26,13 @@ Schedule:
 
 - Remove seconds from start times
 - Signify play-in teams with tooltip explaining
+- Link to game challenge in result section
 - Show team card on hover
+- Show game card on hover
+
+Games:
+
+- Add link to the leaderboard if the game has one
 
 Refactoring:
 

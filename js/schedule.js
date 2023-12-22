@@ -8,7 +8,7 @@ let output = "";
 
 for (const week of schedule) {
     const date = new Date(`${week.date}T17:00Z`).toDateString();
-    output += `<div class="schedule"><div class="header"><span>${week.name}</span>${date}`;
+    output += `<div class="schedule"><div class="header"><h3>${week.name}</h3>${date}`;
     if (week.timeslots.length == 0) {
         output += `<span class="tbd">TBD</span></div></div>`;
         continue;

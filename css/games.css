@@ -13,7 +13,8 @@
 }
 
 .gamegroup {
-    height: 100%;
+    width: 100%;
+    max-width: 1300px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -24,15 +25,12 @@
 }
 
 .gamegroup > h1 {
-    font-size: 36px;
     color: #fff;
     grid-column: 1 / span 3;
     border-bottom: 2px white solid;
 }
 
 .gamegroup .card {
-    width: 500px;
-    height: auto;
     aspect-ratio: 5 / 3;
 }
 
@@ -47,7 +45,6 @@
     justify-content: center;
     padding: 20px;
     gap: 20px;
-    font-size: 20px;
 }
 
 .gamegroup .card-back > .card-info {
@@ -55,11 +52,11 @@
     flex-direction: column;
     grid-column: 2 / span 4;
     height: 100%;
-    padding: 20px 0;
+    overflow: auto;
 }
 
 .gamegroup .card-info > p {
-    font-family: sans-serif;
+    line-height: 1.25;
     flex: 1;
     display: flex;
     align-items: center;
@@ -75,6 +72,7 @@
     color: white;
     border-radius: 8px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .gamegroup .card-links {
@@ -106,21 +104,10 @@
     image-rendering: pixelated;
 }
 
-@media (max-width: 1550px) {
-    .gamegroup .card {
-        width: 100%;
-        min-width: 400px;
-    }
-
-    .gamegroup .card-back {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     .gamegroup {
         grid-template-columns: 1fr;
-        grid-template-rows: 36px repeat(3, 1fr);
+        grid-template-rows: 3em repeat(3, 1fr);
         width: 100%;
         max-width: 500px;
     }
@@ -131,15 +118,5 @@
 
     .gamegroup > h1 {
         grid-column: 1;
-    }
-
-    .gamegroup .card-back {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 500px) {
-    .gamegroup .card-back {
-        font-size: 14px;
     }
 }

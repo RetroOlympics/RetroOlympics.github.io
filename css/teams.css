@@ -30,8 +30,11 @@
     flex: 1;
 }
 
+.teamgroup#groupA .card-back p {
+    font-size: 1em;
+}
+
 .teamgroup > h1 {
-    font-size: 36px;
     color: #fff;
     grid-column: 1 / span 4;
     border-bottom: 2px white solid;
@@ -42,8 +45,8 @@
     padding: 5% 15%;
 }
 
-.teamgroup .card-back > h1 {
-    font-size: 1.5em;
+.teamgroup .card-back > h2 {
+    font-weight: normal;
     text-align: center;
     min-height: 2em;
 }
@@ -84,7 +87,7 @@
 
 .teamgroup .card-back .user > p {
     grid-column: 2 / span 2;
-    font-size: 20px;
+    font-size: 1.15em;
     text-align: center;
 }
 
@@ -97,6 +100,10 @@
     .teamgroup .card,
     .teamgroup#groupA .card {
         aspect-ratio: 5 / 3;
+    }
+
+    .teamgroup#groupA .card-back .user > p {
+        font-size: 1.15em;
     }
 
     .teamgroup {
@@ -119,7 +126,7 @@
         padding: 5%;
     }
 
-    .teamgroup .card-back > h1 {
+    .teamgroup .card-back > h2 {
         display: none;
     }
 

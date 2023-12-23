@@ -41,3 +41,18 @@ for (const group of games) {
 }
 
 container.innerHTML = output;
+
+const url = new URL(window.location.href);
+if (url.searchParams.has("week")) {
+    const week = document.querySelectorAll(".gamegroup")[url.searchParams.get("week") - 1];
+    if (url.searchParams.has("game")) {
+        const game = week.children[url.searchParams.get("game")];
+        game.scrollIntoView({ behavior: "smooth", block: "center" });
+        setTimeout(() => { game.classList.add("active"); }, 1000);
+        document.body.addEventListener("mousedown", () => {
+            game.classList.remove("active");
+        }, { once: true })
+    } else {
+        week.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+}

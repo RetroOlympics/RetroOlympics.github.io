@@ -25,6 +25,7 @@
             "group": "A",
             "team1": 5,
             "team2": 1,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -119,6 +120,7 @@
             "group": "A",
             "team1": 4,
             "team2": 2,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -213,6 +215,7 @@
             "group": "A",
             "team1": 3,
             "team2": 5,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -307,6 +310,7 @@
             "group": "A",
             "team1": 2,
             "team2": 4,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -401,6 +405,7 @@
             "group": "A",
             "team1": 1,
             "team2": 3,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -495,6 +500,7 @@
             "group": "A",
             "team1": 5,
             "team2": 2,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -589,6 +595,7 @@
             "group": "A",
             "team1": 2,
             "team2": 1,
+            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {

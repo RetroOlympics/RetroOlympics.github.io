@@ -14,7 +14,7 @@ for (const [group, teams] of Object.entries(groups)) {
             </div>
             <div class="card-back">
                 <img src="${team.icon}">
-                <h1>${team.name}</h1>
+                <h2>${team.name}</h2>
                 <div class="teamlist">
         `;
         for (const user of team.members) {

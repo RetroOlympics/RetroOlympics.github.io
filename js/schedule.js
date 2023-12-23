@@ -65,7 +65,11 @@ for (const [weeknum, week] of schedule.entries()) {
         `;
         for (let i = 0; i < 3; i++) {
             const alt = games[i].name;
-            output += `<img class="game" alt="${alt}" title="${alt}" src="${games[i].image}">`
+            output += `
+                <a href="/games.html?week=${weeknum + 1}&game=${i + 1}">
+                    <img class="game" alt="${alt}" title="${alt}" src="${games[i].image}">
+                </a>
+            `;
         }
         for (let i = 0; i < 3; i++) {
             const res = slot.results[i];

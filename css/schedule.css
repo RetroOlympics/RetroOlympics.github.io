@@ -184,9 +184,13 @@
     justify-items: center;
 }
 
+.schedule .table .results a {
+    width: 2.5em;
+    height: 2.5em;
+}
+
 .schedule .table .results img.game {
-    width: 75%;
-    max-width: 2.5em;
+    width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }

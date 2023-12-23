@@ -24,7 +24,6 @@ Standings:
 
 Schedule:
 
-- Link to game challenge in result section
 - Show team card on hover
 - Show game card on hover
 

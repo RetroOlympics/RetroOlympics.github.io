@@ -6,14 +6,22 @@ const allgames = await fetch("/json/games.json").then(res => res.json());
 const schedule = await fetch("/json/schedule.json").then(res => res.json());
 let output = "";
 
-for (const week of schedule) {
+for (const [weeknum, week] of schedule.entries()) {
     const date = new Date(`${week.date}T17:00Z`).toDateString();
     output += `<div class="schedule"><div class="header"><h3>${week.name}</h3>${date}`;
     if (week.timeslots.length == 0) {
-        output += `<span class="tbd">TBD</span></div></div>`;
+        output += `<span class="right">TBD</span></div></div>`;
         continue;
     } else {
-        output += `</div><div class="table">
+        output += `
+            <div class="timezone right">
+                <input type="checkbox" id="timezone${weeknum}">
+                <label for="timezone${weeknum}">
+                    <span>Localtime</span>
+                    <span>UTC</span>
+                </label>
+            </div>
+            </div><div class="table">
             <div class="table-head">
                 <span class="head">Hosts</span>
                 <span class="head">Time</span>
@@ -37,8 +45,8 @@ for (const week of schedule) {
                 <ra-userpic>${slot.hosts[0] !== undefined ? slot.hosts[0] : ""}</ra-userpic>
                 ${slot.hosts[1] !== undefined ? `<ra-userpic>${slot.hosts[1]}</ra-userpic>` : ""}
             </div>
-            <div class="time">
-                ${new Date(`${week.date}T${slot.time}Z`).toLocaleTimeString()}
+            <div class="time" data-time="${week.date}T${slot.time}Z">
+                ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(new Date(`${week.date}T${slot.time}Z`))}
             </div>
             <div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>
             <div class="matchup">
@@ -86,5 +94,19 @@ for (const table of document.querySelectorAll(".schedule .table")) {
 
     data.addEventListener("scroll", (ev) => {
         setWidths(ev.target);
+    });
+}
+
+for (const checkbox of document.querySelectorAll(`.schedule .header .timezone input[type="checkbox"]`)) {
+    checkbox.addEventListener("change", () => {
+        const schedule = checkbox.closest(".schedule");
+        for (const time of schedule.querySelectorAll(".table .table-data .row .time")) {
+            const date = new Date(time.dataset.time);
+            if (checkbox.checked) {
+                time.innerText = Intl.DateTimeFormat([], { timeZone: "UTC", timeStyle: "short" }).format(date);
+            } else {
+                time.innerText = Intl.DateTimeFormat([], { timeStyle: "short" }).format(date);
+            }
+        }
     });
 }

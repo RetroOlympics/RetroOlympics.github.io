@@ -22,12 +22,44 @@
     align-items: center;
     width: 100%;
     background-color: #ddd;
-    padding: 1rem 1rem;
+    padding: 10px;
     gap: 1em;
 }
 
-.schedule .header span.tbd {
+.schedule .header .right {
     margin-left: auto;
+}
+
+.schedule .header .timezone {
+    height: 100%;
+    font-size: 0.85em;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #777;
+}
+
+.schedule .header .timezone input[type="checkbox"] {
+    display: none;
+}
+
+.schedule .header .timezone label {
+    display: flex;
+    cursor: pointer;
+}
+
+.schedule .header .timezone label span {
+    padding: 0.5em;
+    background-color: #777;
+    transition: background-color 0.25s ease;
+}
+
+.schedule .header .timezone label span:nth-child(1),
+.schedule .header .timezone input[type="checkbox"]:checked + label span:nth-child(2) {
+    background-color: #ddd;
+}
+
+.schedule .header .timezone input[type="checkbox"]:checked + label span:nth-child(1) {
+    background-color: #777;
 }
 
 .schedule .table {

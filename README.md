@@ -24,8 +24,6 @@ Standings:
 
 Schedule:
 
-- Remove seconds from start times
-- Signify play-in teams with tooltip explaining
 - Link to game challenge in result section
 - Show team card on hover
 - Show game card on hover
@@ -37,5 +35,6 @@ Games:
 
 Refactoring:
 
-- Abstract out table css used in standings/schedule - BUG
+- Abstract out table css used in standings/schedule
+- Refactor front page
 - Redo colors in tables

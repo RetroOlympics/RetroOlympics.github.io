@@ -3,7 +3,7 @@
 const container = document.getElementById("schedule-container");
 const groups = await fetch("/json/teams.json").then(res => res.json());
 const allgames = await fetch("/json/games.json").then(res => res.json());
-const schedule = await fetch("/json/schedule.json").then(res => res.json());
+const schedule = await fetch("/json/schedule.json", { cache: "no-cache" }).then(res => res.json());
 let output = "";
 
 for (const [weeknum, week] of schedule.entries()) {
@@ -58,6 +58,7 @@ for (const [weeknum, week] of schedule.entries()) {
                 <div class="matchup-team">
                     <img class="icon" title="${teams[1].name}" src="${icons[2]}">
                     <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}">${teams[1].name}</a>
+                    ${slot.rolled ? `<span class="rolled" title="Team is defending only and will not receive points for this match">*</span>` : ""}
                 </div>
             </div>
             <div class="results">

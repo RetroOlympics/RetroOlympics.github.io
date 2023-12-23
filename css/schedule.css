@@ -171,6 +171,12 @@
     vertical-align: middle;
 }
 
+.schedule .table .matchup-team .rolled {
+    position: relative;
+    top: 2px;
+    cursor: help;
+}
+
 .schedule .table .results {
     display: grid;
     grid-template: 1.5fr 1fr / 1fr 1fr 1fr;

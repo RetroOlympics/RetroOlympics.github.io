@@ -52,7 +52,7 @@
     flex-direction: column;
     grid-column: 2 / span 4;
     height: 100%;
-    padding: 20px 0;
+    overflow: auto;
 }
 
 .gamegroup .card-info > p {
@@ -72,6 +72,7 @@
     color: white;
     border-radius: 8px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .gamegroup .card-links {

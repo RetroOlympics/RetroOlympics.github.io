@@ -33,6 +33,7 @@ Schedule:
 Games:
 
 - Add link to the leaderboard if the game has one
+- Markdown support
 
 Refactoring:
 

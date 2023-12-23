@@ -13,7 +13,7 @@
         },
         {
             "name": "Street Fighter III: 3rd Strike",
-            "challenge": "Both contestants select 3 fighters and submit these ahead of the match to the referee. You keep using each character until you lose a fight with them. First one to run out of characters, loses.",
+            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. If you win with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win with all 3 characters wins the match.",
             "image": "img/sf3.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"
@@ -108,7 +108,7 @@
         },
         {
             "name": "Super Puzzle Fighter 2 Turbo",
-            "challenge": "Both contestants select 2 fighters and submit these ahead of the match to the referee. You keep using the same character until you lose a BO3 fight with them. Hidden characters not allowed. First one to run out of characters, loses.",
+            "challenge": "Both contestants select 2 non-hidden characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch characters. First to win a Bo3 with both characters wins the match.",
             "image": "img/spf2.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"
@@ -129,7 +129,7 @@
     "games": [
         {
             "name": "Windjammers",
-            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. You keep using the same character until you lose a BO3 fight with them. Start on Beach, loser selects the next stage. First one to run out of characters, loses.",
+            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win a Bo3 with all 3 characters wins the match. Start on Beach, loser selects next stage.",
             "image": "img/wj.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"
@@ -170,7 +170,7 @@
         },
         {
             "name": "Street Hoop",
-            "challenge": "Both contestants select 3 teams and submit these ahead of the match to the referee. You keep using the same team until you lose a game with them. First one to run out of teams, loses.",
+            "challenge": "Both contestants select 3 teams and submit these ahead of the match to the referee. If you win with a team, you may not use them again. If you lose, you are free to switch to any of your available teams. First to win with all 3 teams wins the match.",
             "image": "img/sh.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"
@@ -178,7 +178,7 @@
         {
             "name": "Dance Dance Revolution: 5th Mix",
             "challenge": [
-                "BO3 - Highest Score Wins (Game Mode - Single - Maniac - EX Scoring. Perfect X2 Points - Great X1 Point)",
+                "BO3 - Highest Score Wins (Single - Maniac - EX Scoring. Perfect X2 Points - Great X1 Point)",
                 "Song 1: No Limit (RM Remix) / 2 Unlimited",
                 "Song 2: Broken My Heart / Naoki",
                 "Song 3: Insertion / Naoki underground"
@@ -237,7 +237,7 @@
         },
         {
             "name": "Marvel vs. Capcom: Clash of Super Heroes",
-            "challenge": "Both contestants select 5 fighters and submit these ahead of the match to the referee. You keep using each character until you lose a fight with them. First one to run out of characters, loses.",
+            "challenge": "Both contestants select 5 fighters and submit these ahead of the match to the referee. If you win with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win with all 5 characters wins the match.",
             "image": "img/mvc.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"
@@ -263,9 +263,7 @@
     "games": [
         {
             "name": "Neo Bomberman",
-            "challenge": [
-                "Both contestants select 3 characters and submit these ahead of the match to the referee. You keep using the same character until you lose a BO3 fight with them. First one to run out of characters, loses."
-            ],
+            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win a Bo3 with all 3 characters wins the match.",
             "image": "img/neob.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"
@@ -316,9 +314,7 @@
         },
         {
             "name": "Super Smash Bros. Melee (Slippi)",
-            "challenge": [
-                "Both contestants select 3 characters and submit these ahead of the match to the referee. You keep using the same character until you lose a stock fight with them. First one to run out of characters, loses."
-            ],
+            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. If you win a stock fight with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win with all 3 characters wins the match.",
             "image": "img/melee.png",
             "console": "img/console/slippi.png",
             "type": "",

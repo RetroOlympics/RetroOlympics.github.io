@@ -7,8 +7,8 @@ const schedule = await fetch("/json/schedule.json", { cache: "no-cache" }).then(
 let output = "";
 
 for (const [weeknum, week] of schedule.entries()) {
-    const date = new Date(`${week.date}T17:00Z`).toDateString();
-    output += `<div class="schedule"><div class="header"><h3>${week.name}</h3>${date}`;
+    const date = new Date(`${week.date}T${week.start}Z`);
+    output += `<div class="schedule"><div class="header"><h3>${week.name}</h3>${date.toDateString()}`;
     if (week.timeslots.length == 0) {
         output += `<span class="right">TBD</span></div></div>`;
         continue;
@@ -33,6 +33,7 @@ for (const [weeknum, week] of schedule.entries()) {
             <div class="table-data">
         `;
     }
+    let time = new Date(date);
     for (const slot of week.timeslots) {
         const teams = [
             groups[slot.group][slot.team1 - 1],
@@ -45,8 +46,8 @@ for (const [weeknum, week] of schedule.entries()) {
                 <ra-userpic>${slot.hosts[0] !== undefined ? slot.hosts[0] : ""}</ra-userpic>
                 ${slot.hosts[1] !== undefined ? `<ra-userpic>${slot.hosts[1]}</ra-userpic>` : ""}
             </div>
-            <div class="time" data-time="${week.date}T${slot.time}Z">
-                ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(new Date(`${week.date}T${slot.time}Z`))}
+            <div class="time" data-time="${time.toISOString()}">
+                ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(time)}
             </div>
             <div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>
             <div class="matchup">
@@ -77,6 +78,8 @@ for (const [weeknum, week] of schedule.entries()) {
             output += `<img class="icon" alt="${alt}" title="${alt}" src="${icons[res]}">`;
         }
         output += "</div></div>";
+
+        time = new Date(time.getTime() + 1800000);
     }
     output += `</div><div class="more-right">→</div></div></div>`;
 }

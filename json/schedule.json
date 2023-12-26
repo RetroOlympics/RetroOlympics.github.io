@@ -2,9 +2,9 @@
 {
     "name": "Week 1",
     "date": "2024-01-06",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -12,7 +12,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 3,
@@ -20,7 +19,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 5,
@@ -29,7 +27,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -37,7 +34,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 3,
@@ -45,7 +41,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -53,7 +48,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 3,
@@ -61,7 +55,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -69,7 +62,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 3,
@@ -77,7 +69,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -85,7 +76,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 3,
@@ -97,9 +87,9 @@
 {
     "name": "Week 2",
     "date": "2024-01-13",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -107,7 +97,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 2,
@@ -115,7 +104,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 4,
@@ -124,7 +112,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -132,7 +119,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 2,
@@ -140,7 +126,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -148,7 +133,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 2,
@@ -156,7 +140,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -164,7 +147,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 2,
@@ -172,7 +154,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -180,7 +161,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 2,
@@ -192,9 +172,9 @@
 {
     "name": "Week 3",
     "date": "2024-01-20",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -202,7 +182,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 2,
@@ -210,7 +189,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 3,
@@ -219,7 +197,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -227,7 +204,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 2,
@@ -235,7 +211,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -243,7 +218,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 2,
@@ -251,7 +225,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -259,7 +232,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 2,
@@ -267,7 +239,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -275,7 +246,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 2,
@@ -287,9 +257,9 @@
 {
     "name": "Week 4",
     "date": "2024-01-27",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -297,7 +267,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 3,
@@ -305,7 +274,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 2,
@@ -314,7 +282,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -322,7 +289,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 3,
@@ -330,7 +296,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -338,7 +303,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 3,
@@ -346,7 +310,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -354,7 +317,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 3,
@@ -362,7 +324,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -370,7 +331,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 3,
@@ -382,9 +342,9 @@
 {
     "name": "Week 5",
     "date": "2024-02-03",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 2,
@@ -392,7 +352,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 4,
@@ -400,7 +359,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -409,7 +367,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -417,7 +374,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 2,
@@ -425,7 +381,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -433,7 +388,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 2,
@@ -441,7 +395,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -449,7 +402,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 2,
@@ -457,7 +409,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -465,7 +416,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 2,
@@ -477,9 +427,9 @@
 {
     "name": "Week 6",
     "date": "2024-02-10",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -487,7 +437,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 3,
@@ -495,7 +444,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 5,
@@ -504,7 +452,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -512,7 +459,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 2,
@@ -520,7 +466,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -528,7 +473,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 2,
@@ -536,7 +480,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -544,7 +487,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 2,
@@ -552,7 +494,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -560,7 +501,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 2,
@@ -572,9 +512,9 @@
 {
     "name": "Week 7",
     "date": "2024-02-17",
+    "start": "17:00",
     "timeslots": [
         {
-            "time": "17:00",
             "hosts": [],
             "group": "A",
             "team1": 1,
@@ -582,7 +522,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "17:30",
             "hosts": [],
             "group": "A",
             "team1": 4,
@@ -590,7 +529,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:00",
             "hosts": [],
             "group": "A",
             "team1": 2,
@@ -599,7 +537,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "18:30",
             "hosts": [],
             "group": "B",
             "team1": 1,
@@ -607,7 +544,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:00",
             "hosts": [],
             "group": "B",
             "team1": 3,
@@ -615,7 +551,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "19:30",
             "hosts": [],
             "group": "C",
             "team1": 1,
@@ -623,7 +558,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:00",
             "hosts": [],
             "group": "C",
             "team1": 3,
@@ -631,7 +565,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "20:30",
             "hosts": [],
             "group": "D",
             "team1": 1,
@@ -639,7 +572,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:00",
             "hosts": [],
             "group": "D",
             "team1": 3,
@@ -647,7 +579,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "21:30",
             "hosts": [],
             "group": "E",
             "team1": 1,
@@ -655,7 +586,6 @@
             "results": [ 0, 0, 0 ]
         },
         {
-            "time": "22:00",
             "hosts": [],
             "group": "E",
             "team1": 3,
@@ -667,21 +597,25 @@
 {
     "name": "Last 16",
     "date": "2024-02-24",
+    "start": "17:00",
     "timeslots": []
 },
 {
     "name": "Quarter Finals",
     "date": "2024-03-02",
+    "start": "17:00",
     "timeslots": []
 },
 {
     "name": "Semi Finals",
     "date": "2024-03-09",
+    "start": "17:00",
     "timeslots": []
 },
 {
     "name": "Finals",
     "date": "2024-03-16",
+    "start": "17:00",
     "timeslots": []
 }
 ]

@@ -17,8 +17,8 @@ for (const [weeknum, week] of schedule.entries()) {
             <div class="timezone right">
                 <input type="checkbox" id="timezone${weeknum}">
                 <label for="timezone${weeknum}">
-                    <span>Localtime</span>
-                    <span>UTC</span>
+                    <span class="local"></span>
+                    <span class="utc"></span>
                 </label>
             </div>
             </div><div class="table">

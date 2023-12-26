@@ -24,6 +24,7 @@
     background-color: #ddd;
     padding: 10px;
     gap: 1em;
+    text-align: center;
 }
 
 .schedule .header .right {
@@ -51,6 +52,19 @@
     padding: 0.5em;
     background-color: #777;
     transition: background-color 0.25s ease;
+    user-select: none;
+}
+
+.schedule .header .timezone label span.local::after {
+    content: "Localtime";
+    display: block;
+    height: 1rem;
+}
+
+.schedule .header .timezone label span.utc::after {
+    content: "UTC";
+    display: block;
+    height: 1rem;
 }
 
 .schedule .header .timezone label span:nth-child(1),
@@ -277,5 +291,15 @@
     .schedule .table .more-right {
         right: 0px;
         border-left: 2px solid #999;
+    }
+}
+
+@media (max-width: 500px) {
+    .schedule .header .timezone label span.local::after {
+        content: "L";
+    }
+
+    .schedule .header .timezone label span.utc::after {
+        content: "U";
     }
 }

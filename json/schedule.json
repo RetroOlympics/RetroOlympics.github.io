@@ -20,14 +20,6 @@
         },
         {
             "hosts": [],
-            "group": "A",
-            "team1": 5,
-            "team2": 1,
-            "rolled": true,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 2,
@@ -100,15 +92,7 @@
             "hosts": [],
             "group": "A",
             "team1": 2,
-            "team2": 5,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
-            "team1": 4,
-            "team2": 2,
-            "rolled": true,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -178,22 +162,14 @@
             "hosts": [],
             "group": "A",
             "team1": 1,
-            "team2": 5,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
-            "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
             "hosts": [],
             "group": "A",
-            "team1": 3,
-            "team2": 5,
-            "rolled": true,
+            "team1": 2,
+            "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -263,22 +239,14 @@
             "hosts": [],
             "group": "A",
             "team1": 1,
-            "team2": 4,
+            "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
             "hosts": [],
             "group": "A",
             "team1": 3,
-            "team2": 5,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
-            "team1": 2,
             "team2": 4,
-            "rolled": true,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -347,23 +315,15 @@
         {
             "hosts": [],
             "group": "A",
-            "team1": 2,
-            "team2": 3,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
-            "team1": 4,
-            "team2": 5,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
             "team1": 1,
             "team2": 3,
-            "rolled": true,
+            "results": [ 0, 0, 0 ]
+        },
+        {
+            "hosts": [],
+            "group": "A",
+            "team1": 2,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -433,22 +393,14 @@
             "hosts": [],
             "group": "A",
             "team1": 1,
-            "team2": 2,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
-            "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
             "hosts": [],
             "group": "A",
-            "team1": 5,
-            "team2": 2,
-            "rolled": true,
+            "team1": 2,
+            "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
@@ -518,22 +470,14 @@
             "hosts": [],
             "group": "A",
             "team1": 1,
-            "team2": 3,
+            "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
             "hosts": [],
             "group": "A",
-            "team1": 4,
-            "team2": 5,
-            "results": [ 0, 0, 0 ]
-        },
-        {
-            "hosts": [],
-            "group": "A",
-            "team1": 2,
-            "team2": 1,
-            "rolled": true,
+            "team1": 3,
+            "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {

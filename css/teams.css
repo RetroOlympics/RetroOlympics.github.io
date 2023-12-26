@@ -25,15 +25,6 @@
     flex: 1;
 }
 
-.teamgroup#groupA .card {
-    aspect-ratio: 3 / 5;
-    flex: 1;
-}
-
-.teamgroup#groupA .card-back p {
-    font-size: 1em;
-}
-
 .teamgroup > h1 {
     color: #fff;
     grid-column: 1 / span 4;
@@ -97,13 +88,8 @@
         height: auto;
     }
 
-    .teamgroup .card,
-    .teamgroup#groupA .card {
+    .teamgroup .card {
         aspect-ratio: 5 / 3;
-    }
-
-    .teamgroup#groupA .card-back .user > p {
-        font-size: 1.15em;
     }
 
     .teamgroup {

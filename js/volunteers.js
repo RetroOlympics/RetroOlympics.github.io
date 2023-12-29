@@ -3,7 +3,6 @@ const volunteers = {
     "Searo": "Co-Host & Leaderboard Developer",
     "starblades": "Shoutcaster & Media",
     "StingX2": "Shoutcaster",
-    "Taysuu": "Shoutcaster",
     "TimeCrush": "Shoutcaster",
     "Wimpyfox": "Shoutcaster",
     "wolfman2000": "Shoutcaster",

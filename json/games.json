@@ -237,7 +237,7 @@
         },
         {
             "name": "Marvel vs. Capcom: Clash of Super Heroes",
-            "challenge": "Both contestants select 5 fighters and submit these ahead of the match to the referee. If you win with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win with all 5 characters wins the match.",
+            "challenge": "Both contestants select 5 non-hidden fighters and submit these ahead of the match to the referee. If you win with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win with all 5 characters wins the match.",
             "image": "img/mvc.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"

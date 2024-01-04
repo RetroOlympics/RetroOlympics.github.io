@@ -6,6 +6,8 @@ const volunteers = {
     "TimeCrush": "Shoutcaster",
     "Wimpyfox": "Shoutcaster",
     "wolfman2000": "Shoutcaster",
+    "RaphMec": "Shoutcaster",
+    "freezestar": "Shoutcaster",
     "Pampa50": "Referee",
     "soltyd": "Referee",
     "Amir96lx": "Referee",

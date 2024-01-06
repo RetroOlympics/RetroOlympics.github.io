@@ -112,7 +112,12 @@
             "group": "E",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 1, 2 ],
+            "desc": [
+                "Adenothe 03:59.98 (L) vs Amir96lx 03:13.51 (W)",
+                "hirumaspace (Akuma, Ken, Ryu) 3 (W) vs AuburnRDM (Dudley, Oro, Yang) 0 (L)",
+                "Pampa50 (Dies on second half of stage) (L) vs jelloknifee 06:24.81 (W)"
+            ]
         }
     ]
 },

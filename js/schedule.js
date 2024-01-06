@@ -39,6 +39,17 @@ for (const [weeknum, week] of schedule.entries()) {
             groups[slot.group][slot.team1 - 1],
             groups[slot.group][slot.team2 - 1],
         ];
+
+        const wins = slot.results.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
+        let winner = 0;
+        if (wins.get(1) == undefined && wins.get(2) == undefined) {
+            winner = 0
+        } if (wins.get(1) > wins.get(2) || (wins.get(1) && wins.get(2) == undefined)) {
+            winner = 1;
+        } else if (wins.get(2) > wins.get(1) || (wins.get(2) && wins.get(1) == undefined)) {
+            winner = 2;
+        }
+
         const games = allgames.find(gr => gr.groupname === week.name).games;
         const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
         output += `<div class="row">
@@ -53,12 +64,18 @@ for (const [weeknum, week] of schedule.entries()) {
             <div class="matchup">
                 <div class="matchup-team">
                     <img class="icon" title="${teams[0].name}" src="${icons[1]}">
-                    <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}">${teams[0].name}</a>
+                    ${winner == 1 ? "<strong>" : ""}
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" ${winner == 1 ? `class="winner"`:""}>
+                        ${teams[0].name}
+                    </a>
+                    ${winner == 1 ? "</strong>" : ""}
                 </div>
                 <div class="matchup-vs"><hr>vs<hr></div>
                 <div class="matchup-team">
                     <img class="icon" title="${teams[1].name}" src="${icons[2]}">
-                    <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}">${teams[1].name}</a>
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}" ${winner == 2 ? `class="winner"`:""}>
+                        ${teams[1].name}
+                    </a>
                     ${slot.rolled ? `<span class="rolled" title="Team is defending only and will not receive points for this match">*</span>` : ""}
                 </div>
             </div>

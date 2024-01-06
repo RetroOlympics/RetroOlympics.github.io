@@ -181,6 +181,10 @@
     line-height: 1.5;
 }
 
+.schedule .table .matchup-team a.winner {
+    font-weight: bold;
+}
+
 .schedule .table .matchup-team .icon {
     vertical-align: middle;
 }

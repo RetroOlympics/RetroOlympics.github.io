@@ -33,7 +33,12 @@
             "group": "B",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 2, 1 ],
+            "desc": [
+                "xClawz 03:15.46 (W) VS freezestar 03:55.00 (L)",
+                "Sairotra (Gouki/Chun-Li/Ken) 0 (L) VS Retrokaiser (Hugo/Ryu/Q) 3 (W)",
+                "Xymjak Dies on the main boss (W) VS BloodParade Dies on the first miniboss (L)"
+            ]
         },
         {
             "hosts": [],

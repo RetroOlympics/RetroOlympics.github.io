@@ -9,7 +9,12 @@
             "group": "A",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 1 ],
+            "desc": [
+                "BendyHuman (3:25.56) (L) vs illikepie345 (3:17.60) (W)",
+                "KlydeKadell (Chun Li, Ryu, Ken) (L) vs Fruitpop (Ken, Oro, Urien) (W)",
+                "Gamechamp (5:01.45) (W) vs Blazekickn (Death near start of level) (L)"
+            ]
         },
         {
             "hosts": [],

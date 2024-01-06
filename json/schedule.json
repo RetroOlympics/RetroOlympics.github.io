@@ -45,7 +45,12 @@
             "group": "B",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 2, 2 ],
+            "desc":[
+                "TheoVellum 03:13.96 (W) VS GalacticSpear 03:22.23 (L)",
+                "AlexC25 (Elena/Ibuki/Ken) 0 (L) VS LivRetro (Ken/Chun Li/Akuma) 3 (W)",
+                "VenHur Dead on the first miniboss (L) VS DavidYTBR2 05:51.63 (W)"
+            ]
         },
         {
             "hosts": [],

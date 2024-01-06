@@ -69,7 +69,12 @@
             "group": "C",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 1, 2 ],
+            "desc": [
+                "justyellow (03:55.58) (L) vs Eldorian (03:35.28) (W)",
+                "missiray (Gouki, Ken, Ryu) 3 (W) vs Zexerous (Hugo, Yang, Ken) 0 (L)",
+                "DanielARP (Death at first mini boss) (L) vs BalrogRPG (06:59.36) (W)"
+            ]
         },
         {
             "hosts": [],

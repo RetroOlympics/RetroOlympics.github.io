@@ -88,7 +88,12 @@
             "group": "D",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 2 ],
+            "desc": [
+                "Keywiz 04:19.70 (L) VS Nickyy 03:26.70 (W)",
+                "Zegjita (Ikubi/Makoto/Chun-li) 1 (L) VS Doggy227 (Ryu/Ken/Akuma) 3 (W)",
+                "psyduck VS 07:42.48 (L) A3r1uS 05:31.90 (W)"
+            ]
         },
         {
             "hosts": [],

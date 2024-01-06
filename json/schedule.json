@@ -100,7 +100,12 @@
             "group": "E",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 1, 1 ],
+            "desc": [
+                "HardSonicStorm 03:43.45 (W) VS Yoshikiller109 03:50.05 (L)",
+                "Blueby (Dudley, Makoto, Yun) 3 (W) vs Evllnk2565 (Yun, Makoto, Ken) 1 (L)",
+                "Crazeuh dies on the first boss (W) VS ReadyCard53 Dies on the early first part, didn't even reach the miniboss (L)"
+            ]
         },
         {
             "hosts": [],

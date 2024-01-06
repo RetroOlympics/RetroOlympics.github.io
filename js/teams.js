@@ -15,12 +15,15 @@ for (const [group, teams] of Object.entries(groups)) {
             <div class="card-back">
                 <img src="${team.icon}">
                 <h2>${team.name}</h2>
-                <div class="teamlist">
         `;
-        for (const user of team.members) {
-            output += `<div class="user"><ra-userpic>${user}</ra-userpic><p>${user}</p></div>`;
+        if (team.members.length != 0) {
+            output += `<div class="teamlist">`;
+            for (const user of team.members) {
+                output += `<div class="user"><ra-userpic>${user}</ra-userpic><p>${user}</p></div>`;
+            }
+            output += "</div>"
         }
-        output += "</div></div></div>";
+        output += "</div></div>";
     }
     output += "</div></div>";
 }

@@ -33,6 +33,7 @@
 }
 
 .teamgroup .card-back {
+    justify-content: center;
     padding: 5% 15%;
 }
 

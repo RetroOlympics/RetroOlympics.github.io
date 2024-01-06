@@ -81,7 +81,12 @@
             "group": "D",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 2 ],
+            "desc": [
+                "MonkeyBug 03:37.53 (W) vs voiceofautumn 04:44.31 (L)",
+                "Prota (Yang, Elena, Ken) 3 (W) vs voiceofautumn (N/A) (L)",
+                "AmazingBaha 06:13.06 (W) vs amine456 06:28.55 (L) (Volunteered to play)"
+            ]
         },
         {
             "hosts": [],

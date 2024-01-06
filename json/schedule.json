@@ -57,7 +57,12 @@
             "group": "C",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 1, 2 ],
+            "desc": [
+                "SebaMardo (03:22.85) (W) vs Nepiki (03:40.11) (L)",
+                "mankodax (Ryu, Gouki, Chun Li) 3 (W) vs Raichi (Gouki, Ryu and Ken) 1 (L)",
+                "ialfaro (05:45.78) (L) vs Kiutgh (05:23.86) (W)"
+            ]
         },
         {
             "hosts": [],

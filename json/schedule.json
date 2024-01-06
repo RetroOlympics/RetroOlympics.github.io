@@ -21,7 +21,12 @@
             "group": "A",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 1, 2 ],
+            "desc": [
+                "Probored 04:35.58 (L) VS r0ach3d 03:17.65 (W)",
+                "Maize (Ken/Ryu/Akuma) 3 (W) VS genesislover (Dudley/Q/Alex) 0 (L)",
+                "ChocoMilk 07:34.61 (L) VS Wimpyfox 05:49.93 (W)"
+            ]
         },
         {
             "hosts": [],

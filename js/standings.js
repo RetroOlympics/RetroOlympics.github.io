@@ -26,12 +26,18 @@ for (const [group, teams] of Object.entries(groups)) {
     for (const week of schedule) {
         for (const slot of week.timeslots) {
             if (slot.group == group) {
+                let points = [0, 0];
                 for (const result of slot.results) {
                     if (result == 0) {
                         continue;
                     } else {
-                        scores[slot["team" + result] - 1].n += 1;
+                        points[result - 1] += 1;
                     }
+                }
+                if (points[0] > points[1]) {
+                    scores[slot["team1"] - 1].n += 3;
+                } else if (points[1] > points[0]) {
+                    scores[slot["team2"] - 1].n += 3;
                 }
             }
         }

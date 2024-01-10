@@ -4,12 +4,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-main > h1 {
-    font-size: 3em;
-    color: #fff;
-    text-align: center;
+    padding: 1em 10%;
 }
 
 .group {
@@ -17,8 +12,8 @@ main > h1 {
     border-radius: 10px;
     overflow: hidden;
     margin: 1em;
-    font-size: 20px;
-    max-width: 500px;
+    font-size: 1.25rem;
+    width: 600px;
 }
 
 .group .header {
@@ -46,6 +41,7 @@ main > h1 {
     align-items: center;
     justify-content: center;
     padding: 0.5em;
+    gap: 0.5em;
 }
 
 .group .table .row:nth-child(even) > * {
@@ -56,15 +52,19 @@ main > h1 {
     background-color: #eee;
 }
 
-.group .table .row .icon {
+.group .table .row .team .icon {
     width: 1.5em;
     min-width: 1.5em;
     aspect-ratio: 1 / 1;
     object-fit: contain;
 }
 
-.group .table .row .team p span {
-    color: #777;
+.group .table .row .team a {
+    color: black;
+}
+
+.group .table .row .team a:hover {
+    text-decoration: underline;
 }
 
 .group .table .row .points {

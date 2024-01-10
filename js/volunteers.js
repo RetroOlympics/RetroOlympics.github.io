@@ -13,6 +13,7 @@ const volunteers = {
     "Amir96lx": "Referee",
     "coolscribble": "Referee",
     "Nickyy": "Referee",
+    "s0uth": "Referee",
     "Bartis1989": "Leaderboard Developer",
     "Bryan1150": "Leaderboard Developer",
     "clymax": "Leaderboard & Web Developer",

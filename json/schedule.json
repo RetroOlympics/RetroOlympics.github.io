@@ -160,7 +160,12 @@
             "group": "B",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 1, 1 ],
+            "desc": [
+                "Sairotra 0 (W Coin Toss) VS NeonHeart 0 (L Coin Toss) (Remix 2, 10, 8)",
+                "xClawz 459,093 (W) VS Alex-C25 505,120 (L)",
+                "Xymjak 06:50.36 (W) VS VenHur ? (L)"
+            ]
         },
         {
             "hosts": [],

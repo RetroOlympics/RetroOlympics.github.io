@@ -136,7 +136,12 @@
             "group": "A",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 1, 1 ],
+            "desc": [
+                "Bendyhuman 1 (L) vs Maize 3 (W) (Remix 1, 7, 9)",
+                "GameChamp 493,687 (Auto W) vs RetroGameMaster (not available)",
+                "KlydeKadell 05:59.22 (W) vs ChocoMilk 06:06.00 (L)"
+            ]
         },
         {
             "hosts": [],

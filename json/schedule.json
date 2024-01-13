@@ -218,7 +218,12 @@
             "group": "D",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 2 ],
+            "desc": [
+                "Prota 3 Superb (L Coin Toss - 19) vs Doggy227 3 Superb (W Coin Toss - 22) (Remix 6, 5, 4)",
+                "AmazingBaha 528,400 (L) vs Nickyy 497,642 (W)",
+                "MonkeyBug 07:23.28 (L) vs A3r1us 05:47.98 (W)"
+            ]
         },
         {
             "hosts": [],

@@ -196,7 +196,12 @@
             "group": "C",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 1, 1 ],
+            "desc": [
+                "Kiutgh 0 Superb (W Coin Toss - 9) vs BalrogRPG 0 Superb (L Coin Toss - 4) (Remix 7, 3, 5)",
+                "Raichi ? (W) VS Zexerous 485,481 (L)",
+                "Nepiki 05:52.84 (W) VS Eldorian 05:55.30 (L)"
+            ]
         },
         {
             "hosts": [],

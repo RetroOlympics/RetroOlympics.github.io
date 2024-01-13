@@ -184,7 +184,12 @@
             "group": "C",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 2 ],
+            "desc": [
+                "MankoDax 0 Superb (L) VS justyellow 1 Superb (W) (Remix - 2, 4, 6)",
+                "SebaMardo 505,866 (L) VS missiray 497,658 (W)",
+                "ialfaro 07:00.52 (L) VS DanielARP 06:50.36 (W)"
+            ]
         },
         {
             "hosts": [],

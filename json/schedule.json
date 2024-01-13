@@ -172,7 +172,12 @@
             "group": "B",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 2, 2 ],
+            "desc": [
+                "freezestar 2 Superb (W) VS LivRetro 0 Superb (L) (Remix - 8, 10, 2)",
+                "Retrokaiser 564,852 (L) VS SrOliveira 524,669 (W)",
+                "BloodParade 07:05.38 (L) VS GalacticSpear 06:14.20 (W)"
+            ]
         },
         {
             "hosts": [],

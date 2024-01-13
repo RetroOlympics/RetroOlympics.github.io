@@ -208,7 +208,10 @@
             "group": "D",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 2 ],
+            "desc": [
+                "Exhibition (Game 3): Zegjita (06:28.04) (W)"
+            ]
         },
         {
             "hosts": [],

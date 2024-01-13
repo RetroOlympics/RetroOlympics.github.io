@@ -148,7 +148,12 @@
             "group": "A",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 1, 2, 2 ],
+            "desc": [
+                "ilikepie345 3 (W) vs Wimpyfox 2 (L) (Remix 7, 1, 5)",
+                "Blazekickn 493,388 (L) vs r0ach3d 488,240 (W)",
+                "Fruitpop 06:22.98 (L) vs genesislover 06:04.40 (W)"
+            ]
         },
         {
             "hosts": [],

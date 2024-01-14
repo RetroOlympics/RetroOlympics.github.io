@@ -230,7 +230,12 @@
             "group": "E",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 1, 1 ],
+            "desc": [
+                "Blueby (forfeit) vs Pampa50 (W) (Remix 4, 1, 7)",
+                "Crazeuh 505,366 (W) vs Hiruma 526,559 (L)",
+                "HardSonicStorm 06:18.52 (W) vs Adenothe 07:14.76 (L)"
+            ]
         },
         {
             "hosts": [],

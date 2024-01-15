@@ -242,7 +242,12 @@
             "group": "E",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 2, 2, 2 ],
+            "desc": [
+                "Yoshikiller 3 Superb (L Coin Toss - 10) vs jelloknifee 3 Superb (W Coin Toss - 18) (Remix 5,2,8)",
+                "Readycard53 ? (L) vs Amir96lx 465,532 (W)",
+                "Evllnk2565 07:45.32 (L) vs AuburnRDM 05:56.90 (W)"
+            ]
         }
     ]
 },

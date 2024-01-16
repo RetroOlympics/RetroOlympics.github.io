@@ -16,7 +16,7 @@
         "name": "Uchida's Ushers",
         "image": "img/team/UchidasUshers.png",
         "icon": "img/icon/UchidasUshers.png",
-        "members": [ "ChocoMilk", "Maize", "Probored" ]
+        "members": [ "ChocoMilk", "Maize", "RetroGameMaster" ]
     },
     {
         "name": "Dark Link's Demons",
@@ -42,7 +42,7 @@
         "name": "Knuckles's Kommandos",
         "image": "img/team/KnucklesKommandos.png",
         "icon": "img/icon/KnucklesKommandos.png",
-        "members": [ "VenHur", "TheoVellum", "AlexC25" ]
+        "members": [ "VenHur", "AlexC25" ]
     },
     {
         "name": "Kirby's Knights",

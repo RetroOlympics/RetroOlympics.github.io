@@ -19,7 +19,7 @@ for (const [group, teams] of Object.entries(groups)) {
         if (team.members.length != 0) {
             output += `<div class="teamlist">`;
             for (const user of team.members) {
-                output += `<div class="user"><ra-userpic>${user}</ra-userpic><p>${user}</p></div>`;
+                output += `<div class="user${user.length >= 14 ? " small" : ""}"><ra-userpic>${user}</ra-userpic><p>${user}</p></div>`;
             }
             output += "</div>"
         }

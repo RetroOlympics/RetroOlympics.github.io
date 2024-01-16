@@ -89,7 +89,7 @@
 .schedule .table .table-head,
 .schedule .table .table-data {
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 2fr 1.5fr;
+    grid-template-columns: 1fr 1fr 2fr 1.5fr;
 }
 
 .schedule .table .table-head {

@@ -23,7 +23,6 @@ for (const [weeknum, week] of schedule.entries()) {
             </div>
             </div><div class="table">
             <div class="table-head">
-                <span class="head">Hosts</span>
                 <span class="head">Time</span>
                 <span class="head">Group</span>
                 <span class="head">Matchup</span>
@@ -53,10 +52,6 @@ for (const [weeknum, week] of schedule.entries()) {
         const games = allgames.find(gr => gr.groupname === week.name).games;
         const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
         output += `<div class="row">
-            <div class="hosts">
-                <ra-userpic>${slot.hosts[0] !== undefined ? slot.hosts[0] : ""}</ra-userpic>
-                ${slot.hosts[1] !== undefined ? `<ra-userpic>${slot.hosts[1]}</ra-userpic>` : ""}
-            </div>
             <div class="time" data-time="${time.toISOString()}">
                 ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(time)}
             </div>

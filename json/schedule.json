@@ -5,7 +5,6 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 2,
@@ -17,7 +16,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 3,
             "team2": 4,
@@ -29,7 +27,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 2,
@@ -41,7 +38,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 3,
             "team2": 4,
@@ -53,7 +49,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 2,
@@ -65,7 +60,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 3,
             "team2": 4,
@@ -77,7 +71,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 2,
@@ -89,7 +82,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 3,
             "team2": 4,
@@ -101,7 +93,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 2,
@@ -113,7 +104,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 3,
             "team2": 4,
@@ -132,7 +122,6 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 3,
@@ -144,7 +133,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 2,
             "team2": 4,
@@ -156,7 +144,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 3,
@@ -168,7 +155,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 2,
             "team2": 4,
@@ -180,7 +166,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 3,
@@ -192,7 +177,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 2,
             "team2": 4,
@@ -204,7 +188,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 3,
@@ -214,7 +197,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 2,
             "team2": 4,
@@ -226,7 +208,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 3,
@@ -238,7 +219,6 @@
             ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 2,
             "team2": 4,
@@ -257,70 +237,60 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 2,
             "team2": 3,
@@ -334,70 +304,60 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 3,
             "team2": 4,
@@ -411,70 +371,60 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 2,
             "team2": 4,
@@ -488,70 +438,60 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 2,
             "team2": 3,
@@ -565,70 +505,60 @@
     "start": "17:00",
     "timeslots": [
         {
-            "hosts": [],
             "group": "A",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "A",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "B",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "C",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "D",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ]
         },
         {
-            "hosts": [],
             "group": "E",
             "team1": 3,
             "team2": 4,

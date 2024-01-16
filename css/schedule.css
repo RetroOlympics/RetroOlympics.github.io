@@ -89,7 +89,7 @@
 .schedule .table .table-head,
 .schedule .table .table-data {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1.5fr;
+    grid-template: 1fr / 1fr 1fr 2fr 1.5fr 0.5fr;
 }
 
 .schedule .table .table-head {
@@ -136,18 +136,6 @@
 
 .schedule .table .row:hover > * {
     background-color: #eee;
-}
-
-.schedule .table .hosts {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.schedule .table .hosts > ra-userpic {
-    width: 2.5em;
-    border: 4px white solid;
-    box-shadow: 0 5px 10px #999;
 }
 
 .schedule .table .matchup {
@@ -218,12 +206,53 @@
     filter: grayscale(100%);
 }
 
+.schedule .table input.expand {
+    display: none;
+}
+
+.schedule .table input.expand + label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5em;
+}
+
+.schedule .table input.expand + label i {
+    transition: transform 0.5s ease;
+}
+
+.schedule .table input.expand:checked + label i {
+    transform: rotateZ(135deg);
+}
+
+.schedule .table .details {
+    grid-column: 1 / span 5;
+    text-align: center;
+    height: 0px;
+    padding: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+.schedule .table input.expand:checked + label + .details {
+    height: 5em;
+}
+
 .schedule .table .more-left,
 .schedule .table .more-right {
     display: none;
 }
 
 @media (max-width: 700px) {
+    /* disable details on mobile for now */
+    .schedule .table input.expand + label,
+    .schedule .table .details,
+    .schedule .table span.head:nth-child(5) {
+        display: none;
+    }
+
     .schedule .table {
         position: relative;
         flex-direction: row;
@@ -231,7 +260,7 @@
 
     .schedule .table .table-head,
     .schedule .table .table-data {
-        grid-template: 1fr 1fr 1fr 2fr 1.5fr / 1fr;
+        grid-template: 1fr 1fr 2fr 1.5fr / 1fr;
     }
 
     .schedule .table .table-head {

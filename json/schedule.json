@@ -11,7 +11,7 @@
             "results": [ 2, 2, 1 ],
             "details": [
                 "BendyHuman 3:25.56 (L) vs illikepie345 3:17.60 (W)",
-                "KlydeKadell (Chun Li, Ryu, Ken) (L) vs Fruitpop (Ken, Oro, Urien) (W)",
+                "KlydeKadell (Chun Li, Ryu, Ken) 0 (L) vs Fruitpop (Ken, Oro, Urien) 3 (W)",
                 "Gamechamp 5:01.45 (W) vs Blazekickn Dies on the first half of the stage (L)"
             ]
         },
@@ -240,61 +240,71 @@
             "group": "A",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         }
     ]
 },
@@ -307,61 +317,71 @@
             "group": "A",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "A",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         }
     ]
 },
@@ -374,61 +394,71 @@
             "group": "A",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         }
     ]
 },
@@ -441,61 +471,71 @@
             "group": "A",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         }
     ]
 },
@@ -508,61 +548,71 @@
             "group": "A",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "A",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "B",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "C",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "D",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         },
         {
             "group": "E",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ]
+            "results": [ 0, 0, 0 ],
+            "details": []
         }
     ]
 },

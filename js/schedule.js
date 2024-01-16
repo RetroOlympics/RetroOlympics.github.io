@@ -27,13 +27,14 @@ for (const [weeknum, week] of schedule.entries()) {
                 <span class="head">Group</span>
                 <span class="head">Matchup</span>
                 <span class="head">Results</span>
+                <span class="head">Details</span>
             </div>
             <div class="more-left">←</div>
             <div class="table-data">
         `;
     }
     let time = new Date(date);
-    for (const slot of week.timeslots) {
+    for (const [index, slot] of Object.entries(week.timeslots)) {
         const teams = [
             groups[slot.group][slot.team1 - 1],
             groups[slot.group][slot.team2 - 1],
@@ -89,7 +90,10 @@ for (const [weeknum, week] of schedule.entries()) {
             const alt = res != 0 ? teams[res - 1].name : "?";
             output += `<img class="icon" alt="${alt}" title="${alt}" src="${icons[res]}">`;
         }
-        output += "</div></div>";
+        output += "</div>";
+        output += `<input class="expand" type="checkbox" id="detailsButton${weeknum}${index}">`
+        output += `<label class="expand" for="detailsButton${weeknum}${index}"><i class="bx bx-plus"></i></label>`;
+        output += `<div class="details">${slot.details.join("<br>")}</div></div>`;
 
         time = new Date(time.getTime() + 1800000);
     }

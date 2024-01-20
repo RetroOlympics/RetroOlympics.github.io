@@ -240,11 +240,11 @@
             "group": "A",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "Bendyhuman", "r0ach3d" ], "results": [ "Absent", "Won by default" ], "winner": 2 },
+                { "users": [ "KlydeKadell", "genesislover" ], "results": [ "08:14.46", "Died on Stage 3 mid boss" ], "winner": 1 },
+                { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "01:50.63", "02:03.30" ], "winner": 2 }
             ]
         },
         {

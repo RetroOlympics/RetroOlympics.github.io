@@ -243,7 +243,7 @@
             "results": [ 2, 1, 2 ],
             "details": [
                 { "users": [ "Bendyhuman", "r0ach3d" ], "results": [ "Absent", "Won by default" ], "winner": 2 },
-                { "users": [ "KlydeKadell", "genesislover" ], "results": [ "08:14.46", "Died on Stage 3 mid boss" ], "winner": 1 },
+                { "users": [ "KlydeKadell", "genesislover" ], "results": [ "08:14.46", "Stage 3 (mid boss)" ], "winner": 1 },
                 { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "01:50.63", "02:03.30" ], "winner": 2 }
             ]
         },
@@ -251,11 +251,11 @@
             "group": "A",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "ilikepie345", "ChocoMilk" ], "results": [ "04:34.01", "04:32.71" ], "winner": 2 },
+                { "users": [ "Fruitpop", "RetroGameMaster" ], "results": [ "Stage 3 (beginning)", "Stage 3 (helicopter)" ], "winner": 2 },
+                { "users": [ "Blazekickn", "Maize" ], "results": [ "DNF", "02:05.43" ], "winner": 2 }
             ]
         },
         {

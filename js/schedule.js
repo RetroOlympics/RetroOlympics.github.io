@@ -77,6 +77,7 @@ for (const [weeknum, week] of schedule.entries()) {
             </div>
             <div class="results">
         `;
+
         for (let i = 0; i < 3; i++) {
             const alt = games[i].name;
             output += `
@@ -85,15 +86,37 @@ for (const [weeknum, week] of schedule.entries()) {
                 </a>
             `;
         }
+
         for (let i = 0; i < 3; i++) {
             const res = slot.results[i];
             const alt = res != 0 ? teams[res - 1].name : "?";
             output += `<img class="icon" alt="${alt}" title="${alt}" src="${icons[res]}">`;
         }
+
         output += "</div>";
         output += `<input class="expand" type="checkbox" id="detailsButton${weeknum}${index}">`
         output += `<label class="expand" for="detailsButton${weeknum}${index}"><i class="bx bx-plus"></i></label>`;
-        output += `<div class="details">${slot.details.join("<br>")}</div></div>`;
+        output += `<div class="details">`;
+
+        for (const match of slot.details) {
+            output += `<div class="details-match">
+                <div class="details-user">
+                    <ra-userpic>${match.users[0]}</ra-userpic>
+                    <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
+                    ${match.winner == 0 ? "<span>🏆</span>" : ""}
+                </div>
+                <p>${match.results[0]}</p>
+                <div class="matchup-vs"><hr>vs<hr></div>
+                <div class="details-user">
+                    <ra-userpic>${match.users[1]}</ra-userpic>
+                    <a href="https://retroachievements.org/user/${match.users[1]}">${match.users[1]}</a>
+                    ${match.winner == 1 ? "<span>🏆</span>" : ""}
+                </div>
+                <p>${match.results[1]}</p>
+            </div>`;
+        }
+
+        output += `</div></div>`;
 
         time = new Date(time.getTime() + 1800000);
     }

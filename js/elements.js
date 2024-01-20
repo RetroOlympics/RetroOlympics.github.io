@@ -7,6 +7,7 @@ class RAUserPic extends HTMLElement {
         const css = `
             :host {
                 border-radius: 50%;
+                display: inline-block;
                 overflow: hidden;
                 aspect-ratio: 1 / 1;
             }

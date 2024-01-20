@@ -232,14 +232,55 @@
     line-height: 1.5;
     grid-column: 1 / span 5;
     text-align: center;
-    height: 0px;
+    max-height: 0px;
     padding: 0;
     overflow: hidden;
-    transition: height 0.5s ease;
+    transition: max-height 0.25s linear;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
 }
 
 .schedule .table input.expand:checked + label + .details {
-    height: 5em;
+    max-height: 20em;
+}
+
+.schedule .table .details .details-match {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    height: 100%;
+    padding: 1em;
+}
+
+.schedule .table .details .details-match .details-user {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.schedule .table .details .details-match .details-user ra-userpic {
+    height: 100%;
+    border: 2px white solid;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.schedule .table .details .details-match .details-user a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: unset;
+    text-decoration: none;
+}
+
+.schedule .table .details .details-match .details-user a:hover {
+    text-decoration: underline;
+}
+
+.schedule .table .details .details-match .details-user span {
+    font-size: 1.5em;
 }
 
 .schedule .table .more-left,

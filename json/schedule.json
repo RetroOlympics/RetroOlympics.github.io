@@ -10,9 +10,9 @@
             "team2": 2,
             "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "Bendyhuman", "ilikepie345" ], "results": [ "3:25.56", "3:17.60" ], "winner": 1 },
-                { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "(Chun Li, Ryu, Ken) 0", "(Ken, Oro, Urien) 3" ], "winner": 1 },
-                { "users": [ "Gamechamp", "Blazekickn" ], "results": [ "5:01.45", "Died on the first half" ], "winner": 0 }
+                { "users": [ "Bendyhuman", "ilikepie345" ], "results": [ "3:25.56", "3:17.60" ], "winner": 2 },
+                { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "(Chun Li, Ryu, Ken) 0", "(Ken, Oro, Urien) 3" ], "winner": 2 },
+                { "users": [ "Gamechamp", "Blazekickn" ], "results": [ "5:01.45", "Died on the first half" ], "winner": 1 }
             ]
         },
         {
@@ -21,9 +21,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "Probored", "r0ach3d" ], "results": [ "04:35.58", "03:17.65" ], "winner": 1 },
-                { "users": [ "Maize", "genesislover" ], "results": [ "(Ken, Ryu, Akuma) 3", "(Dudley, Q, Alex) 0" ], "winner": 0 },
-                { "users": [ "ChocoMilk", "Wimpyfox" ], "results": [ "07:34.61", "05:49.93" ], "winner": 1 }
+                { "users": [ "Probored", "r0ach3d" ], "results": [ "04:35.58", "03:17.65" ], "winner": 2 },
+                { "users": [ "Maize", "genesislover" ], "results": [ "(Ken, Ryu, Akuma) 3", "(Dudley, Q, Alex) 0" ], "winner": 1 },
+                { "users": [ "ChocoMilk", "Wimpyfox" ], "results": [ "07:34.61", "05:49.93" ], "winner": 2 }
             ]
         },
         {
@@ -32,9 +32,9 @@
             "team2": 2,
             "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "xClawz", "freezestar" ], "results": [ "03:15.46", "03:55.00" ], "winner": 0 },
-                { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Gouki, Chun Li, Ken) 0", "(Hugo, Ryu, Q) 3" ], "winner": 1 },
-                { "users": [ "Xymjak", "BloodParade" ], "results": [ "Died on the main boss", "Died on the mini boss" ], "winner": 0 }
+                { "users": [ "xClawz", "freezestar" ], "results": [ "03:15.46", "03:55.00" ], "winner": 1 },
+                { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Gouki, Chun Li, Ken) 0", "(Hugo, Ryu, Q) 3" ], "winner": 2 },
+                { "users": [ "Xymjak", "BloodParade" ], "results": [ "Died on the main boss", "Died on the mini boss" ], "winner": 1 }
             ]
         },
         {
@@ -43,9 +43,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details":[
-                { "users": [ "TheoVellum", "GalacticSpear" ], "results": [ "03:13.96", "03:22.23" ], "winner": 0 },
-                { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Elena, Ibuki, Ken) 0", "(Ken, Chun Li, Akuma) 3" ], "winner": 1 },
-                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Died on the miniboss", "05:51.63" ], "winner": 1 }
+                { "users": [ "TheoVellum", "GalacticSpear" ], "results": [ "03:13.96", "03:22.23" ], "winner": 1 },
+                { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Elena, Ibuki, Ken) 0", "(Ken, Chun Li, Akuma) 3" ], "winner": 2 },
+                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Died on the miniboss", "05:51.63" ], "winner": 2 }
             ]
         },
         {
@@ -54,9 +54,9 @@
             "team2": 2,
             "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "SebaMardo", "Nepiki" ], "results": [ "03:22.85", "03:40.11" ], "winner": 0 },
-                { "users": [ "mankodax", "Raichi" ], "results": [ "(Ryu, Gouki, Chun Li) 3", "(Gouki, Ryu, Ken) 1" ], "winner": 0 },
-                { "users": [ "ialfaro", "Kiutgh" ], "results": [ "05:45.78", "05:23.86" ], "winner": 1 }
+                { "users": [ "SebaMardo", "Nepiki" ], "results": [ "03:22.85", "03:40.11" ], "winner": 1 },
+                { "users": [ "mankodax", "Raichi" ], "results": [ "(Ryu, Gouki, Chun Li) 3", "(Gouki, Ryu, Ken) 1" ], "winner": 1 },
+                { "users": [ "ialfaro", "Kiutgh" ], "results": [ "05:45.78", "05:23.86" ], "winner": 2 }
             ]
         },
         {
@@ -65,9 +65,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "justyellow", "Eldorian" ], "results": [ "03:55.58", "03:35.28" ], "winner": 1 },
-                { "users": [ "missiray", "Zexerous" ], "results": [ "(Gouki, Ken, Ryu) 3", "(Hugo, Yang, Ken) 0" ], "winner": 0 },
-                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Died on the miniboss", "06:59.36" ], "winner": 1 }
+                { "users": [ "justyellow", "Eldorian" ], "results": [ "03:55.58", "03:35.28" ], "winner": 2 },
+                { "users": [ "missiray", "Zexerous" ], "results": [ "(Gouki, Ken, Ryu) 3", "(Hugo, Yang, Ken) 0" ], "winner": 1 },
+                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Died on the miniboss", "06:59.36" ], "winner": 2 }
             ]
         },
         {
@@ -76,9 +76,9 @@
             "team2": 2,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "MonkeyBug", "voiceofautumn" ], "results": [ "03:37.53", "04:44.31" ], "winner": 0 },
-                { "users": [ "Prota", "voiceofautumn" ], "results": [ "(Yang, Elena, Ken) 3", "(N/A)" ], "winner": 0 },
-                { "users": [ "AmazingBaha", "amine456" ], "results": [ "06:13.06", "06:28.55" ], "winner": 0 }
+                { "users": [ "MonkeyBug", "voiceofautumn" ], "results": [ "03:37.53", "04:44.31" ], "winner": 1 },
+                { "users": [ "Prota", "voiceofautumn" ], "results": [ "(Yang, Elena, Ken) 3", "(N/A)" ], "winner": 1 },
+                { "users": [ "AmazingBaha", "amine456" ], "results": [ "06:13.06", "06:28.55" ], "winner": 1 }
             ]
         },
         {
@@ -87,9 +87,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "Keywiz", "Nickyy" ], "results": [ "04:19.70", "03:26.70" ], "winner": 1 },
-                { "users": [ "Zegjita", "Doggy227" ], "results": [ "(Ikubi, Makoto, Chun-li) 1", "(Ryu, Ken, Akuma) 3" ], "winner": 1 },
-                { "users": [ "psyduck", "A3r1uS" ], "results": [ "07:42.48", "05:31.90" ], "winner": 1 }
+                { "users": [ "Keywiz", "Nickyy" ], "results": [ "04:19.70", "03:26.70" ], "winner": 2 },
+                { "users": [ "Zegjita", "Doggy227" ], "results": [ "(Ikubi, Makoto, Chun-li) 1", "(Ryu, Ken, Akuma) 3" ], "winner": 2 },
+                { "users": [ "psyduck", "A3r1uS" ], "results": [ "07:42.48", "05:31.90" ], "winner": 2 }
             ]
         },
         {
@@ -98,9 +98,9 @@
             "team2": 2,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "03:43.45", "03:50.05" ], "winner": 0 },
-                { "users": [ "Blueby", "Evllnk2565" ], "results": [ "(Dudley, Makoto, Yun) 3", "(Yun, Makoto, Ken) 1" ], "winner": 0 },
-                { "users": [ "Crazeuh", "ReadyCard53" ], "results": [ "Died on the miniboss", "Died on the first half" ], "winner": 0 }
+                { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "03:43.45", "03:50.05" ], "winner": 1 },
+                { "users": [ "Blueby", "Evllnk2565" ], "results": [ "(Dudley, Makoto, Yun) 3", "(Yun, Makoto, Ken) 1" ], "winner": 1 },
+                { "users": [ "Crazeuh", "ReadyCard53" ], "results": [ "Died on the miniboss", "Died on the first half" ], "winner": 1 }
             ]
         },
         {
@@ -109,9 +109,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "Adenothe", "Amir96lx" ], "results": [ "03:59.98", "03:13.51" ], "winner": 1 },
-                { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "(Akuma, Ken, Ryu) 3", "(Dudley, Oro, Yang) 0" ], "winner": 0 },
-                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Died on the second half", "06:24.81" ], "winner": 1 }
+                { "users": [ "Adenothe", "Amir96lx" ], "results": [ "03:59.98", "03:13.51" ], "winner": 2 },
+                { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "(Akuma, Ken, Ryu) 3", "(Dudley, Oro, Yang) 0" ], "winner": 1 },
+                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Died on the second half", "06:24.81" ], "winner": 2 }
             ]
         }
     ]
@@ -127,9 +127,9 @@
             "team2": 3,
             "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "Bendyhuman", "Maize" ], "results": [ "1 Superb", "3 Superb" ], "winner": 1, "common": "Remix 1, 7, 9" },
-                { "users": [ "GameChamp", "RetroGameMaster" ], "results": [ "493,687", "N/A" ], "winner": 0 },
-                { "users": [ "KlydeKadell", "ChocoMilk" ], "results": [ "05:59.22", "06:06.00" ], "winner": 0 }
+                { "users": [ "Bendyhuman", "Maize" ], "results": [ "1 Superb", "3 Superb" ], "winner": 2, "common": "Remix 1, 7, 9" },
+                { "users": [ "Gamechamp", "RetroGameMaster" ], "results": [ "493,687", "N/A" ], "winner": 1 },
+                { "users": [ "KlydeKadell", "ChocoMilk" ], "results": [ "05:59.22", "06:06.00" ], "winner": 1 }
             ]
         },
         {
@@ -138,9 +138,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "3 Superb", "2 Superb" ], "winner": 0, "common": "Remix 7, 1, 5" },
-                { "users": [ "Blazekickn", "r0ach3d" ], "results": [ "493,388", "488,240" ], "winner": 1 },
-                { "users": [ "Fruitpop", "genesislover" ], "results": [ "06:22.98", "06:04.40" ], "winner": 1 }
+                { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "3 Superb", "2 Superb" ], "winner": 1, "common": "Remix 7, 1, 5" },
+                { "users": [ "Blazekickn", "r0ach3d" ], "results": [ "493,388", "488,240" ], "winner": 2 },
+                { "users": [ "Fruitpop", "genesislover" ], "results": [ "06:22.98", "06:04.40" ], "winner": 2 }
             ]
         },
         {
@@ -149,9 +149,9 @@
             "team2": 3,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "Sairotra", "NeonHeart" ], "results": [ "0 Superb, 8 Coin Toss", "0 Superb, 0 Coin Toss" ], "winner": 0, "common": "Remix 2, 10, 8" },
-                { "users": [ "xClawz", "AlexC25" ], "results": [ "459,093", "505,120" ], "winner": 0 },
-                { "users": [ "Xymjak", "VenHur" ], "results": [ "06:50.36", "?" ], "winner": 0 }
+                { "users": [ "Sairotra", "NeonHeart" ], "results": [ "0 Superb, 8 Coin Toss", "0 Superb, 0 Coin Toss" ], "winner": 1, "common": "Remix 2, 10, 8" },
+                { "users": [ "xClawz", "AlexC25" ], "results": [ "459,093", "505,120" ], "winner": 1 },
+                { "users": [ "Xymjak", "VenHur" ], "results": [ "06:50.36", "?" ], "winner": 1 }
             ]
         },
         {
@@ -160,9 +160,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "freezestar", "LivRetro" ], "results": [ "2 Superb", "0 Superb" ], "winner": 0, "common": "Remix 8, 10, 2" },
-                { "users": [ "Retrokaiser", "SrOliveira" ], "results": [ "564,852", "524,669" ], "winner": 1 },
-                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "07:05.38", "06:14.20" ], "winner": 1 }
+                { "users": [ "freezestar", "LivRetro" ], "results": [ "2 Superb", "0 Superb" ], "winner": 1, "common": "Remix 8, 10, 2" },
+                { "users": [ "Retrokaiser", "SrOliveira" ], "results": [ "564,852", "524,669" ], "winner": 2 },
+                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "07:05.38", "06:14.20" ], "winner": 2 }
             ]
         },
         {
@@ -171,9 +171,9 @@
             "team2": 3,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "MankoDax", "justyellow" ], "results": [ "0 Superb", "1 Superb" ], "winner": 1, "common": "Remix 2, 4, 6" },
-                { "users": [ "SebaMardo", "missiray" ], "results": [ "505,866", "497,658" ], "winner": 1 },
-                { "users": [ "ialfaro", "DanielARP" ], "results": [ "07:00.52", "06:50.36" ], "winner": 1 }
+                { "users": [ "MankoDax", "justyellow" ], "results": [ "0 Superb", "1 Superb" ], "winner": 2, "common": "Remix 2, 4, 6" },
+                { "users": [ "SebaMardo", "missiray" ], "results": [ "505,866", "497,658" ], "winner": 2 },
+                { "users": [ "ialfaro", "DanielARP" ], "results": [ "07:00.52", "06:50.36" ], "winner": 2 }
             ]
         },
         {
@@ -182,9 +182,9 @@
             "team2": 4,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "Kiutgh", "BalrogRPG" ], "results": [ "0 Superb, 9 Coin Toss", "0 Superb, 4 Coin Toss" ], "winner": 0, "common": "Remix 7, 3, 5" },
-                { "users": [ "Raichi", "Zexerous" ], "results": [ "?", "485,481" ], "winner": 0 },
-                { "users": [ "Nepiki", "Eldorian" ], "results": [ "05:52.84", "05:55.30" ], "winner": 0 }
+                { "users": [ "Kiutgh", "BalrogRPG" ], "results": [ "0 Superb, 9 Coin Toss", "0 Superb, 4 Coin Toss" ], "winner": 1, "common": "Remix 7, 3, 5" },
+                { "users": [ "Raichi", "Zexerous" ], "results": [ "?", "485,481" ], "winner": 1 },
+                { "users": [ "Nepiki", "Eldorian" ], "results": [ "05:52.84", "05:55.30" ], "winner": 1 }
             ]
         },
         {
@@ -193,7 +193,7 @@
             "team2": 3,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "Zegjita" ], "results": [ "06:28.04" ], "winner": 0 }
+                { "users": [ "Zegjita" ], "results": [ "06:28.04" ], "winner": 1 }
             ]
         },
         {
@@ -202,9 +202,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "Prota", "Doggy227" ], "results": [ "3 Superb, 19 Coin Toss", "3 Superb, 22 Coin Toss" ], "winner": 1, "common": "Remix 6, 5, 4" },
-                { "users": [ "AmazingBaha", "Nickyy" ], "results": [ "528,400", "497,642" ], "winner": 1 },
-                { "users": [ "MonkeyBug", "A3r1uS" ], "results": [ "07:23.28", "05:47.98" ], "winner": 1 }
+                { "users": [ "Prota", "Doggy227" ], "results": [ "3 Superb, 19 Coin Toss", "3 Superb, 22 Coin Toss" ], "winner": 2, "common": "Remix 6, 5, 4" },
+                { "users": [ "AmazingBaha", "Nickyy" ], "results": [ "528,400", "497,642" ], "winner": 2 },
+                { "users": [ "MonkeyBug", "A3r1uS" ], "results": [ "07:23.28", "05:47.98" ], "winner": 2 }
             ]
         },
         {
@@ -213,9 +213,9 @@
             "team2": 3,
             "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "Blueby", "Pampa50" ], "results": [ "Forfeit", "Wins by default" ], "winner": 1, "common": "Remix 4, 1, 7" },
-                { "users": [ "Crazeuh", "hirumaspace" ], "results": [ "505,366", "526,559" ], "winner": 0 },
-                { "users": [ "HardSonicStorm", "Adenothe" ], "results": [ "06:18.52", "07:14.76" ], "winner": 0 }
+                { "users": [ "Blueby", "Pampa50" ], "results": [ "Forfeit", "Wins by default" ], "winner": 2, "common": "Remix 4, 1, 7" },
+                { "users": [ "Crazeuh", "hirumaspace" ], "results": [ "505,366", "526,559" ], "winner": 1 },
+                { "users": [ "HardSonicStorm", "Adenothe" ], "results": [ "06:18.52", "07:14.76" ], "winner": 1 }
             ]
         },
         {
@@ -224,9 +224,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "Yoshikiller109", "jelloknifee" ], "results": [ "3 Superb, 10 Coin Toss", "3 Superb, 18 Coin Toss" ], "winner": 1, "common": "Remix 5, 2, 8" },
-                { "users": [ "Readycard53", "Amir96lx" ], "results": [ "?", "465,532" ], "winner": 1 },
-                { "users": [ "Evllnk2565", "AuburnRDM" ], "results": [ "07:45.32", "05:56.90" ], "winner": 1 }
+                { "users": [ "Yoshikiller109", "jelloknifee" ], "results": [ "3 Superb, 10 Coin Toss", "3 Superb, 18 Coin Toss" ], "winner": 2, "common": "Remix 5, 2, 8" },
+                { "users": [ "Readycard53", "Amir96lx" ], "results": [ "?", "465,532" ], "winner": 2 },
+                { "users": [ "Evllnk2565", "AuburnRDM" ], "results": [ "07:45.32", "05:56.90" ], "winner": 2 }
             ]
         }
     ]
@@ -242,9 +242,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -253,9 +253,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -264,9 +264,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -275,9 +275,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -286,9 +286,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -297,9 +297,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -308,9 +308,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -319,9 +319,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -330,9 +330,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -341,9 +341,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         }
     ]
@@ -359,9 +359,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -370,9 +370,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -381,9 +381,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -392,9 +392,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -403,9 +403,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -414,9 +414,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -425,9 +425,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -436,9 +436,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -447,9 +447,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -458,9 +458,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         }
     ]
@@ -476,9 +476,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -487,9 +487,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -498,9 +498,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -509,9 +509,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -520,9 +520,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -531,9 +531,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -542,9 +542,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -553,9 +553,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -564,9 +564,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -575,9 +575,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         }
     ]
@@ -593,9 +593,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -604,9 +604,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -615,9 +615,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -626,9 +626,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -637,9 +637,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -648,9 +648,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -659,9 +659,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -670,9 +670,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -681,9 +681,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -692,9 +692,9 @@
             "team2": 3,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         }
     ]
@@ -710,9 +710,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -721,9 +721,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -732,9 +732,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -743,9 +743,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -754,9 +754,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -765,9 +765,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -776,9 +776,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -787,9 +787,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -798,9 +798,9 @@
             "team2": 2,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         },
         {
@@ -809,9 +809,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
             ]
         }
     ]

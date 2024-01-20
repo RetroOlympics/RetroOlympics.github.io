@@ -306,11 +306,9 @@
             "group": "D",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "A3r1uS" ], "results": [ "05:33.08" ], "winner": 1 }
             ]
         },
         {

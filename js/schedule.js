@@ -51,32 +51,43 @@ for (const [weeknum, week] of schedule.entries()) {
         }
 
         const games = allgames.find(gr => gr.groupname === week.name).games;
-        const icons = [ "img/unown.png", teams[0].icon, teams[1].icon ];
         output += `<div class="row">
             <div class="time" data-time="${time.toISOString()}">
                 ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(time)}
             </div>
             <div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>
-            <div class="matchup">
+        `;
+
+        output += `<div class="matchup">`;
+        if (teams[1] == undefined) {
+            output += `
                 <div class="matchup-team">
-                    <img class="icon" title="${teams[0].name}" src="${icons[1]}">
-                    ${winner == 1 ? "<strong>" : ""}
+                    <img class="icon" title="${teams[0].name}" src="${teams[0].icon}">
+                    <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" class="winner">
+                        ${teams[0].name}
+                    </a>
+                </div>
+                <div class="matchup-exhibition">Exhibition Match</div>
+            `;
+        } else {
+            output += `
+                <div class="matchup-team">
+                    <img class="icon" title="${teams[0].name}" src="${teams[0].icon}">
                     <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" ${winner == 1 ? `class="winner"`:""}>
                         ${teams[0].name}
                     </a>
-                    ${winner == 1 ? "</strong>" : ""}
                 </div>
                 <div class="matchup-vs"><hr>vs<hr></div>
                 <div class="matchup-team">
-                    <img class="icon" title="${teams[1].name}" src="${icons[2]}">
+                    <img class="icon" title="${teams[1].name}" src="${teams[1].icon}">
                     <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}" ${winner == 2 ? `class="winner"`:""}>
                         ${teams[1].name}
                     </a>
                     ${slot.rolled ? `<span class="rolled" title="Team is defending only and will not receive points for this match">*</span>` : ""}
                 </div>
-            </div>
-            <div class="results">
-        `;
+            `;
+        }
+        output += `</div><div class="results">`;
 
         for (let i = 0; i < 3; i++) {
             const alt = games[i].name;
@@ -89,8 +100,9 @@ for (const [weeknum, week] of schedule.entries()) {
 
         for (let i = 0; i < 3; i++) {
             const res = slot.results[i];
+            const icon = res == 0 ? "img/unown.png" : res == 1 ? teams[0].icon : teams[1].icon;
             const alt = res != 0 ? teams[res - 1].name : "?";
-            output += `<img class="icon" alt="${alt}" title="${alt}" src="${icons[res]}">`;
+            output += `<img class="icon" alt="${alt}" title="${alt}" src="${icon}">`;
         }
 
         output += "</div>";
@@ -99,21 +111,36 @@ for (const [weeknum, week] of schedule.entries()) {
         output += `<div class="details">`;
 
         for (const match of slot.details) {
-            output += `<div class="details-match">
-                <div class="details-user">
-                    <ra-userpic>${match.users[0]}</ra-userpic>
-                    <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
-                    ${match.winner == 1 ? "<span>🏆</span>" : ""}
-                </div>
-                <p>${match.results[0]}</p>
-                <div class="matchup-vs"><hr>vs<hr></div>
-                <div class="details-user">
-                    <ra-userpic>${match.users[1]}</ra-userpic>
-                    <a href="https://retroachievements.org/user/${match.users[1]}">${match.users[1]}</a>
-                    ${match.winner == 2 ? "<span>🏆</span>" : ""}
-                </div>
-                <p>${match.results[1]}</p>
-            </div>`;
+            output += `<div class="details-match">`;
+            if (Object.keys(match).length == 0) {
+                output += `<div class="details-user"></div>`
+            } else if (match.users.length == 1) {
+                output += `
+                    <div class="details-user">
+                        <ra-userpic>${match.users[0]}</ra-userpic>
+                        <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
+                        ${match.winner == 1 ? "<span>🏆</span>" : ""}
+                    </div>
+                    <p>${match.results[0]}</p>
+                `;
+            } else {
+                output += `
+                    <div class="details-user">
+                        <ra-userpic>${match.users[0]}</ra-userpic>
+                        <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
+                        ${match.winner == 1 ? "<span>🏆</span>" : ""}
+                    </div>
+                    <p>${match.results[0]}</p>
+                    <div class="matchup-vs"><hr>vs<hr></div>
+                    <div class="details-user">
+                        <ra-userpic>${match.users[1]}</ra-userpic>
+                        <a href="https://retroachievements.org/user/${match.users[1]}">${match.users[1]}</a>
+                        ${match.winner == 2 ? "<span>🏆</span>" : ""}
+                    </div>
+                    <p>${match.results[1]}</p>
+                `;
+            }
+            output += "</div>";
         }
 
         output += `</div></div>`;

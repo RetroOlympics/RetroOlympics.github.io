@@ -182,6 +182,10 @@
     top: 2px;
     cursor: help;
 }
+.schedule .table .matchup-exhibition {
+    padding-top: 0.5em;
+    font-size: 0.85em;
+}
 
 .schedule .table .results {
     display: grid;

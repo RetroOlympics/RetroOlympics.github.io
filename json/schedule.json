@@ -72,9 +72,9 @@
         },
         {
             "group": "D",
-            "team1": 1,
-            "team2": 2,
-            "results": [ 2, 2, 2 ],
+            "team1": 2,
+            "team2": -1,
+            "results": [ 1, 1, 1 ],
             "details": [
                 { "users": [ "MonkeyBug", "voiceofautumn" ], "results": [ "03:37.53", "04:44.31" ], "winner": 1 },
                 { "users": [ "Prota", "voiceofautumn" ], "results": [ "(Yang, Elena, Ken) 3", "(N/A)" ], "winner": 1 },
@@ -189,10 +189,12 @@
         },
         {
             "group": "D",
-            "team1": 1,
-            "team2": 3,
-            "results": [ 2, 2, 2 ],
+            "team1": 3,
+            "team2": -1,
+            "results": [ 1, 1, 1 ],
             "details": [
+                {},
+                {},
                 { "users": [ "Zegjita" ], "results": [ "06:28.04" ], "winner": 1 }
             ]
         },
@@ -304,11 +306,13 @@
         },
         {
             "group": "D",
-            "team1": 1,
-            "team2": 4,
-            "results": [ 2, 2, 2 ],
+            "team1": 4,
+            "team2": -1,
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "A3r1uS" ], "results": [ "05:33.08" ], "winner": 1 }
+                { "users": [ "A3r1uS" ], "results": [ "05:33.08" ], "winner": 1 },
+                {},
+                {}
             ]
         },
         {

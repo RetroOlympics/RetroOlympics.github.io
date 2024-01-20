@@ -334,18 +334,18 @@
             "details": [
                 { "users": [ "Blueby", "AuburnRDM" ], "results": [ "04:46.01", "05:02.51" ], "winner": 1 },
                 { "users": [ "Crazeuh", "jelloknifee" ], "results": [ "Stage 2 (tower)", "Stage 3 (train)" ], "winner": 2 },
-                { "users": [ "HardSonicStorm", "Amir96lx" ], "results": [ "TBD", "TBD" ], "winner": 1 }
+                { "users": [ "HardSonicStorm", "Amir96lx" ], "results": [ "Did not submit", "03:37.90" ], "winner": 1 }
             ]
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "Yoshikiller109", "Pampa50" ], "results": [ "05:43.21", "04:50.25" ], "winner": 2 },
+                { "users": [ "Evllnk2565", "Adenothe" ], "results": [ "Stage 2 (tower)", "Stage 3 (mid boss)" ], "winner": 2 },
+                { "users": [ "Readycard53 ", "hirumaspace" ], "results": [ "Did not submit", "02:28.31" ], "winner": 2 }
             ]
         }
     ]

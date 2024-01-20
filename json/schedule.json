@@ -284,11 +284,11 @@
             "group": "C",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "ialfaro", "BalrogRPG" ], "results": [ "04:35.38", "06:50.43" ], "winner": 1 },
+                { "users": [ "BeerBaron", "Zexerous" ], "results": [ "09:14.86", "Stage 3 (mid boss)" ], "winner": 1 },
+                { "users": [ "SebaMardo", "Eldorian" ], "results": [ "DNF", "01:35.35" ], "winner": 2 }
             ]
         },
         {

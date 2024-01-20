@@ -315,11 +315,11 @@
             "group": "D",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "Prota", "Zegjita" ], "results": [ "04:23.88", "06:37.11" ], "winner": 1 },
+                { "users": [ "MonkeyBug", "psyduck" ], "results": [ "Stage 3 (boats)", "Stage 3 (beginning)" ], "winner": 1 },
+                { "users": [ "AmazingBaha", "Keywiz" ], "results": [ "02:55.66", "01:33.23" ], "winner": 2 }
             ]
         },
         {

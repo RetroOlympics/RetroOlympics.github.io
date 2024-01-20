@@ -42,7 +42,7 @@
         "name": "Knuckles's Kommandos",
         "image": "img/team/KnucklesKommandos.png",
         "icon": "img/icon/KnucklesKommandos.png",
-        "members": [ "VenHur", "AlexC25" ]
+        "members": [ "VenHur", "AlexC25", "TheoVellum" ]
     },
     {
         "name": "Kirby's Knights",
@@ -56,7 +56,7 @@
         "name": "Ryu's Ronin",
         "image": "img/team/RyusRonin.png",
         "icon": "img/icon/RyusRonin.png",
-        "members": [ "mankodax", "SebaMardo", "ialfaro", "WikiKiwi" ]
+        "members": [ "mankodax", "SebaMardo", "ialfaro", "BeerBaron" ]
     },
     {
         "name": "Belmont's Brawlers",
@@ -68,7 +68,7 @@
         "name": "Sonic's Speedsters",
         "image": "img/team/SonicSpeedsters.png",
         "icon": "img/icon/SonicSpeedsters.png",
-        "members": [ "missiray", "DanielARP", "justyellow" ]
+        "members": [ "missiray", "DanielARP", "justyellow", "WhyNot360" ]
     },
     {
         "name": "Terra's Titans",
@@ -88,7 +88,7 @@
         "name": "Cress's Crusaders",
         "image": "img/team/CresssCrusaders.png",
         "icon": "img/icon/CresssCrusaders.png",
-        "members": [ "Prota", "AmazingBaha", "MonkeyBug" ]
+        "members": [ "Prota", "AmazingBaha", "MonkeyBug", "Joncky" ]
     },
     {
         "name": "Roll's Raiders",

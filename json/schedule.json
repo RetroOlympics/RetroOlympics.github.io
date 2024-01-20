@@ -241,70 +241,110 @@
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         }
     ]
 },
@@ -318,70 +358,110 @@
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "A",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         }
     ]
 },
@@ -395,70 +475,110 @@
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         }
     ]
 },
@@ -472,70 +592,110 @@
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 2,
             "team2": 3,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         }
     ]
 },
@@ -549,70 +709,110 @@
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "A",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "B",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "C",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "D",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 1,
             "team2": 2,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         },
         {
             "group": "E",
             "team1": 3,
             "team2": 4,
             "results": [ 0, 0, 0 ],
-            "details": []
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 },
+                { "users": [ "", "" ], "results": [ "", "" ], "winner": -1 }
+            ]
         }
     ]
 },

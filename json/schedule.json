@@ -330,11 +330,11 @@
             "group": "E",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "Blueby", "AuburnRDM" ], "results": [ "04:46.01", "05:02.51" ], "winner": 1 },
+                { "users": [ "Crazeuh", "jelloknifee" ], "results": [ "Stage 2 (tower)", "Stage 3 (train)" ], "winner": 2 },
+                { "users": [ "HardSonicStorm", "Amir96lx" ], "results": [ "TBD", "TBD" ], "winner": 1 }
             ]
         },
         {

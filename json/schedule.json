@@ -264,9 +264,9 @@
             "team2": 4,
             "results": [ 0, 0, 0 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "Xymjak", "GalacticSpear" ], "results": [ "04:26.16", "04:15.80" ], "winner": 2 },
+                { "users": [ "Sairotra", "LivRetro" ], "results": [ "08:38.31", "07:18.98" ], "winner": 2 },
+                { "users": [ "xClawz", "SrOliveira" ], "results": [ "01:41.46", "DNF" ], "winner": 1 }
             ]
         },
         {

@@ -295,11 +295,11 @@
             "group": "C",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 },
-                { "users": [ "", "" ], "results": [ "", "" ], "winner": 0 }
+                { "users": [ "Nepiki", "DanielARP" ], "results": [ "05:04.50", "DNF" ], "winner": 1 },
+                { "users": [ "Kiutgh", "missiray" ], "results": [ "Stage 2 (boss)", "06:53.60" ], "winner": 2 },
+                { "users": [ "Raichi", "justyellow" ], "results": [ "01:46.36", "DNF" ], "winner": 1 }
             ]
         },
         {

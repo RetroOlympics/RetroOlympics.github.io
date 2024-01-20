@@ -12,7 +12,7 @@
             "details": [
                 { "users": [ "Bendyhuman", "ilikepie345" ], "results": [ "3:25.56", "3:17.60" ], "winner": 1 },
                 { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "(Chun Li, Ryu, Ken) 0", "(Ken, Oro, Urien) 3" ], "winner": 1 },
-                { "users": [ "Gamechamp", "Blazekickn" ], "results": [ "5:01.45", "Dies on the first half of the stage" ], "winner": 0 }
+                { "users": [ "Gamechamp", "Blazekickn" ], "results": [ "5:01.45", "Died on the first half" ], "winner": 0 }
             ]
         },
         {
@@ -34,7 +34,7 @@
             "details": [
                 { "users": [ "xClawz", "freezestar" ], "results": [ "03:15.46", "03:55.00" ], "winner": 0 },
                 { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Gouki, Chun Li, Ken) 0", "(Hugo, Ryu, Q) 3" ], "winner": 1 },
-                { "users": [ "Xymjak", "BloodParade" ], "results": [ "Dies on the main boss", "Dies on the first miniboss" ], "winner": 0 }
+                { "users": [ "Xymjak", "BloodParade" ], "results": [ "Died on the main boss", "Died on the mini boss" ], "winner": 0 }
             ]
         },
         {
@@ -45,7 +45,7 @@
             "details":[
                 { "users": [ "TheoVellum", "GalacticSpear" ], "results": [ "03:13.96", "03:22.23" ], "winner": 0 },
                 { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Elena, Ibuki, Ken) 0", "(Ken, Chun Li, Akuma) 3" ], "winner": 1 },
-                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Dies on the first miniboss", "05:51.63" ], "winner": 1 }
+                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Died on the miniboss", "05:51.63" ], "winner": 1 }
             ]
         },
         {
@@ -67,7 +67,7 @@
             "details": [
                 { "users": [ "justyellow", "Eldorian" ], "results": [ "03:55.58", "03:35.28" ], "winner": 1 },
                 { "users": [ "missiray", "Zexerous" ], "results": [ "(Gouki, Ken, Ryu) 3", "(Hugo, Yang, Ken) 0" ], "winner": 0 },
-                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Dies on the first miniboss", "06:59.36" ], "winner": 1 }
+                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Died on the miniboss", "06:59.36" ], "winner": 1 }
             ]
         },
         {
@@ -100,7 +100,7 @@
             "details": [
                 { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "03:43.45", "03:50.05" ], "winner": 0 },
                 { "users": [ "Blueby", "Evllnk2565" ], "results": [ "(Dudley, Makoto, Yun) 3", "(Yun, Makoto, Ken) 1" ], "winner": 0 },
-                { "users": [ "Crazeuh", "ReadyCard53" ], "results": [ "Dies on the first miniboss", "Dies on the first half of the stage" ], "winner": 0 }
+                { "users": [ "Crazeuh", "ReadyCard53" ], "results": [ "Died on the miniboss", "Died on the first half" ], "winner": 0 }
             ]
         },
         {
@@ -111,7 +111,7 @@
             "details": [
                 { "users": [ "Adenothe", "Amir96lx" ], "results": [ "03:59.98", "03:13.51" ], "winner": 1 },
                 { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "(Akuma, Ken, Ryu) 3", "(Dudley, Oro, Yang) 0" ], "winner": 0 },
-                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Dies on the second half of the stage", "06:24.81" ], "winner": 1 }
+                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Died on the second half", "06:24.81" ], "winner": 1 }
             ]
         }
     ]

@@ -10,9 +10,9 @@
             "team2": 2,
             "results": [ 2, 2, 1 ],
             "details": [
-                "BendyHuman 3:25.56 (L) vs illikepie345 3:17.60 (W)",
-                "KlydeKadell (Chun Li, Ryu, Ken) 0 (L) vs Fruitpop (Ken, Oro, Urien) 3 (W)",
-                "Gamechamp 5:01.45 (W) vs Blazekickn Dies on the first half of the stage (L)"
+                { "users": [ "Bendyhuman", "ilikepie345" ], "results": [ "3:25.56", "3:17.60" ], "winner": [ "L", "W" ] },
+                { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "(Chun Li, Ryu, Ken) 0", "(Ken, Oro, Urien) 3" ], "winner": [ "L", "W" ] },
+                { "users": [ "Gamechamp", "Blazekickn" ], "results": [ "5:01.45", "Dies on the first half of the stage" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -21,9 +21,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                "Probored 04:35.58 (L) vs r0ach3d 03:17.65 (W)",
-                "Maize (Ken, Ryu, Akuma) 3 (W) vs genesislover (Dudley, Q, Alex) 0 (L)",
-                "ChocoMilk 07:34.61 (L) vs Wimpyfox 05:49.93 (W)"
+                { "users": [ "Probored", "r0ach3d" ], "results": [ "04:35.58", "03:17.65" ], "winner": [ "L", "W" ] },
+                { "users": [ "Maize", "genesislover" ], "results": [ "(Ken, Ryu, Akuma) 3", "(Dudley, Q, Alex) 0" ], "winner": [ "W", "L" ] },
+                { "users": [ "ChocoMilk", "Wimpyfox" ], "results": [ "07:34.61", "05:49.93" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -32,9 +32,9 @@
             "team2": 2,
             "results": [ 1, 2, 1 ],
             "details": [
-                "xClawz 03:15.46 (W) vs freezestar 03:55.00 (L)",
-                "Sairotra (Gouki, Chun Li, Ken) 0 (L) vs Retrokaiser (Hugo, Ryu, Q) 3 (W)",
-                "Xymjak Dies on the main boss (W) vs BloodParade Dies on the first miniboss (L)"
+                { "users": [ "xClawz", "freezestar" ], "results": [ "03:15.46", "03:55.00" ], "winner": [ "W", "L" ] },
+                { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Gouki, Chun Li, Ken) 0", "(Hugo, Ryu, Q) 3" ], "winner": [ "L", "W" ] },
+                { "users": [ "Xymjak", "BloodParade" ], "results": [ "Dies on the main boss", "Dies on the first miniboss" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -43,9 +43,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details":[
-                "TheoVellum 03:13.96 (W) vs GalacticSpear 03:22.23 (L)",
-                "AlexC25 (Elena, Ibuki, Ken) 0 (L) vs LivRetro (Ken, Chun Li, Akuma) 3 (W)",
-                "VenHur Dies on the first miniboss (L) vs DavidYTBR2 05:51.63 (W)"
+                { "users": [ "TheoVellum", "GalacticSpear" ], "results": [ "03:13.96", "03:22.23" ], "winner": [ "W", "L" ] },
+                { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Elena, Ibuki, Ken) 0", "(Ken, Chun Li, Akuma) 3" ], "winner": [ "L", "W" ] },
+                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Dies on the first miniboss", "05:51.63" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -54,9 +54,9 @@
             "team2": 2,
             "results": [ 1, 1, 2 ],
             "details": [
-                "SebaMardo 03:22.85 (W) vs Nepiki 03:40.11 (L)",
-                "mankodax (Ryu, Gouki, Chun Li) 3 (W) vs Raichi (Gouki, Ryu, Ken) 1 (L)",
-                "ialfaro 05:45.78 (L) vs Kiutgh 05:23.86 (W)"
+                { "users": [ "SebaMardo", "Nepiki" ], "results": [ "03:22.85", "03:40.11" ], "winner": [ "W", "L" ] },
+                { "users": [ "mankodax", "Raichi" ], "results": [ "(Ryu, Gouki, Chun Li) 3", "(Gouki, Ryu, Ken) 1" ], "winner": [ "W", "L" ] },
+                { "users": [ "ialfaro", "Kiutgh" ], "results": [ "05:45.78", "05:23.86" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -65,9 +65,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                "justyellow 03:55.58 (L) vs Eldorian 03:35.28 (W)",
-                "missiray (Gouki, Ken, Ryu) 3 (W) vs Zexerous (Hugo, Yang, Ken) 0 (L)",
-                "DanielARP Dies on the first miniboss (L) vs BalrogRPG 06:59.36 (W)"
+                { "users": [ "justyellow", "Eldorian" ], "results": [ "03:55.58", "03:35.28" ], "winner": [ "L", "W" ] },
+                { "users": [ "missiray", "Zexerous" ], "results": [ "(Gouki, Ken, Ryu) 3", "(Hugo, Yang, Ken) 0" ], "winner": [ "W", "L" ] },
+                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Dies on the first miniboss", "06:59.36" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -76,9 +76,9 @@
             "team2": 2,
             "results": [ 2, 2, 2 ],
             "details": [
-                "MonkeyBug 03:37.53 (W) vs voiceofautumn 04:44.31 (L)",
-                "Prota (Yang, Elena, Ken) 3 (W) vs voiceofautumn (N/A) (L)",
-                "AmazingBaha 06:13.06 (W) vs amine456 06:28.55 (L) (Volunteered to play)"
+                { "users": [ "MonkeyBug", "voiceofautumn" ], "results": [ "03:37.53", "04:44.31" ], "winner": [ "W", "L" ] },
+                { "users": [ "Prota", "voiceofautumn" ], "results": [ "(Yang, Elena, Ken) 3", "(N/A)" ], "winner": [ "W", "L" ] },
+                { "users": [ "AmazingBaha", "amine456" ], "results": [ "06:13.06", "06:28.55" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -87,9 +87,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                "Keywiz 04:19.70 (L) vs Nickyy 03:26.70 (W)",
-                "Zegjita (Ikubi, Makoto, Chun-li) 1 (L) vs Doggy227 (Ryu, Ken, Akuma) 3 (W)",
-                "psyduck 07:42.48 (L) vs A3r1uS 05:31.90 (W)"
+                { "users": [ "Keywiz", "Nickyy" ], "results": [ "04:19.70", "03:26.70" ], "winner": [ "L", "W" ] },
+                { "users": [ "Zegjita", "Doggy227" ], "results": [ "(Ikubi, Makoto, Chun-li) 1", "(Ryu, Ken, Akuma) 3" ], "winner": [ "L", "W" ] },
+                { "users": [ "psyduck", "A3r1uS" ], "results": [ "07:42.48", "05:31.90" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -98,9 +98,9 @@
             "team2": 2,
             "results": [ 1, 1, 1 ],
             "details": [
-                "HardSonicStorm 03:43.45 (W) vs Yoshikiller109 03:50.05 (L)",
-                "Blueby (Dudley, Makoto, Yun) 3 (W) vs Evllnk2565 (Yun, Makoto, Ken) 1 (L)",
-                "Crazeuh Dies on the first miniboss (W) vs ReadyCard53 Dies on the first half of the stage (L)"
+                { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "03:43.45", "03:50.05" ], "winner": [ "W", "L" ] },
+                { "users": [ "Blueby", "Evllnk2565" ], "results": [ "(Dudley, Makoto, Yun) 3", "(Yun, Makoto, Ken) 1" ], "winner": [ "W", "L" ] },
+                { "users": [ "Crazeuh", "ReadyCard53" ], "results": [ "Dies on the first miniboss", "Dies on the first half of the stage" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -109,9 +109,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                "Adenothe 03:59.98 (L) vs Amir96lx 03:13.51 (W)",
-                "hirumaspace (Akuma, Ken, Ryu) 3 (W) vs AuburnRDM (Dudley, Oro, Yang) 0 (L)",
-                "Pampa50 Dies on the second half of the stage (L) vs jelloknifee 06:24.81 (W)"
+                { "users": [ "Adenothe", "Amir96lx" ], "results": [ "03:59.98", "03:13.51" ], "winner": [ "L", "W" ] },
+                { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "(Akuma, Ken, Ryu) 3", "(Dudley, Oro, Yang) 0" ], "winner": [ "W", "L" ] },
+                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Dies on the second half of the stage", "06:24.81" ], "winner": [ "L", "W" ] }
             ]
         }
     ]
@@ -127,9 +127,9 @@
             "team2": 3,
             "results": [ 2, 1, 1 ],
             "details": [
-                "Bendyhuman 1 Superb (L) vs Maize 3 Superb (W) (Remix 1, 7, 9)",
-                "GameChamp 493,687 (W) vs RetroGameMaster N/A (L)",
-                "KlydeKadell 05:59.22 (W) vs ChocoMilk 06:06.00 (L)"
+                { "users": [ "Bendyhuman", "Maize" ], "results": [ "1 Superb", "3 Superb" ], "winner": [ "L", "W" ], "common": "Remix 1, 7, 9" },
+                { "users": [ "GameChamp", "RetroGameMaster" ], "results": [ "493,687", "N/A" ], "winner": [ "W", "L" ] },
+                { "users": [ "KlydeKadell", "ChocoMilk" ], "results": [ "05:59.22", "06:06.00" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -138,9 +138,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details": [
-                "ilikepie345 3 Superb (W) vs Wimpyfox 2 Superb (L) (Remix 7, 1, 5)",
-                "Blazekickn 493,388 (L) vs r0ach3d 488,240 (W)",
-                "Fruitpop 06:22.98 (L) vs genesislover 06:04.40 (W)"
+                { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "3 Superb", "2 Superb" ], "winner": [ "W", "L" ], "common": "Remix 7, 1, 5" },
+                { "users": [ "Blazekickn", "r0ach3d" ], "results": [ "493,388", "488,240" ], "winner": [ "L", "W" ] },
+                { "users": [ "Fruitpop", "genesislover" ], "results": [ "06:22.98", "06:04.40" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -149,9 +149,9 @@
             "team2": 3,
             "results": [ 1, 1, 1 ],
             "details": [
-                "Sairotra 0 Superb (W Coin Toss - 8) vs NeonHeart 0 Superb (L Coin Toss - 0) (Remix 2, 10, 8)",
-                "xClawz 459,093 (W) vs AlexC25 505,120 (L)",
-                "Xymjak 06:50.36 (W) vs VenHur ? (L)"
+                { "users": [ "Sairotra", "NeonHeart" ], "results": [ "0 Superb, 8 Coin Toss", "0 Superb, 0 Coin Toss" ], "winner": [ "W", "L" ], "common": "Remix 2, 10, 8" },
+                { "users": [ "xClawz", "AlexC25" ], "results": [ "459,093", "505,120" ], "winner": [ "W", "L" ] },
+                { "users": [ "Xymjak", "VenHur" ], "results": [ "06:50.36", "?" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -160,9 +160,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details": [
-                "freezestar 2 Superb (W) vs LivRetro 0 Superb (L) (Remix 8, 10, 2)",
-                "Retrokaiser 564,852 (L) vs SrOliveira 524,669 (W)",
-                "BloodParade 07:05.38 (L) vs GalacticSpear 06:14.20 (W)"
+                { "users": [ "freezestar", "LivRetro" ], "results": [ "2 Superb", "0 Superb" ], "winner": [ "W", "L" ], "common": "Remix 8, 10, 2" },
+                { "users": [ "Retrokaiser", "SrOliveira" ], "results": [ "564,852", "524,669" ], "winner": [ "L", "W" ] },
+                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "07:05.38", "06:14.20" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -171,9 +171,9 @@
             "team2": 3,
             "results": [ 2, 2, 2 ],
             "details": [
-                "MankoDax 0 Superb (L) vs justyellow 1 Superb (W) (Remix 2, 4, 6)",
-                "SebaMardo 505,866 (L) vs missiray 497,658 (W)",
-                "ialfaro 07:00.52 (L) vs DanielARP 06:50.36 (W)"
+                { "users": [ "MankoDax", "justyellow" ], "results": [ "0 Superb", "1 Superb" ], "winner": [ "L", "W" ], "common": "Remix 2, 4, 6" },
+                { "users": [ "SebaMardo", "missiray" ], "results": [ "505,866", "497,658" ], "winner": [ "L", "W" ] },
+                { "users": [ "ialfaro", "DanielARP" ], "results": [ "07:00.52", "06:50.36" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -182,9 +182,9 @@
             "team2": 4,
             "results": [ 1, 1, 1 ],
             "details": [
-                "Kiutgh 0 Superb (W Coin Toss - 9) vs BalrogRPG 0 Superb (L Coin Toss - 4) (Remix 7, 3, 5)",
-                "Raichi ? (W) vs Zexerous 485,481 (L)",
-                "Nepiki 05:52.84 (W) vs Eldorian 05:55.30 (L)"
+                { "users": [ "Kiutgh", "BalrogRPG" ], "results": [ "0 Superb, 9 Coin Toss", "0 Superb, 4 Coin Toss" ], "winner": [ "W", "L" ], "common": "Remix 7, 3, 5" },
+                { "users": [ "Raichi", "Zexerous" ], "results": [ "?", "485,481" ], "winner": [ "W", "L" ] },
+                { "users": [ "Nepiki", "Eldorian" ], "results": [ "05:52.84", "05:55.30" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -193,7 +193,7 @@
             "team2": 3,
             "results": [ 2, 2, 2 ],
             "details": [
-                "Exhibition (Game 3): Zegjita 06:28.04 (W)"
+                { "users": [ "Zegjita" ], "results": [ "06:28.04" ], "winner": 0 }
             ]
         },
         {
@@ -202,9 +202,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                "Prota 3 Superb (L Coin Toss - 19) vs Doggy227 3 Superb (W Coin Toss - 22) (Remix 6, 5, 4)",
-                "AmazingBaha 528,400 (L) vs Nickyy 497,642 (W)",
-                "MonkeyBug 07:23.28 (L) vs A3r1us 05:47.98 (W)"
+                { "users": [ "Prota", "Doggy227" ], "results": [ "3 Superb, 19 Coin Toss", "3 Superb, 22 Coin Toss" ], "winner": [ "L", "W" ], "common": "Remix 6, 5, 4" },
+                { "users": [ "AmazingBaha", "Nickyy" ], "results": [ "528,400", "497,642" ], "winner": [ "L", "W" ] },
+                { "users": [ "MonkeyBug", "A3r1uS" ], "results": [ "07:23.28", "05:47.98" ], "winner": [ "L", "W" ] }
             ]
         },
         {
@@ -213,9 +213,9 @@
             "team2": 3,
             "results": [ 2, 1, 1 ],
             "details": [
-                "Blueby Forfeit (L) vs Pampa50 (W) (Remix 4, 1, 7)",
-                "Crazeuh 505,366 (W) vs Hiruma 526,559 (L)",
-                "HardSonicStorm 06:18.52 (W) vs Adenothe 07:14.76 (L)"
+                { "users": [ "Blueby", "Pampa50" ], "results": [ "Forfeit", "Wins by default" ], "winner": [ "L", "W" ], "common": "Remix 4, 1, 7" },
+                { "users": [ "Crazeuh", "Hiruma" ], "results": [ "505,366", "526,559" ], "winner": [ "W", "L" ] },
+                { "users": [ "HardSonicStorm", "Adenothe" ], "results": [ "06:18.52", "07:14.76" ], "winner": [ "W", "L" ] }
             ]
         },
         {
@@ -224,9 +224,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                "Yoshikiller 3 Superb (L Coin Toss - 10) vs jelloknifee 3 Superb (W Coin Toss - 18) (Remix 5, 2, 8)",
-                "Readycard53 ? (L) vs Amir96lx 465,532 (W)",
-                "Evllnk2565 07:45.32 (L) vs AuburnRDM 05:56.90 (W)"
+                { "users": [ "Yoshikiller", "jelloknifee" ], "results": [ "3 Superb, 10 Coin Toss", "3 Superb, 18 Coin Toss" ], "winner": [ "L", "W" ], "common": "Remix 5, 2, 8" },
+                { "users": [ "Readycard53", "Amir96lx" ], "results": [ "?", "465,532" ], "winner": [ "L", "W" ] },
+                { "users": [ "Evllnk2565", "AuburnRDM" ], "results": [ "07:45.32", "05:56.90" ], "winner": [ "L", "W" ] }
             ]
         }
     ]

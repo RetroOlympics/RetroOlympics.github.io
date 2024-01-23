@@ -1,9 +1,9 @@
 "use strict";
 
 const container = document.getElementById("schedule-container");
-const groups = await fetch("/json/teams.json").then(res => res.json());
-const allgames = await fetch("/json/games.json").then(res => res.json());
-const schedule = await fetch("/json/schedule.json", { cache: "no-cache" }).then(res => res.json());
+const groups = await fetch("json/teams.json").then(res => res.json());
+const allgames = await fetch("json/games.json").then(res => res.json());
+const schedule = await fetch("json/schedule.json", { cache: "no-cache" }).then(res => res.json());
 let output = "";
 
 for (const [weeknum, week] of schedule.entries()) {

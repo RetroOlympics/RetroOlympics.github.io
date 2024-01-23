@@ -20,7 +20,7 @@ const volunteers = {
     "drisc": "Web Developer",
     "MonkeyBug": "Web Developer",
     "Nabas6545": "Media Producer",
-    "Tayadaoc": "Media Producer",
+    "Tayadaoc": "Media Producer & Referee",
 };
 
 const container = document.getElementById("volunteers-container");

@@ -1,7 +1,7 @@
 "use strict";
 
 const container = document.getElementById("teams-container");
-const groups = await fetch("/json/teams.json").then(res => res.json());
+const groups = await fetch("json/teams.json").then(res => res.json());
 let output = "";
 
 for (const [group, teams] of Object.entries(groups)) {

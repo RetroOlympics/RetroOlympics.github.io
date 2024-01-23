@@ -1,7 +1,7 @@
 "use strict";
 
 const container = document.getElementById("games-container");
-const games = await fetch("/json/games.json").then(res => res.json());
+const games = await fetch("json/games.json").then(res => res.json());
 let output = "";
 
 for (const group of games) {

@@ -40,6 +40,7 @@ for (const [weeknum, week] of schedule.entries()) {
             groups[slot.group][slot.team2 - 1],
         ];
 
+        // this sucks, fix this
         const wins = slot.results.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
         let winner = 0;
         if (wins.get(1) == undefined && wins.get(2) == undefined) {
@@ -110,7 +111,7 @@ for (const [weeknum, week] of schedule.entries()) {
         output += `<label class="expand" for="detailsButton${weeknum}${index}"><i class="bx bx-plus"></i></label>`;
         output += `<div class="details">`;
 
-        for (const match of slot.details) {
+        for (const [index, match] of Object.entries(slot.details)) {
             output += `<div class="details-match">`;
             if (Object.keys(match).length == 0) {
                 output += `<div class="details-user"></div>`
@@ -128,14 +129,14 @@ for (const [weeknum, week] of schedule.entries()) {
                     <div class="details-user">
                         <ra-userpic>${match.users[0]}</ra-userpic>
                         <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
-                        ${match.winner == 1 ? "<span>🏆</span>" : ""}
+                        ${slot.results[index] == 1 ? "<span>🏆</span>" : ""}
                     </div>
                     <p>${match.results[0]}</p>
                     <div class="matchup-vs"><hr>vs<hr></div>
                     <div class="details-user">
                         <ra-userpic>${match.users[1]}</ra-userpic>
                         <a href="https://retroachievements.org/user/${match.users[1]}">${match.users[1]}</a>
-                        ${match.winner == 2 ? "<span>🏆</span>" : ""}
+                        ${slot.results[index] == 2 ? "<span>🏆</span>" : ""}
                     </div>
                     <p>${match.results[1]}</p>
                 `;

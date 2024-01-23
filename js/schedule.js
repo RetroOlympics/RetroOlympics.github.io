@@ -113,6 +113,7 @@ for (const [weeknum, week] of schedule.entries()) {
 
         for (const [index, match] of Object.entries(slot.details)) {
             output += `<div class="details-match">`;
+            output += `<img class="details-img" src="${games[index].image}">`
             if (Object.keys(match).length == 0) {
                 output += `<div class="details-user"></div>`
             } else if (match.users.length == 1) {

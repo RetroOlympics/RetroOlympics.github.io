@@ -423,13 +423,13 @@
         },
         {
             "group": "D",
-            "team1": 1,
-            "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "team1": 2,
+            "team2": -1,
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "" ], "results": [ "" ] },
+                { "users": [ "" ], "results": [ "" ] },
+                { "users": [ "" ], "results": [ "" ] }
             ]
         },
         {
@@ -540,13 +540,13 @@
         },
         {
             "group": "D",
-            "team1": 1,
-            "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "team1": 3,
+            "team2": -1,
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "" ], "results": [ "" ] },
+                { "users": [ "" ], "results": [ "" ] },
+                { "users": [ "" ], "results": [ "" ] }
             ]
         },
         {
@@ -657,13 +657,13 @@
         },
         {
             "group": "D",
-            "team1": 1,
-            "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "team1": 4,
+            "team2": -1,
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "" ], "results": [ "" ] },
+                { "users": [ "" ], "results": [ "" ] },
+                { "users": [ "" ], "results": [ "" ] }
             ]
         },
         {

@@ -120,27 +120,34 @@ for (const [weeknum, week] of schedule.entries()) {
                 output += `
                     <div class="details-user">
                         <ra-userpic>${match.users[0]}</ra-userpic>
-                        <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
-                        ${match.winner == 1 ? "<span>🏆</span>" : ""}
+                        ${match.users[0].length != 0 ? `<a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>` : ""}
                     </div>
-                    <p>${match.results[0]}</p>
                 `;
+                if (match.results[0].length != 0) {
+                    output += `<p>${match.results[0]}</p>`;
+                }
             } else {
                 output += `
                     <div class="details-user">
                         <ra-userpic>${match.users[0]}</ra-userpic>
-                        <a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>
+                        ${match.users[0].length != 0 ? `<a href="https://retroachievements.org/user/${match.users[0]}">${match.users[0]}</a>` : ""}
                         ${slot.results[index] == 1 ? "<span>🏆</span>" : ""}
                     </div>
-                    <p>${match.results[0]}</p>
+                `;
+                if (match.results[0].length != 0) {
+                    output += `<p>${match.results[0]}</p>`;
+                }
+                output += `
                     <div class="matchup-vs"><hr>vs<hr></div>
                     <div class="details-user">
                         <ra-userpic>${match.users[1]}</ra-userpic>
-                        <a href="https://retroachievements.org/user/${match.users[1]}">${match.users[1]}</a>
+                        ${match.users[1].length != 0 ? `<a href="https://retroachievements.org/user/${match.users[1]}">${match.users[1]}</a>` : ""}
                         ${slot.results[index] == 2 ? "<span>🏆</span>" : ""}
                     </div>
-                    <p>${match.results[1]}</p>
                 `;
+                if (match.results[1].length != 0) {
+                    output += `<p>${match.results[1]}</p>`;
+                }
             }
             output += "</div>";
         }

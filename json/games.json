@@ -108,7 +108,7 @@
         },
         {
             "name": "Super Puzzle Fighter 2 Turbo",
-            "challenge": "Both contestants select 2 non-hidden characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch characters. First to win a Bo3 with both characters wins the match.",
+            "challenge": "Both contestants select 2 non-hidden characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch characters. First to win a Bo3 with both characters wins the match. Level 3 (default) only.",
             "image": "img/spf2.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"

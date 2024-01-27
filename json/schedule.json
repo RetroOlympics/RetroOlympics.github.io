@@ -359,11 +359,11 @@
             "group": "A",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Gamechamp", "ilikepie345" ], "results": [ "2", "0" ] },
+                { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "(Hsein-ko and Donovan) 0", "(Ken and Sakura) 2" ] },
+                { "users": [ "Bendyhuman", "Blazekickn" ], "results": [ "08:36.40", "DNF" ] }
             ]
         },
         {

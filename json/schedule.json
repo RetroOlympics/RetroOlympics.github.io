@@ -370,11 +370,11 @@
             "group": "A",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "RetroGameMaster", "Wimpyfox" ], "results": [ "Won by default", "Forfeit" ] },
+                { "users": [ "Maize", "genesislover" ], "results": [ "(Donovan and Morrigan) 2", "(Felisia and Hsien-Ko) 1" ] },
+                { "users": [ "ChocoMilk", "r0ach3d" ], "results": [ "08:26.11", "08:40.83" ] }
             ]
         },
         {

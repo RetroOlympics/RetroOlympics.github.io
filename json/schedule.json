@@ -392,11 +392,11 @@
             "group": "B",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "TheoVellum", "SrOliveira" ], "results": [ "2", "0" ] },
+                { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Felicia and Hsien-Ko) 0", "(Morrigan and Ken) 2" ] },
+                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "6.1 distance", "1.3 distance" ] }
             ]
         },
         {

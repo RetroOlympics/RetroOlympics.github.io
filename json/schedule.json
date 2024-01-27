@@ -381,11 +381,11 @@
             "group": "B",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "xClawz", "freezestar" ], "results": [ "2", "1" ] },
+                { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Morrigan and Donovan) 0", "(Chun-Li and Morrigan) 2" ] },
+                { "users": [ "Xymjak", "faronheights" ], "results": [ "07:22.51", "DNF" ] }
             ]
         },
         {

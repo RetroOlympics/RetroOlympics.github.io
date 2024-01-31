@@ -447,11 +447,11 @@
             "group": "E",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Crazeuh", "Evllnk2565" ], "results": [ "Won by default", "Absent" ] },
+                { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "(Hsien-ko, Sakura) 1", "(Morrigan, Ken) 2" ] },
+                { "users": [ "Blueby", "Readycard53" ], "results": [ "Won by default", "Absent" ] }
             ]
         },
         {

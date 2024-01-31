@@ -458,11 +458,11 @@
             "group": "E",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "0", "2" ] },
+                { "users": [ "Adenothe", "jelloknifee" ], "results": [ "(Ryu, Ken) 0", "(Morrigan, Ken) 2" ] },
+                { "users": [ "Pampa50", "Amir96lx" ], "results": [ "6.1 distance", "08:48.30" ] }
             ]
         }
     ]

@@ -403,11 +403,11 @@
             "group": "C",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "mankodax", "Raichi" ], "results": [ "2", "0" ] },
+                { "users": [ "BeerBaron", "Kiutgh" ], "results": [ "(Sakura, Ken) 1", "(Donovan, Morrigan) 2" ] },
+                { "users": [ "ialfaro", "Nepiki" ], "results": [ "9.8 distance", "3.8 distance" ] }
             ]
         },
         {

@@ -373,7 +373,7 @@
             "results": [ 1, 1, 1 ],
             "details": [
                 { "users": [ "RetroGameMaster", "Wimpyfox" ], "results": [ "Won by default", "Forfeit" ] },
-                { "users": [ "Maize", "genesislover" ], "results": [ "(Donovan and Morrigan) 2", "(Felisia and Hsien-Ko) 1" ] },
+                { "users": [ "Maize", "genesislover" ], "results": [ "(Donovan, Morrigan) 2", "(Felisia, Hsien-Ko) 1" ] },
                 { "users": [ "ChocoMilk", "r0ach3d" ], "results": [ "08:26.11", "08:40.83" ] }
             ]
         },
@@ -384,7 +384,7 @@
             "results": [ 1, 2, 1 ],
             "details": [
                 { "users": [ "xClawz", "freezestar" ], "results": [ "2", "1" ] },
-                { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Morrigan and Donovan) 0", "(Chun-Li and Morrigan) 2" ] },
+                { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Morrigan, Donovan) 0", "(Chun-Li, Morrigan) 2" ] },
                 { "users": [ "Xymjak", "faronheights" ], "results": [ "07:22.51", "DNF" ] }
             ]
         },
@@ -395,7 +395,7 @@
             "results": [ 1, 2, 1 ],
             "details": [
                 { "users": [ "TheoVellum", "SrOliveira" ], "results": [ "2", "0" ] },
-                { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Felicia and Hsien-Ko) 0", "(Morrigan and Ken) 2" ] },
+                { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Felicia, Hsien-Ko) 0", "(Morrigan, Ken) 2" ] },
                 { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "6.1 distance", "1.3 distance" ] }
             ]
         },
@@ -436,11 +436,11 @@
             "group": "D",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "psyduck", "Nickyy" ], "results": [ "2", "0" ] },
+                { "users": [ "Zegjita", "A3r1uS" ], "results": [ "(Sakura, Hsien-ko) 0", "(Sakura, Chun-Li) 2" ] },
+                { "users": [ "Keywiz", "Doggy227" ], "results": [ "11.8 distance", "07:06.76" ] }
             ]
         },
         {

@@ -427,9 +427,9 @@
             "team2": -1,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "" ], "results": [ "" ] },
-                { "users": [ "" ], "results": [ "" ] },
-                { "users": [ "" ], "results": [ "" ] }
+                { "users": [ "Prota", "AmazingBaha" ], "results": [ "2", "0" ] },
+                { "users": [ "Joncky", "MonkeyBug" ], "results": [ "2", "0" ] },
+                {}
             ]
         },
         {

@@ -210,7 +210,8 @@
             "console": "img/console/ps1.png",
             "type": "ra",
             "ra_id": "11283",
-            "ra_hash": "113a06fdb9815c4bc6177d2950e28946"
+            "ra_hash": "113a06fdb9815c4bc6177d2950e28946",
+            "ra_save": "saves/Ape_Escape_USA.srm"
         },
         {
             "name": "Simpsons, The: Road Rage",

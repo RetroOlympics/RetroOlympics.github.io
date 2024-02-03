@@ -476,11 +476,11 @@
             "group": "A",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Gamechamp", "RetroGameMaster" ], "results": [ "(Mita, Biaggi, Scott) 3", "(Biaggi, Yoo, Costa) 0" ] },
+                { "users": [ "KlydeKadell", "Maize" ], "results": [ "05:57.68", "Died near 2nd boss" ] },
+                { "users": [ "Bendyhuman", "ChocoMilk" ], "results": [ "DNF", "04:11.35" ] }
             ]
         },
         {

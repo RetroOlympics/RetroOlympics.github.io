@@ -553,11 +553,11 @@
             "group": "D",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Prota", "Doggy227" ], "results": [ "(Mita, Yoo, Biaggi) 0", "(Scott, Wessel, Biaggi) 3" ] },
+                { "users": [ "AmazingBaha", "A3r1uS" ], "results": [ "05:10.86", "04:25.65" ] },
+                { "users": [ "Joncky", "Nickyy" ], "results": [ "03:57.71", "DNF" ] }
             ]
         },
         {

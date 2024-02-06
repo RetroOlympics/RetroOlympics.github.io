@@ -520,11 +520,11 @@
             "group": "C",
             "team1": 1,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "ialfaro", "missiray" ], "results": [ "(Yoo, Mita, Biaggi) 3", "(Yoo, Wessel, Biaggi) 1" ] },
+                { "users": [ "SebaMardo", "DanielARP" ], "results": [ "04:30.11", "05:17.26" ] },
+                { "users": [ "mankodax", "justyellow" ], "results": [ "DQ", "05:07.70" ] }
             ]
         },
         {

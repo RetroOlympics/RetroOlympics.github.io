@@ -509,11 +509,11 @@
             "group": "B",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "freezestar", "LivRetro" ], "results": [ "(Yoo, Biaggi, Wessel) 3", "(Wessel, Costa, Mita) 2" ] },
+                { "users": [ "Retrokaiser", "DavidYTBR2" ], "results": [ "05:38.43", "04:57.86" ] },
+                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "03:40:46", "04:53:98" ] }
             ]
         },
         {

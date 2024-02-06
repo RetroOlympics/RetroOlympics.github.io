@@ -544,9 +544,9 @@
             "team2": -1,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "" ], "results": [ "" ] },
-                { "users": [ "" ], "results": [ "" ] },
-                { "users": [ "" ], "results": [ "" ] }
+                {},
+                { "users": [ "" ], "results": [ "No exhibition matches" ] },
+                {}
             ]
         },
         {

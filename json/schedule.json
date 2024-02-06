@@ -479,7 +479,7 @@
             "results": [ 1, 1, 2 ],
             "details": [
                 { "users": [ "Gamechamp", "RetroGameMaster" ], "results": [ "(Mita, Biaggi, Scott) 3", "(Biaggi, Yoo, Costa) 0" ] },
-                { "users": [ "KlydeKadell", "Maize" ], "results": [ "05:57.68", "Died near 2nd boss" ] },
+                { "users": [ "KlydeKadell", "Maize" ], "results": [ "05:57.68", "Died on stage 2-2" ] },
                 { "users": [ "Bendyhuman", "ChocoMilk" ], "results": [ "DNF", "04:11.35" ] }
             ]
         },
@@ -487,11 +487,11 @@
             "group": "A",
             "team1": 2,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Blazekickn", "genesislover" ], "results": [ "(Yoo, Costa, Biaggi) 3", "(Yoo, Costa, Scott) 2" ] },
+                { "users": [ "Fruitpop", "r0ach3d" ], "results": [ "Died on stage 3-2", "04:43.81" ] },
+                { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "04:52.81", "DNF" ] }
             ]
         },
         {
@@ -569,7 +569,8 @@
                 { "users": [ "", "" ], "results": [ "", "" ] },
                 { "users": [ "", "" ], "results": [ "", "" ] },
                 { "users": [ "", "" ], "results": [ "", "" ] }
-            ]
+            ],
+            "timestamp": "https://youtu.be/0W8ooekzies?t=16170"
         },
         {
             "group": "E",

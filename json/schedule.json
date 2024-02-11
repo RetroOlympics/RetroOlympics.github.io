@@ -615,11 +615,11 @@
             "group": "B",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Xymjak", "GalacticSpear" ], "results": [ "DNF", "4:39.22" ] },
+                { "users": [ "xClawz", "LivRetro" ], "results": [ "(USA, France) 2", "(Japan, Korea) 1" ] },
+                { "users": [ "Sairotra", "SrOliveira" ], "results": [ "3", "0" ] }
             ]
         },
         {

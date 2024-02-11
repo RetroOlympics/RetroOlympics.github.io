@@ -637,11 +637,11 @@
             "group": "C",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "SebaMardo", "Zexerous" ], "results": [ "Absent", "Won by default" ] },
+                { "users": [ "BeerBaron", "Eldorian" ], "results": [ "(France, China, Spain) L", "(USA, Korea, Italy) W" ] },
+                { "users": [ "mankodax", "BalrogRPG" ], "results": [ "(581, 616, 593) 3", "(434, 497, 464) 0" ] }
             ]
         },
         {

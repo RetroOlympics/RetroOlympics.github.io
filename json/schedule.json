@@ -21,9 +21,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "Probored", "r0ach3d" ], "results": [ "04:35.58", "03:17.65" ] },
+                { "users": [ "Probored", "r0ach3d" ], "results": [ "4:35.58", "3:17.65" ] },
                 { "users": [ "Maize", "genesislover" ], "results": [ "(Ken, Ryu, Akuma) 3", "(Dudley, Q, Alex) 0" ] },
-                { "users": [ "ChocoMilk", "Wimpyfox" ], "results": [ "07:34.61", "05:49.93" ] }
+                { "users": [ "ChocoMilk", "Wimpyfox" ], "results": [ "7:34.61", "5:49.93" ] }
             ]
         },
         {
@@ -32,7 +32,7 @@
             "team2": 2,
             "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "xClawz", "freezestar" ], "results": [ "03:15.46", "03:55.00" ] },
+                { "users": [ "xClawz", "freezestar" ], "results": [ "3:15.46", "3:55.00" ] },
                 { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Gouki, Chun Li, Ken) 0", "(Hugo, Ryu, Q) 3" ] },
                 { "users": [ "Xymjak", "BloodParade" ], "results": [ "Died on the main boss", "Died on the mini boss" ] }
             ]
@@ -43,9 +43,9 @@
             "team2": 4,
             "results": [ 1, 2, 2 ],
             "details":[
-                { "users": [ "TheoVellum", "GalacticSpear" ], "results": [ "03:13.96", "03:22.23" ] },
+                { "users": [ "TheoVellum", "GalacticSpear" ], "results": [ "3:13.96", "3:22.23" ] },
                 { "users": [ "AlexC25", "LivRetro" ], "results": [ "(Elena, Ibuki, Ken) 0", "(Ken, Chun Li, Akuma) 3" ] },
-                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Died on the miniboss", "05:51.63" ] }
+                { "users": [ "VenHur", "DavidYTBR2" ], "results": [ "Died on the miniboss", "5:51.63" ] }
             ]
         },
         {
@@ -54,9 +54,9 @@
             "team2": 2,
             "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "SebaMardo", "Nepiki" ], "results": [ "03:22.85", "03:40.11" ] },
+                { "users": [ "SebaMardo", "Nepiki" ], "results": [ "3:22.85", "3:40.11" ] },
                 { "users": [ "mankodax", "Raichi" ], "results": [ "(Ryu, Gouki, Chun Li) 3", "(Gouki, Ryu, Ken) 1" ] },
-                { "users": [ "ialfaro", "Kiutgh" ], "results": [ "05:45.78", "05:23.86" ] }
+                { "users": [ "ialfaro", "Kiutgh" ], "results": [ "5:45.78", "5:23.86" ] }
             ]
         },
         {
@@ -65,9 +65,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "justyellow", "Eldorian" ], "results": [ "03:55.58", "03:35.28" ] },
+                { "users": [ "justyellow", "Eldorian" ], "results": [ "3:55.58", "3:35.28" ] },
                 { "users": [ "missiray", "Zexerous" ], "results": [ "(Gouki, Ken, Ryu) 3", "(Hugo, Yang, Ken) 0" ] },
-                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Died on the miniboss", "06:59.36" ] }
+                { "users": [ "DanielARP", "BalrogRPG" ], "results": [ "Died on the miniboss", "6:59.36" ] }
             ]
         },
         {
@@ -76,9 +76,9 @@
             "team2": -1,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "MonkeyBug", "voiceofautumn" ], "results": [ "03:37.53", "04:44.31" ] },
+                { "users": [ "MonkeyBug", "voiceofautumn" ], "results": [ "3:37.53", "4:44.31" ] },
                 { "users": [ "Prota", "voiceofautumn" ], "results": [ "(Yang, Elena, Ken) 3", "(N/A)" ] },
-                { "users": [ "AmazingBaha", "amine456" ], "results": [ "06:13.06", "06:28.55" ] }
+                { "users": [ "AmazingBaha", "amine456" ], "results": [ "6:13.06", "6:28.55" ] }
             ]
         },
         {
@@ -87,9 +87,9 @@
             "team2": 4,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "Keywiz", "Nickyy" ], "results": [ "04:19.70", "03:26.70" ] },
+                { "users": [ "Keywiz", "Nickyy" ], "results": [ "4:19.70", "3:26.70" ] },
                 { "users": [ "Zegjita", "Doggy227" ], "results": [ "(Ikubi, Makoto, Chun-li) 1", "(Ryu, Ken, Akuma) 3" ] },
-                { "users": [ "psyduck", "A3r1uS" ], "results": [ "07:42.48", "05:31.90" ] }
+                { "users": [ "psyduck", "A3r1uS" ], "results": [ "7:42.48", "5:31.90" ] }
             ]
         },
         {
@@ -98,7 +98,7 @@
             "team2": 2,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "03:43.45", "03:50.05" ] },
+                { "users": [ "HardSonicStorm", "Yoshikiller109" ], "results": [ "3:43.45", "3:50.05" ] },
                 { "users": [ "Blueby", "Evllnk2565" ], "results": [ "(Dudley, Makoto, Yun) 3", "(Yun, Makoto, Ken) 1" ] },
                 { "users": [ "Crazeuh", "Readycard53" ], "results": [ "Died on the miniboss", "Died on the first half" ] }
             ]
@@ -109,9 +109,9 @@
             "team2": 4,
             "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "Adenothe", "Amir96lx" ], "results": [ "03:59.98", "03:13.51" ] },
+                { "users": [ "Adenothe", "Amir96lx" ], "results": [ "3:59.98", "3:13.51" ] },
                 { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "(Akuma, Ken, Ryu) 3", "(Dudley, Oro, Yang) 0" ] },
-                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Died on the second half", "06:24.81" ] }
+                { "users": [ "Pampa50", "jelloknifee" ], "results": [ "Died on the second half", "6:24.81" ] }
             ]
         }
     ]
@@ -129,7 +129,7 @@
             "details": [
                 { "users": [ "Bendyhuman", "Maize" ], "results": [ "1 Superb", "3 Superb" ], "common": "Remix 1, 7, 9" },
                 { "users": [ "Gamechamp", "RetroGameMaster" ], "results": [ "493,687", "N/A" ] },
-                { "users": [ "KlydeKadell", "ChocoMilk" ], "results": [ "05:59.22", "06:06.00" ] }
+                { "users": [ "KlydeKadell", "ChocoMilk" ], "results": [ "5:59.22", "6:06.00" ] }
             ]
         },
         {
@@ -140,7 +140,7 @@
             "details": [
                 { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "3 Superb", "2 Superb" ], "common": "Remix 7, 1, 5" },
                 { "users": [ "Blazekickn", "r0ach3d" ], "results": [ "493,388", "488,240" ] },
-                { "users": [ "Fruitpop", "genesislover" ], "results": [ "06:22.98", "06:04.40" ] }
+                { "users": [ "Fruitpop", "genesislover" ], "results": [ "6:22.98", "6:04.40" ] }
             ]
         },
         {
@@ -151,7 +151,7 @@
             "details": [
                 { "users": [ "Sairotra", "NeonHeart" ], "results": [ "0 Superb, 8 Coin Toss", "0 Superb, 0 Coin Toss" ], "common": "Remix 2, 10, 8" },
                 { "users": [ "xClawz", "AlexC25" ], "results": [ "459,093", "505,120" ] },
-                { "users": [ "Xymjak", "VenHur" ], "results": [ "06:50.36", "?" ] }
+                { "users": [ "Xymjak", "VenHur" ], "results": [ "6:50.36", "?" ] }
             ]
         },
         {
@@ -162,7 +162,7 @@
             "details": [
                 { "users": [ "freezestar", "LivRetro" ], "results": [ "2 Superb", "0 Superb" ], "common": "Remix 8, 10, 2" },
                 { "users": [ "Retrokaiser", "SrOliveira" ], "results": [ "564,852", "524,669" ] },
-                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "07:05.38", "06:14.20" ] }
+                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "7:05.38", "6:14.20" ] }
             ]
         },
         {
@@ -173,7 +173,7 @@
             "details": [
                 { "users": [ "MankoDax", "justyellow" ], "results": [ "0 Superb", "1 Superb" ], "common": "Remix 2, 4, 6" },
                 { "users": [ "SebaMardo", "missiray" ], "results": [ "505,866", "497,658" ] },
-                { "users": [ "ialfaro", "DanielARP" ], "results": [ "07:00.52", "06:50.36" ] }
+                { "users": [ "ialfaro", "DanielARP" ], "results": [ "7:00.52", "6:50.36" ] }
             ]
         },
         {
@@ -184,7 +184,7 @@
             "details": [
                 { "users": [ "Kiutgh", "BalrogRPG" ], "results": [ "0 Superb, 9 Coin Toss", "0 Superb, 4 Coin Toss" ], "common": "Remix 7, 3, 5" },
                 { "users": [ "Raichi", "Zexerous" ], "results": [ "?", "485,481" ] },
-                { "users": [ "Nepiki", "Eldorian" ], "results": [ "05:52.84", "05:55.30" ] }
+                { "users": [ "Nepiki", "Eldorian" ], "results": [ "5:52.84", "5:55.30" ] }
             ]
         },
         {
@@ -195,7 +195,7 @@
             "details": [
                 {},
                 {},
-                { "users": [ "Zegjita" ], "results": [ "06:28.04" ] }
+                { "users": [ "Zegjita" ], "results": [ "6:28.04" ] }
             ]
         },
         {
@@ -206,7 +206,7 @@
             "details": [
                 { "users": [ "Prota", "Doggy227" ], "results": [ "3 Superb, 19 Coin Toss", "3 Superb, 22 Coin Toss" ], "common": "Remix 6, 5, 4" },
                 { "users": [ "AmazingBaha", "Nickyy" ], "results": [ "528,400", "497,642" ] },
-                { "users": [ "MonkeyBug", "A3r1uS" ], "results": [ "07:23.28", "05:47.98" ] }
+                { "users": [ "MonkeyBug", "A3r1uS" ], "results": [ "7:23.28", "5:47.98" ] }
             ]
         },
         {
@@ -217,7 +217,7 @@
             "details": [
                 { "users": [ "Blueby", "Pampa50" ], "results": [ "Forfeit", "Wins by default" ], "common": "Remix 4, 1, 7" },
                 { "users": [ "Crazeuh", "hirumaspace" ], "results": [ "505,366", "526,559" ] },
-                { "users": [ "HardSonicStorm", "Adenothe" ], "results": [ "06:18.52", "07:14.76" ] }
+                { "users": [ "HardSonicStorm", "Adenothe" ], "results": [ "6:18.52", "7:14.76" ] }
             ]
         },
         {
@@ -228,7 +228,7 @@
             "details": [
                 { "users": [ "Yoshikiller109", "jelloknifee" ], "results": [ "3 Superb, 10 Coin Toss", "3 Superb, 18 Coin Toss" ], "common": "Remix 5, 2, 8" },
                 { "users": [ "Readycard53", "Amir96lx" ], "results": [ "?", "465,532" ] },
-                { "users": [ "Evllnk2565", "AuburnRDM" ], "results": [ "07:45.32", "05:56.90" ] }
+                { "users": [ "Evllnk2565", "AuburnRDM" ], "results": [ "7:45.32", "5:56.90" ] }
             ]
         }
     ]
@@ -245,8 +245,8 @@
             "results": [ 2, 1, 1 ],
             "details": [
                 { "users": [ "Bendyhuman", "r0ach3d" ], "results": [ "Absent", "Won by default" ] },
-                { "users": [ "KlydeKadell", "genesislover" ], "results": [ "08:14.46", "Stage 3 (mid boss)" ] },
-                { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "01:50.63", "02:03.30" ] }
+                { "users": [ "KlydeKadell", "genesislover" ], "results": [ "8:14.46", "Stage 3 (mid boss)" ] },
+                { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "1:50.63", "2:03.30" ] }
             ]
         },
         {
@@ -255,9 +255,9 @@
             "team2": 3,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "ilikepie345", "ChocoMilk" ], "results": [ "04:34.01", "04:32.71" ] },
+                { "users": [ "ilikepie345", "ChocoMilk" ], "results": [ "4:34.01", "4:32.71" ] },
                 { "users": [ "Fruitpop", "RetroGameMaster" ], "results": [ "Stage 3 (beginning)", "Stage 3 (helicopter)" ] },
-                { "users": [ "Blazekickn", "Maize" ], "results": [ "DNF", "02:05.43" ] }
+                { "users": [ "Blazekickn", "Maize" ], "results": [ "DNF", "2:05.43" ] }
             ]
         },
         {
@@ -266,9 +266,9 @@
             "team2": 4,
             "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "Xymjak", "GalacticSpear" ], "results": [ "04:26.16", "04:15.80" ] },
-                { "users": [ "Sairotra", "LivRetro" ], "results": [ "08:38.31", "07:18.98" ] },
-                { "users": [ "xClawz", "SrOliveira" ], "results": [ "01:41.46", "DNF" ] }
+                { "users": [ "Xymjak", "GalacticSpear" ], "results": [ "4:26.16", "4:15.80" ] },
+                { "users": [ "Sairotra", "LivRetro" ], "results": [ "8:38.31", "7:18.98" ] },
+                { "users": [ "xClawz", "SrOliveira" ], "results": [ "1:41.46", "DNF" ] }
             ]
         },
         {
@@ -277,9 +277,9 @@
             "team2": 3,
             "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "freezestar", "TheoVellum" ], "results": [ "04:50.96", "04:53.18" ] },
+                { "users": [ "freezestar", "TheoVellum" ], "results": [ "4:50.96", "4:53.18" ] },
                 { "users": [ "Retrokaiser", "VenHur" ], "results": [ "Stage 2 (beginning)", "Stage 2 (halfway)" ] },
-                { "users": [ "BloodParade", "AlexC25" ], "results": [ "02:24.61", "02:19.38" ] }
+                { "users": [ "BloodParade", "AlexC25" ], "results": [ "2:24.61", "2:19.38" ] }
             ]
         },
         {
@@ -288,9 +288,9 @@
             "team2": 4,
             "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "ialfaro", "BalrogRPG" ], "results": [ "04:35.38", "06:50.43" ] },
-                { "users": [ "BeerBaron", "Zexerous" ], "results": [ "09:14.86", "Stage 3 (mid boss)" ] },
-                { "users": [ "SebaMardo", "Eldorian" ], "results": [ "DNF", "01:35.35" ] }
+                { "users": [ "ialfaro", "BalrogRPG" ], "results": [ "4:35.38", "6:50.43" ] },
+                { "users": [ "BeerBaron", "Zexerous" ], "results": [ "9:14.86", "Stage 3 (mid boss)" ] },
+                { "users": [ "SebaMardo", "Eldorian" ], "results": [ "DNF", "1:35.35" ] }
             ]
         },
         {
@@ -299,9 +299,9 @@
             "team2": 3,
             "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "Nepiki", "DanielARP" ], "results": [ "05:04.50", "DNF" ] },
-                { "users": [ "Kiutgh", "missiray" ], "results": [ "Stage 2 (boss)", "06:53.60" ] },
-                { "users": [ "Raichi", "justyellow" ], "results": [ "01:46.36", "DNF" ] }
+                { "users": [ "Nepiki", "DanielARP" ], "results": [ "5:04.50", "DNF" ] },
+                { "users": [ "Kiutgh", "missiray" ], "results": [ "Stage 2 (boss)", "6:53.60" ] },
+                { "users": [ "Raichi", "justyellow" ], "results": [ "1:46.36", "DNF" ] }
             ]
         },
         {
@@ -310,7 +310,7 @@
             "team2": -1,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "A3r1uS" ], "results": [ "05:33.08" ] },
+                { "users": [ "A3r1uS" ], "results": [ "5:33.08" ] },
                 {},
                 {}
             ]
@@ -321,9 +321,9 @@
             "team2": 3,
             "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "Prota", "Zegjita" ], "results": [ "04:23.88", "06:37.11" ] },
+                { "users": [ "Prota", "Zegjita" ], "results": [ "4:23.88", "6:37.11" ] },
                 { "users": [ "MonkeyBug", "psyduck" ], "results": [ "Stage 3 (boats)", "Stage 3 (beginning)" ] },
-                { "users": [ "AmazingBaha", "Keywiz" ], "results": [ "02:55.66", "01:33.23" ] }
+                { "users": [ "AmazingBaha", "Keywiz" ], "results": [ "2:55.66", "1:33.23" ] }
             ]
         },
         {
@@ -332,9 +332,9 @@
             "team2": 4,
             "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "Blueby", "AuburnRDM" ], "results": [ "04:46.01", "05:02.51" ] },
+                { "users": [ "Blueby", "AuburnRDM" ], "results": [ "4:46.01", "5:02.51" ] },
                 { "users": [ "Crazeuh", "jelloknifee" ], "results": [ "Stage 2 (tower)", "Stage 3 (train)" ] },
-                { "users": [ "HardSonicStorm", "Amir96lx" ], "results": [ "Did not submit", "03:37.90" ] }
+                { "users": [ "HardSonicStorm", "Amir96lx" ], "results": [ "Did not submit", "3:37.90" ] }
             ]
         },
         {
@@ -343,9 +343,9 @@
             "team2": 3,
             "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "Yoshikiller109", "Pampa50" ], "results": [ "05:43.21", "04:50.25" ] },
+                { "users": [ "Yoshikiller109", "Pampa50" ], "results": [ "5:43.21", "4:50.25" ] },
                 { "users": [ "Evllnk2565", "Adenothe" ], "results": [ "Stage 2 (tower)", "Stage 3 (mid boss)" ] },
-                { "users": [ "Readycard53", "hirumaspace" ], "results": [ "Did not submit", "02:28.31" ] }
+                { "users": [ "Readycard53", "hirumaspace" ], "results": [ "Did not submit", "2:28.31" ] }
             ]
         }
     ]
@@ -363,7 +363,7 @@
             "details": [
                 { "users": [ "Gamechamp", "ilikepie345" ], "results": [ "2", "0" ] },
                 { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "(Hsein-ko and Donovan) 0", "(Ken and Sakura) 2" ] },
-                { "users": [ "Bendyhuman", "Blazekickn" ], "results": [ "08:36.40", "DNF" ] }
+                { "users": [ "Bendyhuman", "Blazekickn" ], "results": [ "8:36.40", "DNF" ] }
             ]
         },
         {
@@ -374,7 +374,7 @@
             "details": [
                 { "users": [ "RetroGameMaster", "Wimpyfox" ], "results": [ "Won by default", "Forfeit" ] },
                 { "users": [ "Maize", "genesislover" ], "results": [ "(Donovan, Morrigan) 2", "(Felisia, Hsien-Ko) 1" ] },
-                { "users": [ "ChocoMilk", "r0ach3d" ], "results": [ "08:26.11", "08:40.83" ] }
+                { "users": [ "ChocoMilk", "r0ach3d" ], "results": [ "8:26.11", "8:40.83" ] }
             ]
         },
         {
@@ -385,7 +385,7 @@
             "details": [
                 { "users": [ "xClawz", "freezestar" ], "results": [ "2", "1" ] },
                 { "users": [ "Sairotra", "Retrokaiser" ], "results": [ "(Morrigan, Donovan) 0", "(Chun-Li, Morrigan) 2" ] },
-                { "users": [ "Xymjak", "faronheights" ], "results": [ "07:22.51", "DNF" ] }
+                { "users": [ "Xymjak", "faronheights" ], "results": [ "7:22.51", "DNF" ] }
             ]
         },
         {
@@ -440,7 +440,7 @@
             "details": [
                 { "users": [ "psyduck", "Nickyy" ], "results": [ "2", "0" ] },
                 { "users": [ "Zegjita", "A3r1uS" ], "results": [ "(Sakura, Hsien-ko) 0", "(Sakura, Chun-Li) 2" ] },
-                { "users": [ "Keywiz", "Doggy227" ], "results": [ "11.8 distance", "07:06.76" ] }
+                { "users": [ "Keywiz", "Doggy227" ], "results": [ "11.8 distance", "7:06.76" ] }
             ]
         },
         {
@@ -462,7 +462,7 @@
             "details": [
                 { "users": [ "hirumaspace", "AuburnRDM" ], "results": [ "0", "2" ] },
                 { "users": [ "Adenothe", "jelloknifee" ], "results": [ "(Ryu, Ken) 0", "(Morrigan, Ken) 2" ] },
-                { "users": [ "Pampa50", "Amir96lx" ], "results": [ "6.1 distance", "08:48.30" ] }
+                { "users": [ "Pampa50", "Amir96lx" ], "results": [ "6.1 distance", "8:48.30" ] }
             ]
         }
     ]
@@ -479,8 +479,8 @@
             "results": [ 1, 1, 2 ],
             "details": [
                 { "users": [ "Gamechamp", "RetroGameMaster" ], "results": [ "(Mita, Biaggi, Scott) 3", "(Biaggi, Yoo, Costa) 0" ] },
-                { "users": [ "KlydeKadell", "Maize" ], "results": [ "05:57.68", "Died on stage 2-2" ] },
-                { "users": [ "Bendyhuman", "ChocoMilk" ], "results": [ "DNF", "04:11.35" ] }
+                { "users": [ "KlydeKadell", "Maize" ], "results": [ "5:57.68", "Died on stage 2-2" ] },
+                { "users": [ "Bendyhuman", "ChocoMilk" ], "results": [ "DNF", "4:11.35" ] }
             ]
         },
         {
@@ -490,8 +490,8 @@
             "results": [ 1, 2, 1 ],
             "details": [
                 { "users": [ "Blazekickn", "genesislover" ], "results": [ "(Yoo, Costa, Biaggi) 3", "(Yoo, Costa, Scott) 2" ] },
-                { "users": [ "Fruitpop", "r0ach3d" ], "results": [ "Died on stage 3-2", "04:43.81" ] },
-                { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "04:52.81", "DNF" ] }
+                { "users": [ "Fruitpop", "r0ach3d" ], "results": [ "Died on stage 3-2", "4:43.81" ] },
+                { "users": [ "ilikepie345", "Wimpyfox" ], "results": [ "4:52.81", "DNF" ] }
             ]
         },
         {
@@ -501,8 +501,8 @@
             "results": [ 2, 1, 0 ],
             "details": [
                 { "users": [ "xClawz", "AlexC25" ], "results": [ "(Scott, Wessel, Costa) 1", "(Wessel, Costa, Mita) 3" ] },
-                { "users": [ "Xymjak", "TheoVellum" ], "results": [ "04:47.43", "Died on stage 2-2" ] },
-                { "users": [ "Sairotra", "VenHur" ], "results": [ "04:31.85", "DNF" ] }
+                { "users": [ "Xymjak", "TheoVellum" ], "results": [ "4:47.43", "Died on stage 2-2" ] },
+                { "users": [ "Sairotra", "VenHur" ], "results": [ "4:31.85", "DNF" ] }
             ]
         },
         {
@@ -512,8 +512,8 @@
             "results": [ 1, 2, 1 ],
             "details": [
                 { "users": [ "freezestar", "LivRetro" ], "results": [ "(Yoo, Biaggi, Wessel) 3", "(Wessel, Costa, Mita) 2" ] },
-                { "users": [ "Retrokaiser", "DavidYTBR2" ], "results": [ "05:38.43", "04:57.86" ] },
-                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "03:40:46", "04:53:98" ] }
+                { "users": [ "Retrokaiser", "DavidYTBR2" ], "results": [ "5:38.43", "4:57.86" ] },
+                { "users": [ "BloodParade", "GalacticSpear" ], "results": [ "3:40.46", "4:53.98" ] }
             ]
         },
         {
@@ -523,8 +523,8 @@
             "results": [ 1, 1, 2 ],
             "details": [
                 { "users": [ "ialfaro", "missiray" ], "results": [ "(Yoo, Mita, Biaggi) 3", "(Yoo, Wessel, Biaggi) 1" ] },
-                { "users": [ "SebaMardo", "DanielARP" ], "results": [ "04:30.11", "05:17.26" ] },
-                { "users": [ "mankodax", "justyellow" ], "results": [ "DQ", "05:07.70" ] }
+                { "users": [ "SebaMardo", "DanielARP" ], "results": [ "4:30.11", "5:17.26" ] },
+                { "users": [ "mankodax", "justyellow" ], "results": [ "DQ", "5:07.70" ] }
             ]
         },
         {
@@ -534,8 +534,8 @@
             "results": [ 2, 1, 1 ],
             "details": [
                 { "users": [ "Raichi", "Zexerous" ], "results": [ "(Mita, Biaggi, Scott) 2", "(Costa, Biaggi, Scott) 3" ] },
-                { "users": [ "Kiutgh", "Iggore" ], "results": [ "04:50.60", "Died on stage 2-1" ] },
-                { "users": [ "Nepiki", "BalrogRPG" ], "results": [ "04:28.16", "05:37.65" ] }
+                { "users": [ "Kiutgh", "Iggore" ], "results": [ "4:50.60", "Died on stage 2-1" ] },
+                { "users": [ "Nepiki", "BalrogRPG" ], "results": [ "4:28.16", "5:37.65" ] }
             ]
         },
         {
@@ -556,8 +556,8 @@
             "results": [ 2, 2, 1 ],
             "details": [
                 { "users": [ "Prota", "Doggy227" ], "results": [ "(Mita, Yoo, Biaggi) 0", "(Scott, Wessel, Biaggi) 3" ] },
-                { "users": [ "AmazingBaha", "A3r1uS" ], "results": [ "05:10.86", "04:25.65" ] },
-                { "users": [ "Joncky", "Nickyy" ], "results": [ "03:57.71", "DNF" ] }
+                { "users": [ "AmazingBaha", "A3r1uS" ], "results": [ "5:10.86", "4:25.65" ] },
+                { "users": [ "Joncky", "Nickyy" ], "results": [ "3:57.71", "DNF" ] }
             ]
         },
         {
@@ -567,8 +567,8 @@
             "results": [ 2, 2, 2 ],
             "details": [
                 { "users": [ "Blueby", "hirumaspace" ], "results": [ "(Wessel, Yoo, Mita) 1", "(Biaggi, Yoo, Costa) 3" ] },
-                { "users": [ "HardSonicStorm", "Pampa50" ], "results": [ "06:30.01", "04:59.51" ] },
-                { "users": [ "Crazeuh", "Adenothe" ], "results": [ "DNF", "05:08.11" ] }
+                { "users": [ "HardSonicStorm", "Pampa50" ], "results": [ "6:30.01", "4:59.51" ] },
+                { "users": [ "Crazeuh", "Adenothe" ], "results": [ "DNF", "5:08.11" ] }
             ]
         },
         {
@@ -578,7 +578,7 @@
             "results": [ 2, 2, 2 ],
             "details": [
                 { "users": [ "Readycard53", "AuburnRDM" ], "results": [ "(Scott, Costa, Biaggi) 1", "(Scott, Costa, Mita) 3" ] },
-                { "users": [ "Evllnk2565", "Amir96lx" ], "results": [ "Died on stage 2-2", "04:59.88" ] },
+                { "users": [ "Evllnk2565", "Amir96lx" ], "results": [ "Died on stage 2-2", "4:59.88" ] },
                 { "users": [ "Yoshikiller109", "jelloknifee" ], "results": [ "DNF", "3:53.46" ] }
             ]
         }

@@ -593,11 +593,11 @@
             "group": "A",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Bendyhuman", "r0ach3d" ], "results": [ "5:09.34", "5:07.16" ] },
+                { "users": [ "KlydeKadell", "genesislover" ], "results": [ "(Italy, Spain, Japan) W", "(Japan, Spain, France) L" ] },
+                { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "(658,726,615) 3", "(426,552,486) 0" ] }
             ]
         },
         {

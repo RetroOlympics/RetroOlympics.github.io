@@ -661,20 +661,21 @@
             "team2": -1,
             "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "" ], "results": [ "" ] },
-                { "users": [ "" ], "results": [ "" ] },
-                { "users": [ "" ], "results": [ "" ] }
+                {},
+                { "users": [ "" ], "results": [ "No exhibition matches" ] },
+                {}
             ]
         },
         {
             "group": "D",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "MonkeyBug", "Zegjita" ], "results": [ "DNF", "5:17.42" ] },
+                { "users": [ "Prota", "psyduck" ], "results": [ "(USA, Korea, England) W", "(Taiwan, Germany, Korea) L" ] },
+                { "users": [ "AmazingBaha", "Keywiz" ], "results": [ "(661, 592, 645) 1", "(667, 624, 609) 2" ] }
+
             ]
         },
         {

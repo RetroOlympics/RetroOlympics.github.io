@@ -498,7 +498,7 @@
             "group": "B",
             "team1": 1,
             "team2": 3,
-            "results": [ 2, 1, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
                 { "users": [ "xClawz", "AlexC25" ], "results": [ "(Scott, Wessel, Costa) 1", "(Wessel, Costa, Mita) 3" ] },
                 { "users": [ "Xymjak", "TheoVellum" ], "results": [ "4:47.43", "Died on stage 2-2" ] },

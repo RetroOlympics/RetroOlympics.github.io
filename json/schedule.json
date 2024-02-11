@@ -597,18 +597,18 @@
             "details": [
                 { "users": [ "Bendyhuman", "r0ach3d" ], "results": [ "5:09.34", "5:07.16" ] },
                 { "users": [ "KlydeKadell", "genesislover" ], "results": [ "(Italy, Spain, Japan) W", "(Japan, Spain, France) L" ] },
-                { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "(658,726,615) 3", "(426,552,486) 0" ] }
+                { "users": [ "Gamechamp", "Wimpyfox" ], "results": [ "(658, 726, 615) 3", "(426, 552, 486) 0" ] }
             ]
         },
         {
             "group": "A",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "ilikepie345", "ChocoMilk" ], "results": [ "4:41.09", "5:11.24" ] },
+                { "users": [ "Fruitpop", "RetroGameMaster" ], "results": [ "(USA, Spain, Germany) L", "(China, Germany, USA) W" ] },
+                { "users": [ "Blazekickn", "Maize" ], "results": [ "(705, 798, 719) 3", "(684, 782, 696) 0" ] }
             ]
         },
         {

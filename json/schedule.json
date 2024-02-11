@@ -693,11 +693,11 @@
             "group": "E",
             "team1": 2,
             "team2": 3,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Yoshikiller109", "Pampa50" ], "results": [ "Absent", "5:24.14" ] },
+                { "users": [ "Evllnk2565", "amine456" ], "results": [ "Absent", "Won by default" ] },
+                { "users": [ "Readycard53", "hirumaspace" ], "results": [ "Absent", "Won by default" ] }
             ]
         }
     ]

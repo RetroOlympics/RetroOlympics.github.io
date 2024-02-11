@@ -682,11 +682,11 @@
             "group": "E",
             "team1": 1,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Blueby", "jelloknifee" ], "results": [ "DNF", "4:32.57" ] },
+                { "users": [ "HardSonicStorm", "AuburnRDM" ], "results": [ "(France, Italy, China) L", "(USA, Spain) W" ] },
+                { "users": [ "Crazeuh", "Amir96lx" ], "results": [ "(343, 296, 288) 0", "(814, 713, 731) 3" ] }
             ]
         },
         {

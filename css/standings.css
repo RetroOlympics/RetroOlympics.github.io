@@ -4,7 +4,8 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1em 10%;
+    max-width: 1500px;
+    padding: 1em;
 }
 
 .group {
@@ -72,8 +73,14 @@ main {
     font-weight: bold;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .group {
-        font-size: 16px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .group .table .row .team {
+        justify-content: start;
     }
 }

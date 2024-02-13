@@ -44,6 +44,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2em;
+    overflow-x: hidden;
+    padding: 0 15%;
 }
 
 .hero-text {
@@ -55,20 +57,67 @@ body {
     color: white;
 }
 
-section{
-    padding: 0 15%;
+@keyframes fade-in-down {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes grow-vert {
+    from {
+        max-height: 0px;
+    }
+    to {
+        max-height: 500px;
+    }
+}
+
+@keyframes run-in {
+    0% {
+        transform: translateX(400px);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .hero-text h3 {
     font-size: 1.25em;
+    opacity: 0;
+    animation: 0.5s ease 0s forwards fade-in-down;
 }
 
 .hero-text h2 {
     font-size: 1.75em;
+    opacity: 0;
+    animation: 0.5s ease 0s forwards fade-in-down;
 }
 
 .hero-text h1 {
     font-size: 4em;
+    opacity: 0;
+    animation: 0.5s ease 1s forwards fade-in-down;
+}
+
+.hero-text div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    max-height: 0px;
+    opacity: 0;
+    animation: 0.5s ease 2s forwards grow-vert, 0.5s ease 2.25s forwards fade-in-down;
+    overflow-y: hidden;
+    padding-bottom: 1em;
 }
 
 .hero-text p {
@@ -78,37 +127,30 @@ section{
 
 .hero-img img {
     width: 100%;
+    opacity: 0;
+    animation: 0.5s ease 1s forwards run-in;
 }
 
-.hero-text a {
-    display: inline-block;
+.hero-text div > a {
+    font-size: 1.25em;
     color: white;
-    background: #36393f;
-    border: 1px solid transparent;
-    padding: 12px 30px;
-    line-height: 1.4;
-    font-size: 14px;
-    font-weight: 500;
+    background: #333;
+    border: 2px solid transparent;
+    padding: 1em;
     border-radius: 30px;
     text-transform: uppercase;
-    transition: all .55s ease;
+    transition: width 0.25s ease, border-color 0.25s ease;
+    width: 75%;
 }
 
-.hero-text a:hover {
-    background: transparent;
-    border: 1px solid white;
-    transform: translateX(8px);
+.hero-text div > a:hover {
+    border-color: white;
+    width: 80%;
 }
 
-.hero-text a.ctaa {
-    background: transparent;
-    border: 1px solid white;
-    margin-left: 20px;
-}
-
-.hero-text a.ctaa i{
-    vertical-align: middle;
-    margin-right: 5px;
+.hero-text div > a > i {
+    padding-right: 0.5em;
+    font-size: 1.25em;
 }
 
 .scroll-down {
@@ -140,10 +182,13 @@ section{
         display: flex;
         flex-direction: column-reverse;
         gap: 0;
+        max-width: 600px;
+        padding: 0 2em;
     }
 
     .hero-text {
         padding-top: 0;
+        font-size: 0.9em;
     }
 
     .scroll-down {

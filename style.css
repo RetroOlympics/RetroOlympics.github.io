@@ -151,6 +151,7 @@ body {
 .hero-text div > a > i {
     padding-right: 0.5em;
     font-size: 1.25em;
+    vertical-align: bottom;
 }
 
 .scroll-down {

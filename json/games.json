@@ -215,7 +215,7 @@
         },
         {
             "name": "Simpsons, The: Road Rage",
-            "challenge": "In Road Rage, earn the most amount of money on Evergreen Terrace (Hard Difficulty).",
+            "challenge": "In Road Rage, earn the most amount of money on Evergreen Terrace (Hard Difficulty). Unlockable cars allowed.",
             "image": "img/tsrr.png",
             "console": "img/console/ps2.png",
             "type": "ra",
@@ -238,7 +238,7 @@
         },
         {
             "name": "Marvel vs. Capcom: Clash of Super Heroes",
-            "challenge": "Both contestants select 5 non-hidden fighters and submit these ahead of the match to the referee. If you win with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win with all 5 characters wins the match.",
+            "challenge": "Both contestants select 3 teams of 2 non-secret fighters, as well as the 3 assists that will be used (no repeats, secrets allowed), and submit these ahead of the match to the referee. If you win with a team/assist, you may not use them again. If you lose, you are free to switch to any of your available teams/assists. First to win with all 3 teams wins the match.",
             "image": "img/mvc.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"

@@ -220,7 +220,8 @@
             "console": "img/console/ps2.png",
             "type": "ra",
             "ra_id": "20611",
-            "ra_hash": "3712b6a56c4183070876524c5cc75142"
+            "ra_hash": "3712b6a56c4183070876524c5cc75142",
+            "ra_save": "saves/Simpsons_Road_Rage_All_Cars.ps2"
         }
     ]
 },

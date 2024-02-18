@@ -744,11 +744,11 @@
             "group": "B",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "TheoVellum", "DavidYTBR2" ], "results": [ "9:55.15", "8:54.28" ] },
+                { "users": [ "AlexC25", "GalacticSpear" ], "results": [ "Absent", "Won by default" ] },
+                { "users": [ "VenHur", "LivRetro" ], "results": [ "11,249", "13,176" ] }
             ]
         },
         {

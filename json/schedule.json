@@ -722,11 +722,11 @@
             "group": "A",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Maize", "r0ach3d" ], "results": [ "8:39.26", "8:00.08" ] },
+                { "users": [ "ChocoMilk", "genesislover" ], "results": [ "Won by default", "Absent" ] },
+                { "users": [ "RetroGameMaster", "Wimpyfox" ], "results": [ "18,439", "11,873" ] }
             ]
         },
         {

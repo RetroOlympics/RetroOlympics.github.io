@@ -14,14 +14,15 @@ for (const [group, teams] of Object.entries(groups)) {
                 <span>Rank</span>
                 <span>Team</span>
                 <span>Points</span>
+                <span>Wins</span>
             </div>
     `;
 
     const scores = [
-        { n: 0, team: 0 },
-        { n: 0, team: 1 },
-        { n: 0, team: 2 },
-        { n: 0, team: 3 },
+        { n: 0, wins: 0, team: 0 },
+        { n: 0, wins: 0, team: 1 },
+        { n: 0, wins: 0, team: 2 },
+        { n: 0, wins: 0, team: 3 },
     ];
     for (const week of schedule) {
         for (const slot of week.timeslots) {
@@ -35,14 +36,20 @@ for (const [group, teams] of Object.entries(groups)) {
                     }
                 }
                 if (points[0] > points[1]) {
-                    scores[slot["team1"] - 1].n += 3;
+                    scores[slot.team1 - 1].n += 3;
                 } else if (points[1] > points[0]) {
-                    scores[slot["team2"] - 1].n += 3;
+                    scores[slot.team2 - 1].n += 3;
+                }
+                if (slot.team1 > 0) {
+                    scores[slot.team1 - 1].wins += points[0];
+                }
+                if (slot.team2 > 0) {
+                    scores[slot.team2 - 1].wins += points[1];
                 }
             }
         }
     }
-    scores.sort((a, b) => b.n - a.n);
+    scores.sort((a, b) => (b.n - a.n) || (b.wins - a.wins));
 
     let nextRank = -1;
     let prevScore = Number.MAX_VALUE;
@@ -63,6 +70,7 @@ for (const [group, teams] of Object.entries(groups)) {
                 </a>
             </div>
             <div class="points">${score.n}</div>
+            <div class="wins">${score.wins}</div>
         </div>`;
     }
 

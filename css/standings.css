@@ -26,7 +26,7 @@ main {
 
 .group .table {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
     background-color: #ddd;
     border-radius: 10px;
     margin: 10px;

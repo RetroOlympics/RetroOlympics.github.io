@@ -799,11 +799,11 @@
             "group": "E",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "", "" ], "results": [ "Won by default", "Absent" ] },
+                { "users": [ "", "" ], "results": [ "Won by default", "Absent" ] },
+                { "users": [ "", "" ], "results": [ "Won by default", "Absent" ] }
             ]
         },
         {

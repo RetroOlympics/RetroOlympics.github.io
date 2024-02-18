@@ -755,11 +755,11 @@
             "group": "C",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "SebaMardo", "Kiutgh" ], "results": [ "DNF", "7:54.08" ] },
+                { "users": [ "", "Nepiki" ], "results": [ "Absent", "Won by default" ] },
+                { "users": [ "BeerBaron", "Raichi" ], "results": [ "11,706", "26,266" ] }
             ]
         },
         {

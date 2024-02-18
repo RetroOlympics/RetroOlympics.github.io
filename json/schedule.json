@@ -215,7 +215,7 @@
             "team2": 3,
             "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "Blueby", "Pampa50" ], "results": [ "Forfeit", "Wins by default" ], "common": "Remix 4, 1, 7" },
+                { "users": [ "Blueby", "Pampa50" ], "results": [ "Forfeit", "Won by default" ], "common": "Remix 4, 1, 7" },
                 { "users": [ "Crazeuh", "hirumaspace" ], "results": [ "505,366", "526,559" ] },
                 { "users": [ "HardSonicStorm", "Adenothe" ], "results": [ "6:18.52", "7:14.76" ] }
             ]
@@ -766,11 +766,11 @@
             "group": "C",
             "team1": 3,
             "team2": 4,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "", "" ], "results": [ "Won by default", "Absent" ] },
+                { "users": [ "", "" ], "results": [ "Won by default", "Absent" ] },
+                { "users": [ "", "" ], "results": [ "Won by default", "Absent" ] }
             ]
         },
         {

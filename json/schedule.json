@@ -711,11 +711,11 @@
             "group": "A",
             "team1": 1,
             "team2": 2,
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "KlydeKadell", "Fruitpop" ], "results": [ "7:56.40", "8:03.25" ] },
+                { "users": [ "Gamechamp", "ilikepie345" ], "results": [ "(0:14.98, 0:28.85, 0:03.26, 0:39.25, 0:31.76) 3", "(0:16.00, DNF, 0:03.96, 0:32.96, 0:30.96) 2" ] },
+                { "users": [ "Bendyhuman", "Blazekickn" ], "results": [ "10,854", "11,871" ] }
             ]
         },
         {

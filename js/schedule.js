@@ -35,10 +35,17 @@ for (const [weeknum, week] of schedule.entries()) {
     }
     let time = new Date(date);
     for (const [index, slot] of Object.entries(week.timeslots)) {
-        const teams = [
-            groups[slot.group][slot.team1 - 1],
-            groups[slot.group][slot.team2 - 1],
-        ];
+        const teams = [];
+        if (slot.team1.hasOwnProperty("group")) {
+            teams[0] = groups[slot.team1.group][slot.team1.n - 1];
+        } else {
+            teams[0] = groups[slot.group][slot.team1 - 1];
+        }
+        if (slot.team2.hasOwnProperty("group")) {
+            teams[1] = groups[slot.team2.group][slot.team2.n - 1];
+        } else {
+            teams[1] = groups[slot.group][slot.team2 - 1];
+        }
 
         // this sucks, fix this
         const wins = slot.results.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
@@ -51,7 +58,16 @@ for (const [weeknum, week] of schedule.entries()) {
             winner = 2;
         }
 
-        const games = allgames.find(gr => gr.groupname === week.name).games;
+        const games = slot.hasOwnProperty("games") ?
+            slot.games.map(game => game.hasOwnProperty("week") ?
+                allgames.find(gr => gr.groupname === game.week).games[game.n - 1] :
+                {
+                    "name": "?",
+                    "image": "img/qblock.png",
+                }
+            ) :
+            allgames.find(gr => gr.groupname === week.name).games;
+
         output += `<div class="row">
             <div class="time" data-time="${time.toISOString()}">
                 ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(time)}

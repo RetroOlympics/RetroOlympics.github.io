@@ -823,7 +823,68 @@
     "name": "Tiebreakers",
     "date": "2024-02-24",
     "start": "17:00",
-    "timeslots": []
+    "timeslots": [
+        {
+            "group": "A & B",
+            "team1": { "group": "A", "n": 4 },
+            "team2": { "group": "B", "n": 3 },
+            "games": [
+                { "week": "Week 2", "n": 2 },
+                { "week": "Week 5", "n": 1 },
+                { "week": "Week 4", "n": 2 }
+            ],
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "group": "B & C",
+            "team1": { "group": "B", "n": 3 },
+            "team2": { "group": "C", "n": 4 },
+            "games": [
+                { "week": "Week 6", "n": 3 },
+                { "week": "Week 3", "n": 1 },
+                { "week": "Week 5", "n": 1 }
+            ],
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "group": "C & A",
+            "team1": { "group": "C", "n": 4 },
+            "team2": { "group": "A", "n": 4 },
+            "games": [
+                { "week": "Week 3", "n": 1 },
+                { "week": "Week 1", "n": 2 },
+                { "week": "Week 6", "n": 1 }
+            ],
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "group": "C",
+            "team1": 2,
+            "team2": 3,
+            "games": [ {}, {}, {} ],
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        }
+    ]
 },
 {
     "name": "Last 16",

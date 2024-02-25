@@ -15,8 +15,8 @@ for (const [weeknum, week] of schedule.entries()) {
     } else {
         output += `
             <div class="timezone right">
-                <input type="checkbox" id="timezone${weeknum}">
-                <label for="timezone${weeknum}">
+                <label>
+                    <input type="checkbox">
                     <span class="local"></span>
                     <span class="utc"></span>
                 </label>
@@ -34,7 +34,7 @@ for (const [weeknum, week] of schedule.entries()) {
         `;
     }
     let time = new Date(date);
-    for (const [index, slot] of Object.entries(week.timeslots)) {
+    for (const slot of week.timeslots) {
         const teams = [];
         if (slot.team1.hasOwnProperty("group")) {
             teams[0] = groups[slot.team1.group][slot.team1.n - 1];
@@ -123,8 +123,12 @@ for (const [weeknum, week] of schedule.entries()) {
         }
 
         output += "</div>";
-        output += `<input class="expand" type="checkbox" id="detailsButton${weeknum}${index}">`
-        output += `<label class="expand" for="detailsButton${weeknum}${index}"><i class="bx bx-plus"></i></label>`;
+        output += `
+            <label class="expand">
+                <input type="checkbox">
+                <i class="bx bx-plus"></i>
+            </label>
+        `;
         output += `<div class="details">`;
 
         for (const [index, match] of Object.entries(slot.details)) {

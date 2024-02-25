@@ -39,7 +39,7 @@
     border: 2px solid #777;
 }
 
-.schedule .header .timezone input[type="checkbox"] {
+.schedule .header .timezone label input[type="checkbox"] {
     display: none;
 }
 
@@ -67,12 +67,12 @@
     height: 1rem;
 }
 
-.schedule .header .timezone label span:nth-child(1),
-.schedule .header .timezone input[type="checkbox"]:checked + label span:nth-child(2) {
+.schedule .header .timezone label span:nth-child(2),
+.schedule .header .timezone label:has(input:checked) span:nth-child(3) {
     background-color: #ddd;
 }
 
-.schedule .header .timezone input[type="checkbox"]:checked + label span:nth-child(1) {
+.schedule .header .timezone label:has(input:checked) span:nth-child(2) {
     background-color: #777;
 }
 
@@ -210,11 +210,11 @@
     filter: grayscale(100%);
 }
 
-.schedule .table input.expand {
+.schedule .table label.expand input {
     display: none;
 }
 
-.schedule .table input.expand + label {
+.schedule .table label.expand {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,11 +223,11 @@
     font-size: 2.5em;
 }
 
-.schedule .table input.expand + label i {
+.schedule .table label.expand i {
     transition: transform 0.5s ease;
 }
 
-.schedule .table input.expand:checked + label i {
+.schedule .table label.expand:has(input:checked) i {
     transform: rotateZ(135deg);
 }
 
@@ -244,7 +244,7 @@
     grid-template: 1fr / 1fr 1fr 1fr;
 }
 
-.schedule .table input.expand:checked + label + .details {
+.schedule .table label:has(input:checked) + .details {
     max-height: 20em;
 }
 
@@ -312,7 +312,7 @@
 
 @media (max-width: 700px) {
     /* disable details on mobile for now */
-    .schedule .table input.expand + label,
+    .schedule .table label:has(input.expand),
     .schedule .table .details,
     .schedule .table span.head:nth-child(5) {
         display: none;

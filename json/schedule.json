@@ -833,11 +833,11 @@
                 { "week": "Week 5", "n": 1 },
                 { "week": "Week 4", "n": 2 }
             ],
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "r0ach3d", "VenHur" ], "results": [ "493,191", "522,579" ] },
+                { "users": [ "genesislover", "TheoVellum" ], "results": [ "0", "3" ] },
+                { "users": [ "Wimpyfox", "AlexC25" ], "results": [ "1", "2" ] }
             ]
         },
         {

@@ -876,12 +876,16 @@
             "group": "C",
             "team1": 2,
             "team2": 3,
-            "games": [ {}, {}, {} ],
-            "results": [ 0, 0, 0 ],
+            "games": [
+                { "week": "Week 6", "n": 3 },
+                { "week": "Week 3", "n": 2 },
+                { "week": "Week 1", "n": 2 }
+            ],
+            "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Nepiki", "justyellow" ], "results": [ "(487, 405, 416) 0", "(547, 518, 559) 3" ] },
+                { "users": [ "Kiutgh", "missiray" ], "results": [ "DNF", "6:46.28" ] },
+                { "users": [ "Raichi", "WhyNot360" ], "results": [ "(Akuma, Ken, Ryu) 3", "(Akuma, Ryu, Ken) 0" ] }
             ]
         }
     ]

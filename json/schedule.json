@@ -865,11 +865,11 @@
                 { "week": "Week 1", "n": 2 },
                 { "week": "Week 6", "n": 1 }
             ],
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Wimpyfox", "Eldorian" ], "results": [ "5:12.41", "6:30.08" ] },
+                { "users": [ "genesislover", "Zexerous" ], "results": [ "(Q, Makoto, Yun) 2", "(Hugo, Ken, Yang) 3" ] },
+                { "users": [ "r0ach3d", "BalrogRPG" ], "results": [ "4:28.55", "DNF (Clouds)" ] }
             ]
         },
         {

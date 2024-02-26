@@ -195,9 +195,8 @@ for (const [index, week] of knockouts.entries()) {
     week.num = index;
     const date = new Date(`${week.date}T${week.start}Z`);
     output += `<div class="schedule knockout"><div class="header"><h3>${week.name}</h3>${date.toDateString()}`;
-    if (week.timeslots.length == 0) {
+    if (week.timeslots.length == 0 || !week.timeslots.some(v => v.hasOwnProperty("team1"))) {
         output += `<span class="right">TBD</span></div></div>`;
-        continue;
     } else {
         output += `
             <div class="timezone right">
@@ -217,13 +216,14 @@ for (const [index, week] of knockouts.entries()) {
             <div class="more-left">←</div>
             <div class="table-data">
         `;
+
+        let time = new Date(date);
+        for (const slot of week.timeslots) {
+            output += renderSlot(week, slot, time);
+            time = new Date(time.getTime() + 1800000);
+        }
+        output += `</div><div class="more-right">→</div></div></div>`;
     }
-    let time = new Date(date);
-    for (const slot of week.timeslots) {
-        output += renderSlot(week, slot, time);
-        time = new Date(time.getTime() + 1800000);
-    }
-    output += `</div><div class="more-right">→</div></div></div>`;
 }
 document.getElementById("knockouts-schedule").innerHTML = output;
 

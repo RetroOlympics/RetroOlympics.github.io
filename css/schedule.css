@@ -12,6 +12,7 @@ main {
 main > label {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 2em;
     padding: 1em;
     flex: 1;
@@ -290,7 +291,7 @@ main > div {
     grid-template: 1fr / 1fr 1fr 1fr;
 }
 
-.schedule .table label:has(input:checked) + .details {
+.schedule .table label.expand:has(input:checked) + .details {
     max-height: 20em;
 }
 
@@ -358,10 +359,14 @@ main > div {
 
 @media (max-width: 700px) {
     /* disable details on mobile for now */
-    .schedule .table label:has(input.expand),
+    .schedule .table label.expand,
     .schedule .table .details,
     .schedule .table span.head:nth-child(5) {
         display: none;
+    }
+
+    main > label {
+        font-size: 1.5em;
     }
 
     .schedule .table {
@@ -372,6 +377,12 @@ main > div {
     .schedule .table .table-head,
     .schedule .table .table-data {
         grid-template: 1fr 1fr 2fr 1.5fr / 1fr;
+    }
+
+    .schedule.knockout .table .table-head,
+    .schedule.knockout .table .table-data {
+        display: grid;
+        grid-template: 1fr 2fr 1.5fr / 1fr;
     }
 
     .schedule .table .table-head {

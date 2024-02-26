@@ -7,7 +7,7 @@ let output = "";
 for (const [group, teams] of Object.entries(groups)) {
     output += `<div id="group${group}" class="teamgroup"><h1>Group ${group}</h1><div class="teams">`;
     for (const team of teams) {
-        output += `<div class="card">
+        output += `<div class="card ${team.knockedout ? "knockedout" : ""}">
             <div class="card-front">
                 <img src="${team.image}">
                 <h1>${team.name}</h1>

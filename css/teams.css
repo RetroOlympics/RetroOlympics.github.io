@@ -25,6 +25,12 @@
     flex: 1;
 }
 
+.teamgroup .card.knockedout {
+    transform: scale(0.75);
+    filter: grayscale(1);
+    justify-self: flex-end;
+}
+
 .teamgroup > h1 {
     color: #fff;
     grid-column: 1 / span 4;

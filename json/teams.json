@@ -22,7 +22,8 @@
         "name": "Dark Link's Demons",
         "image": "img/team/DarkLinksDemons.png",
         "icon": "img/icon/DarkLinksDemons.png",
-        "members": [ "r0ach3d", "Wimpyfox", "genesislover" ]
+        "members": [ "r0ach3d", "Wimpyfox", "genesislover" ],
+        "knockedout": true
     }
 ],
 "B": [
@@ -74,7 +75,8 @@
         "name": "Terra's Titans",
         "image": "img/team/TerrasTitans.png",
         "icon": "img/icon/TerrasTitans.png",
-        "members": [ "Eldorian", "Zexerous", "BalrogRPG", "Iggore" ]
+        "members": [ "Eldorian", "Zexerous", "BalrogRPG", "Iggore" ],
+        "knockedout": true
     }
 ],
 "D": [
@@ -82,7 +84,8 @@
         "name": "",
         "image": "img/emptycard.png",
         "icon": "img/unown.png",
-        "members": []
+        "members": [],
+        "knockedout": true
     },
     {
         "name": "Cress's Crusaders",
@@ -114,7 +117,8 @@
         "name": "Ganondorf's Guardians",
         "image": "img/team/GanondorfsGuardians.png",
         "icon": "img/icon/GanondorfsGuardians.png",
-        "members": [ "Yoshikiller109", "Evllnk2565", "Readycard53", "MrRockTable" ]
+        "members": [ "Yoshikiller109", "Evllnk2565", "Readycard53", "MrRockTable" ],
+        "knockedout": true
     },
     {
         "name": "Peach's Power Stars",

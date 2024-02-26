@@ -13,7 +13,7 @@ main > label {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 1em;
     flex: 1;
     color: #777;
@@ -366,10 +366,6 @@ main > div {
     .schedule .table .details,
     .schedule .table span.head:nth-child(5) {
         display: none;
-    }
-
-    main > label {
-        font-size: 1.5em;
     }
 
     .schedule .table {

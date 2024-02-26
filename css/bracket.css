@@ -2,12 +2,13 @@
 
 .bracket {
     display: grid;
-    grid-template: repeat(7, 8em minmax(1em, 1fr)) 8em / 1fr repeat(3, 0.75fr 1fr);
+    grid-template: repeat(7, 9em minmax(1em, 1fr)) 9em / 1fr repeat(3, minmax(4em, 0.75fr) 1fr);
     grid-auto-flow: column;
     width: 100%;
     height: 100%;
     font-size: 0.8em;
     border-radius: 8px;
+    overflow-x: scroll;
 }
 
 .bracket .matchup {
@@ -34,13 +35,12 @@
 
 .bracket .team {
     border: 4px #444 solid;
-    /* outline: 4px #777 solid; */
     background-color: #ddd;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     min-width: 10em;
-    min-height: 4em;
+    min-height: 4.5em;
 }
 
 .bracket .team.unknown {
@@ -60,6 +60,7 @@
 
 .bracket .team .icon {
     aspect-ratio: 1 / 1;
+    object-fit: contain;
     width: 2em;
     margin: 0.5em;
 }

@@ -1,0 +1,107 @@
+[
+{
+    "name": "Last 16",
+    "date": "2024-03-02",
+    "start": "17:00",
+    "timeslots": [
+        {
+            "team1": { "group": "B", "n": 1 },
+            "team2": { "group": "C", "n": 1 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "E", "n": 1 },
+            "team2": { "group": "D", "n": 2 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "D", "n": 4 },
+            "team2": { "group": "A", "n": 2 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "B", "n": 4 },
+            "team2": { "group": "B", "n": 3 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "E", "n": 4 },
+            "team2": { "group": "B", "n": 2 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "A", "n": 3 },
+            "team2": { "group": "C", "n": 2 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "C", "n": 3 },
+            "team2": { "group": "E", "n": 3 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "A", "n": 1 },
+            "team2": { "group": "D", "n": 3 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        }
+    ]
+},
+{
+    "name": "Quarter Finals",
+    "date": "2024-03-09",
+    "start": "17:00",
+    "timeslots": []
+},
+{
+    "name": "Semi Finals",
+    "date": "2024-03-16",
+    "start": "17:00",
+    "timeslots": []
+},
+{
+    "name": "Finals",
+    "date": "2024-03-23",
+    "start": "17:00",
+    "timeslots": []
+}
+]

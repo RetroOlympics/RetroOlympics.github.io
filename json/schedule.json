@@ -889,29 +889,5 @@
             ]
         }
     ]
-},
-{
-    "name": "Last 16",
-    "date": "2024-03-02",
-    "start": "17:00",
-    "timeslots": []
-},
-{
-    "name": "Quarter Finals",
-    "date": "2024-03-09",
-    "start": "17:00",
-    "timeslots": []
-},
-{
-    "name": "Semi Finals",
-    "date": "2024-03-16",
-    "start": "17:00",
-    "timeslots": []
-},
-{
-    "name": "Finals",
-    "date": "2024-03-23",
-    "start": "17:00",
-    "timeslots": []
 }
 ]

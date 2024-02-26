@@ -3,6 +3,7 @@
 const groups = await fetch("json/teams.json").then(res => res.json());
 const allgames = await fetch("json/games.json").then(res => res.json());
 const schedule = await fetch("json/schedule.json", { cache: "no-cache" }).then(res => res.json());
+const knockouts = await fetch("json/knockouts.json", { cache: "no-cache" }).then(res => res.json());
 
 function renderSlot(week, slot, time) {
     let output = "";
@@ -43,8 +44,11 @@ function renderSlot(week, slot, time) {
         <div class="time" data-time="${time.toISOString()}">
             ${Intl.DateTimeFormat([], { timeStyle: "short" }).format(time)}
         </div>
-        <div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>
     `;
+
+    if (slot.hasOwnProperty("group")) {
+        output += `<div class="group"><a href="/teams.html?group=${slot.group}">Group ${slot.group}</a></div>`;
+    }
 
     output += `<div class="matchup">`;
     if (teams[1] == undefined) {
@@ -146,6 +150,7 @@ function renderSlot(week, slot, time) {
     return output;
 }
 
+// groups
 let output = "";
 for (const [index, week] of schedule.entries()) {
     week.num = index;
@@ -182,7 +187,45 @@ for (const [index, week] of schedule.entries()) {
     }
     output += `</div><div class="more-right">→</div></div></div>`;
 }
-document.getElementById("schedule-container").innerHTML = output;
+document.getElementById("groups-schedule").innerHTML = output;
+
+// knockouts
+output = "";
+for (const [index, week] of knockouts.entries()) {
+    week.num = index;
+    const date = new Date(`${week.date}T${week.start}Z`);
+    output += `<div class="schedule knockout"><div class="header"><h3>${week.name}</h3>${date.toDateString()}`;
+    if (week.timeslots.length == 0) {
+        output += `<span class="right">TBD</span></div></div>`;
+        continue;
+    } else {
+        output += `
+            <div class="timezone right">
+                <label>
+                    <input type="checkbox">
+                    <span class="local"></span>
+                    <span class="utc"></span>
+                </label>
+            </div>
+            </div><div class="table">
+            <div class="table-head">
+                <span class="head">Time</span>
+                <span class="head">Matchup</span>
+                <span class="head">Results</span>
+                <span class="head">Details</span>
+            </div>
+            <div class="more-left">←</div>
+            <div class="table-data">
+        `;
+    }
+    let time = new Date(date);
+    for (const slot of week.timeslots) {
+        output += renderSlot(week, slot, time);
+        time = new Date(time.getTime() + 1800000);
+    }
+    output += `</div><div class="more-right">→</div></div></div>`;
+}
+document.getElementById("knockouts-schedule").innerHTML = output;
 
 for (const table of document.querySelectorAll(".schedule .table")) {
     const data = table.querySelector(".table-data")

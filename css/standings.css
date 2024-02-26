@@ -1,10 +1,60 @@
+body {
+    justify-content: start;
+}
+
 main {
+    display: grid;
+    grid-template: 6em 1fr / 1fr 1fr;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 1em 1em 1em;
+}
+
+main > label {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 1em;
+    flex: 1;
+    color: #777;
+    user-select: none;
+}
+
+main > label input {
+    display: none;
+}
+
+main > label:has(input:checked) span {
+    text-decoration: underline;
+    color: white;
+}
+
+main > label#tab-groups:has(input:checked) ~ #groups-standings {
+    display: flex;
+}
+main > label#tab-knockouts:has(input:checked) ~ #knockouts-bracket {
+    display: flex;
+}
+
+main > div {
+    grid-column: 1 / span 2;
+}
+
+#groups-standings,
+#knockouts-bracket {
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1500px;
+}
+
+#knockouts-bracket {
+    background-color: #777;
+    max-width: 1000px;
+    justify-self: center;
+    border-radius: 8px;
     padding: 1em;
 }
 
@@ -14,7 +64,7 @@ main {
     overflow: hidden;
     margin: 1em;
     font-size: 1.25rem;
-    width: 600px;
+    width: 550px;
 }
 
 .group .header {
@@ -51,6 +101,10 @@ main {
 
 .group .table .row:hover > * {
     background-color: #eee;
+}
+
+.group .table .row .team {
+    font-size: 0.85em;
 }
 
 .group .table .row .team .icon {

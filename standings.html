@@ -10,6 +10,7 @@
     <!--custom CSS link-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/standings.css">
+    <link rel="stylesheet" type="text/css" href="css/bracket.css">
 
     <!---boxicons link--->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -35,7 +36,20 @@
             <a href="history.html">History</a>
         </nav>
     </header>
-    <main></main>
+
+    <main>
+        <label id="tab-groups">
+            <input type="radio" name="tab-group-1">
+            <span>Groups</span>
+        </label>
+        <label id="tab-knockouts">
+            <input type="radio" name="tab-group-1" checked>
+            <span>Knockouts</span>
+        </label>
+        <div id="groups-standings"></div>
+        <div id="knockouts-bracket"></div>
+    </main>
     <script type="module" src="js/standings.js"></script>
+    <script type="module" src="js/bracket.js"></script>
 </body>
 </html>

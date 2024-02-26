@@ -1,0 +1,272 @@
+.line {
+    position: relative;
+    /* background-color: white; */
+    --size: 0.5em;
+    --hsize: calc(var(--size) / 2);
+    --nhsize: calc(var(--size) / -2);
+    --color: #ddd;
+}
+
+.line-n::after {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    border-radius: 0 0 8px 8px;
+    padding-bottom: var(--hsize);
+    margin: 0 0 var(--nhsize) var(--nhsize);
+}
+.line-e::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 0 0 8px;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+.line-s::after {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 8px 0 0;
+    padding-top: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+.line-w::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    border-radius: 0 8px 8px 0;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 0;
+}
+
+.line-v::before {
+    content: "";
+    height: 100%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    margin-left: var(--nhsize);
+}
+.line-h::before {
+    content: "";
+    width: 100%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    margin-top: var(--nhsize);
+}
+
+.line-ne::before {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 8px 0 0;
+    padding-top: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+.line-ne::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    border-radius: 0 8px 8px 0;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 0;
+}
+
+.line-se::before {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    border-radius: 0 0 8px 8px;
+    padding-bottom: var(--hsize);
+    margin: 0 0 var(--nhsize) var(--nhsize);
+}
+.line-se::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    border-radius: 0 8px 8px 0;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 0;
+}
+
+.line-sw::before {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    border-radius: 0 0 8px 8px;
+    padding-bottom: var(--hsize);
+    margin: 0 0 var(--nhsize) var(--nhsize);
+}
+.line-sw::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 0 0 8px;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+
+.line-nw::before {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 8px 0 0;
+    padding-top: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+.line-nw::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 0 0 8px;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+
+.line-tn::before {
+    content: "";
+    width: 100%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    margin-top: var(--nhsize);
+}
+.line-tn::after {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    border-radius: 0 0 8px 8px;
+    padding-bottom: var(--hsize);
+    margin: 0 0 var(--nhsize) var(--nhsize);
+}
+.line-te::before {
+    content: "";
+    height: 100%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    margin-left: var(--nhsize);
+}
+.line-te::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 0 0 8px;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+.line-ts::before {
+    content: "";
+    width: 100%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    margin-top: var(--nhsize);
+}
+.line-ts::after {
+    content: "";
+    height: 50%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 8px 0 0;
+    padding-top: var(--hsize);
+    margin: var(--nhsize) 0 0 var(--nhsize);
+}
+.line-tw::before {
+    content: "";
+    height: 100%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    margin-left: var(--nhsize);
+}
+.line-tw::after {
+    content: "";
+    width: 50%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    border-radius: 0 8px 8px 0;
+    padding-right: var(--hsize);
+    margin: var(--nhsize) 0 0 0;
+}
+
+.line-c::before {
+    content: "";
+    height: 100%;
+    width: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    left: 50%;
+    margin-left: var(--nhsize);
+}
+.line-c::after {
+    content: "";
+    width: 100%;
+    height: var(--size);
+    background-color: var(--color);
+    position: absolute;
+    top: 50%;
+    margin-top: var(--nhsize);
+}

@@ -1,10 +1,9 @@
 "use strict";
 
-const container = document.querySelector("main");
 const groups = await fetch("json/teams.json", { cache: "no-cache" }).then(res => res.json());
 const schedule = await fetch("json/schedule.json", { cache: "no-cache" }).then(res => res.json());
-let output = "";
 
+let output = "";
 const ranks = [ "1st", "2nd", "3rd", "4th" ];
 
 for (const [group, teams] of Object.entries(groups)) {
@@ -77,4 +76,4 @@ for (const [group, teams] of Object.entries(groups)) {
     output += "</div></div>";
 }
 
-container.innerHTML = output;
+document.getElementById("groups-standings").innerHTML = output;

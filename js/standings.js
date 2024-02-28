@@ -1,5 +1,7 @@
 "use strict";
 
+import { renderBracket } from "./bracket.js";
+
 const groups = await fetch("json/teams.json", { cache: "no-cache" }).then(res => res.json());
 const schedule = await fetch("json/schedule.json", { cache: "no-cache" }).then(res => res.json());
 
@@ -77,3 +79,4 @@ for (const [group, teams] of Object.entries(groups)) {
 }
 
 document.getElementById("groups-standings").innerHTML = output;
+document.getElementById("knockouts-bracket").innerHTML = renderBracket(true, true);

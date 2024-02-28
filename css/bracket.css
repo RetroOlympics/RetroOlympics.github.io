@@ -8,7 +8,7 @@
     height: 100%;
     font-size: 0.8em;
     border-radius: 8px;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 .bracket .matchup {
@@ -61,16 +61,29 @@
 .bracket .team .icon {
     aspect-ratio: 1 / 1;
     object-fit: contain;
-    width: 2em;
+    width: 3em;
     margin: 0.5em;
 }
 
 .bracket .team p {
     height: 100%;
     padding: 0.5em;
-    border-left: 4px #777 solid;
+    border-left: 4px #444 solid;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.2;
+}
+
+.bracket .hidden,
+.bracket .team p.hidden {
+    display: none;
+}
+
+.bracket .team:has(p.hidden) {
+    justify-content: center;
+}
+
+.bracket .icon.hidden + p {
+    border: none;
 }

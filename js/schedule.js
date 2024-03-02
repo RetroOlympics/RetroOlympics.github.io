@@ -57,9 +57,10 @@ function renderSlot(week, slot, time) {
         output += `
             <div class="matchup-team">
                 <img class="icon" title="${teams[0].name}" src="${teams[0].icon}">
-                <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" class="winner">
-                    ${teams[0].name}
-                </a>
+                ${slot.team1.hasOwnProperty("group") ?
+                    `<a href="/teams.html?group=${slot.team1.group}&team=${slot.team1.n}" class="winner">${teams[0].name}</a>` :
+                    `<a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" class="winner">${teams[0].name}</a>`
+                }
             </div>
             <div class="matchup-exhibition">Exhibition Match</div>
         `;
@@ -67,16 +68,18 @@ function renderSlot(week, slot, time) {
         output += `
             <div class="matchup-team">
                 <img class="icon" title="${teams[0].name}" src="${teams[0].icon}">
-                <a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" ${winner == 1 ? `class="winner"`:""}>
-                    ${teams[0].name}
-                </a>
+                ${slot.team1.hasOwnProperty("group") ?
+                    `<a href="/teams.html?group=${slot.team1.group}&team=${slot.team1.n}" ${winner == 1 ? `class="winner"`:""}>${teams[0].name}</a>` :
+                    `<a href="/teams.html?group=${slot.group}&team=${slot.team1 - 1}" ${winner == 1 ? `class="winner"`:""}>${teams[0].name}</a>`
+                }
             </div>
             <div class="matchup-vs"><hr>vs<hr></div>
             <div class="matchup-team">
                 <img class="icon" title="${teams[1].name}" src="${teams[1].icon}">
-                <a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}" ${winner == 2 ? `class="winner"`:""}>
-                    ${teams[1].name}
-                </a>
+                ${slot.team2.hasOwnProperty("group") ?
+                    `<a href="/teams.html?group=${slot.team2.group}&team=${slot.team2.n}" ${winner == 2 ? `class="winner"`:""}>${teams[1].name}</a>` :
+                    `<a href="/teams.html?group=${slot.group}&team=${slot.team2 - 1}" ${winner == 2 ? `class="winner"`:""}>${teams[1].name}</a>`
+                }
                 ${slot.rolled ? `<span class="rolled" title="Team is defending only and will not receive points for this match">*</span>` : ""}
             </div>
         `;

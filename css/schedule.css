@@ -58,7 +58,6 @@ main > div {
 
 #knockouts-schedule {
     max-width: 1200px;
-    display: grid;
     grid-template: 1fr / 1fr 300px;
     grid-auto-flow: row;
     align-items: start;

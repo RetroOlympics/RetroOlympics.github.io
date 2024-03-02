@@ -38,8 +38,14 @@ export function renderBracket(showIcons, showNames) {
                 groups[slot.team2.group][slot.team2.n - 1]
             ]
             output += `
-                <div class="team">${teams[0].name}</div>
-                <div class="team">${teams[1].name}</div>
+                <div class="team">
+                    <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[0].name}" src="${teams[0].icon}">
+                    <p class="${showNames ? "" : "hidden"}">${teams[0].name}</p>
+                </div>
+                <div class="team">
+                    <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[1].name}" src="${teams[1].icon}">
+                    <p class="${showNames ? "" : "hidden"}">${teams[1].name}</p>
+                </div>
             </div>`;
         } else {
             output += `
@@ -66,8 +72,14 @@ export function renderBracket(showIcons, showNames) {
                 groups[slot.team2.group][slot.team2.n - 1]
             ]
             output += `
-                <div class="team">${teams[0].name}</div>
-                <div class="team">${teams[1].name}</div>
+                <div class="team">
+                    <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[0].name}" src="${teams[0].icon}">
+                    <p class="${showNames ? "" : "hidden"}">${teams[0].name}</p>
+                </div>
+                <div class="team">
+                    <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[1].name}" src="${teams[1].icon}">
+                    <p class="${showNames ? "" : "hidden"}">${teams[1].name}</p>
+                </div>
             </div>`;
         } else {
             output += `
@@ -91,12 +103,16 @@ export function renderBracket(showIcons, showNames) {
             groups[slot.team1.group][slot.team1.n - 1],
             groups[slot.team2.group][slot.team2.n - 1]
         ]
-        output += `
-            <div class="matchup finals">
-                <div class="team">${teams[0].name}</div>
-                <div class="team">${teams[1].name}</div>
+        output += `<div class="matchup finals">
+            <div class="team">
+                <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[0].name}" src="${teams[0].icon}">
+                <p class="${showNames ? "" : "hidden"}">${teams[0].name}</p>
             </div>
-        `;
+            <div class="team">
+                <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[1].name}" src="${teams[1].icon}">
+                <p class="${showNames ? "" : "hidden"}">${teams[1].name}</p>
+            </div>
+        </div>`;
     } else {
         output += `
             <div class="matchup finals">

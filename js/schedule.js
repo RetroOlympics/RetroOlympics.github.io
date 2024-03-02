@@ -10,11 +10,17 @@ const knockouts = await fetch("json/knockouts.json", { cache: "no-cache" }).then
 function renderSlot(week, slot, time) {
     let output = "";
     const teams = [];
+
+    if (!slot.hasOwnProperty("team1")) {
+        return output;
+    }
+
     if (slot.team1.hasOwnProperty("group")) {
         teams[0] = groups[slot.team1.group][slot.team1.n - 1];
     } else {
         teams[0] = groups[slot.group][slot.team1 - 1];
     }
+
     if (slot.team2.hasOwnProperty("group")) {
         teams[1] = groups[slot.team2.group][slot.team2.n - 1];
     } else {

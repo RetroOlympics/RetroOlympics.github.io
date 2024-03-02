@@ -17,11 +17,11 @@
         {
             "team1": { "group": "E", "n": 1 },
             "team2": { "group": "D", "n": 2 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Crazeuh", "MonkeyBug" ], "results": [ "1,922,600", "2,650,400" ] },
+                { "users": [ "Blueby", "Prota" ], "results": [ "Forfeit", "2" ] },
+                { "users": [ "HardSonicStorm", "AmazingBaha" ], "results": [ "0", "2" ] }
             ]
         },
         {
@@ -91,7 +91,16 @@
     "date": "2024-03-09",
     "start": "17:00",
     "timeslots": [
-        {},
+        {
+            "team1": { "group": "C", "n": 1 },
+            "team2": { "group": "D", "n": 2 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
         {},
         {},
         {}

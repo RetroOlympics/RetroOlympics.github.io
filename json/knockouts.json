@@ -7,11 +7,11 @@
         {
             "team1": { "group": "B", "n": 1 },
             "team2": { "group": "C", "n": 1 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Xymjak", "SebaMardo" ], "results": [ "1,306,500", "3,626,000" ] },
+                { "users": [ "Sairotra", "mankodax" ], "results": [ "1", "3" ] },
+                { "users": [ "xClawz", "" ], "results": [ "Won by default", "Absent" ] }
             ]
         },
         {
@@ -90,7 +90,12 @@
     "name": "Quarter Finals",
     "date": "2024-03-09",
     "start": "17:00",
-    "timeslots": [ {}, {}, {}, {} ]
+    "timeslots": [
+        {},
+        {},
+        {},
+        {}
+    ]
 },
 {
     "name": "Semi Finals",

@@ -239,6 +239,22 @@ output += `
 
 document.getElementById("knockouts-schedule").innerHTML = output;
 
+let index = 0;
+const matches = document.querySelectorAll("#knockouts-schedule .sidebar .bracket .matchup");
+for (const schedule of document.querySelectorAll("#knockouts-schedule .schedule")) {
+    for (const row of schedule.querySelectorAll(".table-data .row")) {
+        ((i) => {
+            row.addEventListener("mouseenter", (ev) => {
+                matches[i].classList.add("highlight")
+            });
+            row.addEventListener("mouseleave", (ev) => {
+                matches[i].classList.remove("highlight")
+            });
+        })(index);
+        index += 1;
+    }
+}
+
 for (const table of document.querySelectorAll(".schedule .table")) {
     const data = table.querySelector(".table-data")
     const left = table.querySelector(".more-left");

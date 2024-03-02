@@ -27,11 +27,11 @@
         {
             "team1": { "group": "D", "n": 4 },
             "team2": { "group": "A", "n": 2 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Nickyy", "ilikepie345" ], "results": [ "904,900", "1,093,500" ] },
+                { "users": [ "Doggy227", "Fruitpop" ], "results": [ "3", "2" ] },
+                { "users": [ "A3r1us", "Blazekickn" ], "results": [ "2", "1" ] }
             ]
         },
         {

@@ -43,8 +43,8 @@ export function renderBracket(showIcons, showNames) {
             </div>`;
         } else {
             output += `
-                <div class="team unknown">???</div>
-                <div class="team unknown">???</div>
+                <div class="team unknown">?</div>
+                <div class="team unknown">?</div>
             </div>`;
         }
     }
@@ -71,8 +71,8 @@ export function renderBracket(showIcons, showNames) {
             </div>`;
         } else {
             output += `
-                <div class="team unknown">???</div>
-                <div class="team unknown">???</div>
+                <div class="team unknown">?</div>
+                <div class="team unknown">?</div>
             </div>`;
         }
     }
@@ -100,8 +100,8 @@ export function renderBracket(showIcons, showNames) {
     } else {
         output += `
             <div class="matchup finals">
-                <div class="team unknown">???</div>
-                <div class="team unknown">???</div>
+                <div class="team unknown">?</div>
+                <div class="team unknown">?</div>
             </div>
         `;
     }

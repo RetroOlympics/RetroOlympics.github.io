@@ -1,5 +1,7 @@
 "use strict";
 
+import { renderBracket } from "./bracket.js";
+
 const groups = await fetch("json/teams.json").then(res => res.json());
 const allgames = await fetch("json/games.json").then(res => res.json());
 const schedule = await fetch("json/schedule.json", { cache: "no-cache" }).then(res => res.json());
@@ -225,6 +227,13 @@ for (const [index, week] of knockouts.entries()) {
         output += `</div><div class="more-right">→</div></div></div>`;
     }
 }
+
+output += `
+    <div class="sidebar">
+        ${renderBracket(true, false)}
+    </div>
+`;
+
 document.getElementById("knockouts-schedule").innerHTML = output;
 
 for (const table of document.querySelectorAll(".schedule .table")) {

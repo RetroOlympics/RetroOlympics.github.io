@@ -1,3 +1,5 @@
+@import url("bracket.css");
+
 body {
     justify-content: start;
 }
@@ -7,6 +9,7 @@ main {
     grid-template: 6em 1fr / 1fr 1fr;
     max-width: 1200px;
     width: 100%;
+    padding: 0 1em 1em 1em;
 }
 
 main > label {
@@ -33,7 +36,7 @@ main > label#tab-groups:has(input:checked) ~ #groups-schedule {
     display: flex;
 }
 main > label#tab-knockouts:has(input:checked) ~ #knockouts-schedule {
-    display: flex;
+    display: grid;
 }
 
 main > div {
@@ -53,12 +56,44 @@ main > div {
     justify-self: center;
 }
 
+#knockouts-schedule {
+    max-width: 1200px;
+    display: grid;
+    grid-template: 1fr / 1fr 300px;
+    grid-auto-flow: row;
+    align-items: start;
+}
+
+#knockouts-schedule > .sidebar {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    top: 100px;
+    padding-top: 1em;
+}
+
+#knockouts-schedule > .sidebar .bracket .team .icon {
+    width: 2em;
+}
+
+#knockouts-schedule > .sidebar .bracket .team {
+    min-width: 0px;
+    min-height: 0px;
+}
+
+#knockouts-schedule > .sidebar .bracket .team.unknown {
+    width: 100%;
+    height: 3.5em;
+}
+
+
 .schedule {
     width: 100%;
     background-color: #777;
     border-radius: 10px;
     overflow: hidden;
     font-size: 1.25rem;
+    grid-column: 1;
 }
 
 .schedule .header {
@@ -358,6 +393,17 @@ main > div {
 .schedule .table .more-left,
 .schedule .table .more-right {
     display: none;
+}
+
+@media (max-width: 1200px) {
+    #knockouts-schedule {
+        max-width: 1000px;
+        grid-template: 1fr / 1fr;
+    }
+
+    #knockouts-schedule > .sidebar {
+        display: none;
+    }
 }
 
 @media (max-width: 700px) {

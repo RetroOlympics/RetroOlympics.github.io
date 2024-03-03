@@ -47,11 +47,11 @@
         {
             "team1": { "group": "E", "n": 4 },
             "team2": { "group": "B", "n": 2 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Amir96lx", "Retrokaiser" ], "results": [ "1,714,700", "2,273,700" ] },
+                { "users": [ "AuburnRDM", "freezestar" ], "results": [ "1", "3" ] },
+                { "users": [ "jelloknifee", "faronheights" ], "results": [ "Skipped", "Skipped" ] }
             ]
         },
         {

@@ -37,11 +37,11 @@
         {
             "team1": { "group": "B", "n": 4 },
             "team2": { "group": "B", "n": 3 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "DavidYTBR2", "VenHur" ], "results": [ "?", "53,300" ] },
+                { "users": [ "LivRetro", "AlexC25" ], "results": [ "3", "0" ] },
+                { "users": [ "GalacticSpear", "TheoVellum" ], "results": [ "Skipped", "Skipped" ] }
             ]
         },
         {
@@ -101,7 +101,16 @@
                 { "users": [ "", "" ], "results": [ "", "" ] }
             ]
         },
-        {},
+        {
+            "team1": { "group": "D", "n": 4 },
+            "team2": { "group": "B", "n": 4 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
         {},
         {}
     ]

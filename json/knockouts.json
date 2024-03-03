@@ -67,11 +67,11 @@
         {
             "team1": { "group": "C", "n": 3 },
             "team2": { "group": "E", "n": 3 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "DanielARP", "Pampa50" ], "results": [ "Skipped", "Skipped" ] },
+                { "users": [ "missiray", "amine456" ], "results": [ "2", "3" ] },
+                { "users": [ "justyellow", "Adenothe" ], "results": [ "0", "2" ] }
             ]
         },
         {

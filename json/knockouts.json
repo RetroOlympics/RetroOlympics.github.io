@@ -77,11 +77,11 @@
         {
             "team1": { "group": "A", "n": 1 },
             "team2": { "group": "D", "n": 3 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Gamechamp", "Keywiz" ], "results": [ "1,101,500", "1,520,700" ] },
+                { "users": [ "KlydeKadell", "psyduck" ], "results": [ "3", "0" ] },
+                { "users": [ "Bendyhuman", "Zegjita" ], "results": [ "2", "0" ] }
             ]
         }
     ]
@@ -121,7 +121,16 @@
                 { "users": [ "", "" ], "results": [ "", "" ] }
             ]
         },
-        {}
+        {
+            "team1": { "group": "E", "n": 3 },
+            "team2": { "group": "A", "n": 1 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        }
     ]
 },
 {

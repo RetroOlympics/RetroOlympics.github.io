@@ -265,7 +265,7 @@
     "games": [
         {
             "name": "Neo Bomberman",
-            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win a Bo3 with all 3 characters wins the match.",
+            "challenge": "Both contestants select 3 characters and submit these ahead of the match to the referee. If you win a Bo3 with a character, you may not use them again. If you lose, you are free to switch to any of your available characters. First to win a Bo3 with all 3 characters wins the match. Start on the first stage, loser selects next stage.",
             "image": "img/neob.png",
             "console": "img/console/fightcade.png",
             "type": "fightcade"

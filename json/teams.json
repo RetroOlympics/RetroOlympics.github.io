@@ -10,7 +10,8 @@
         "name": "Giovanni's Grunts",
         "image": "img/team/GiovannisGrunts.png",
         "icon": "img/icon/GiovannisGrunts.png",
-        "members": [ "ilikepie345", "Blazekickn", "Fruitpop" ]
+        "members": [ "ilikepie345", "Blazekickn", "Fruitpop" ],
+        "knockedout": true
     },
     {
         "name": "Uchida's Ushers",
@@ -31,25 +32,29 @@
         "name": "Alucard's Angels",
         "image": "img/team/AlucardsAngels.png",
         "icon": "img/icon/AlucardsAngels.png",
-        "members": [ "xClawz", "Xymjak", "Sairotra", "JAM" ]
+        "members": [ "xClawz", "Xymjak", "Sairotra", "JAM" ],
+        "knockedout": true
     },
     {
         "name": "Yang & Yun's Yappers",
         "image": "img/team/YangYunsYappers.png",
         "icon": "img/icon/YangYunsYappers.png",
-        "members": [ "Retrokaiser", "BloodParade", "freezestar", "faronheights" ]
+        "members": [ "Retrokaiser", "BloodParade", "freezestar", "faronheights" ],
+        "knockedout": true
     },
     {
         "name": "Knuckles's Kommandos",
         "image": "img/team/KnucklesKommandos.png",
         "icon": "img/icon/KnucklesKommandos.png",
-        "members": [ "VenHur", "AlexC25", "TheoVellum" ]
+        "members": [ "VenHur", "AlexC25", "TheoVellum" ],
+        "knockedout": true
     },
     {
         "name": "Kirby's Knights",
         "image": "img/team/KirbysKnights.png",
         "icon": "img/icon/KirbysKnights.png",
-        "members": [ "GalacticSpear", "LivRetro", "DavidYTBR2", "SrOliveira" ]
+        "members": [ "GalacticSpear", "LivRetro", "DavidYTBR2", "SrOliveira" ],
+        "knockedout": true
     }
 ],
 "C": [
@@ -57,19 +62,22 @@
         "name": "Ryu's Ronin",
         "image": "img/team/RyusRonin.png",
         "icon": "img/icon/RyusRonin.png",
-        "members": [ "mankodax", "SebaMardo", "ialfaro", "BeerBaron" ]
+        "members": [ "mankodax", "SebaMardo", "ialfaro", "BeerBaron" ],
+        "knockedout": true
     },
     {
         "name": "Belmont's Brawlers",
         "image": "img/team/BelmontsBrawlers.png",
         "icon": "img/icon/BelmontsBrawlers.png",
-        "members": [ "Nepiki", "Kiutgh", "Raichi" ]
+        "members": [ "Nepiki", "Kiutgh", "Raichi" ],
+        "knockedout": true
     },
     {
         "name": "Sonic's Speedsters",
         "image": "img/team/SonicSpeedsters.png",
         "icon": "img/icon/SonicSpeedsters.png",
-        "members": [ "missiray", "DanielARP", "justyellow", "WhyNot360" ]
+        "members": [ "missiray", "DanielARP", "justyellow", "WhyNot360" ],
+        "knockedout": true
     },
     {
         "name": "Terra's Titans",
@@ -97,7 +105,8 @@
         "name": "Roll's Raiders",
         "image": "img/team/RollsRaiders.png",
         "icon": "img/icon/RollsRaiders.png",
-        "members": [ "psyduck", "Keywiz", "Zegjita" ]
+        "members": [ "psyduck", "Keywiz", "Zegjita" ],
+        "knockedout": true
     },
     {
         "name": "Hyrule Heroes",
@@ -111,7 +120,8 @@
         "name": "Eggman's Emeralds",
         "image": "img/team/EggmansEmeralds.png",
         "icon": "img/icon/EggmansEmeralds.png",
-        "members": [ "Crazeuh", "Blueby", "HardSonicStorm" ]
+        "members": [ "Crazeuh", "Blueby", "HardSonicStorm" ],
+        "knockedout": true
     },
     {
         "name": "Ganondorf's Guardians",
@@ -124,13 +134,15 @@
         "name": "Peach's Power Stars",
         "image": "img/team/PeachsPowerStars.png",
         "icon": "img/icon/PeachsPowerStars.png",
-        "members": [ "Pampa50", "hirumaspace", "Adenothe", "amine456" ]
+        "members": [ "Pampa50", "hirumaspace", "Adenothe", "amine456" ],
+        "knockedout": true
     },
     {
         "name": "Pepsiman's Phantoms",
         "image": "img/team/PepsimansPhantoms.png",
         "icon": "img/icon/PepsimansPhantoms.png",
-        "members": [ "AuburnRDM", "Amir96lx", "jelloknifee" ]
+        "members": [ "AuburnRDM", "Amir96lx", "jelloknifee" ],
+        "knockedout": true
     }
 ]
 }

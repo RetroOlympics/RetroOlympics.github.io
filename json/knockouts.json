@@ -124,11 +124,11 @@
         {
             "team1": { "group": "E", "n": 3 },
             "team2": { "group": "A", "n": 1 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "amine456", "Gamechamp" ], "results": [ "(Kotetsu, Gold, ?) 0", "(Rubber, Honey, Gold) 3" ] },
+                { "users": [ "Adenothe", "Bendyhuman" ], "results": [ "5:21.96", "5:18.20" ] },
+                { "users": [ "hirumaspace", "KlydeKadell" ], "results": [ "3:11, 3:17", "3:14, 3:22" ] }
             ]
         }
     ]

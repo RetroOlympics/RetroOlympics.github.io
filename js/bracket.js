@@ -91,9 +91,11 @@ export function renderBracket(showIcons, showNames) {
 
     output += `
         <div class="line line-ne" style="grid-area: 4/6/4/6"></div>
-        <div class="line line-v"  style="grid-area: 5/6/8/6"></div>
-        <div class="line line-te" style="grid-area: 8/6/8/6"></div>
-        <div class="line line-v"  style="grid-area: 9/6/12/6"></div>
+        <div class="line line-v"  style="grid-area: 5/6/7/6"></div>
+        <div class="line line-te" style="grid-area: 7/6/7/6"></div>
+        <div class="line line-v"  style="grid-area: 8/6/8/6"></div>
+        <div class="line line-te" style="grid-area: 9/6/9/6"></div>
+        <div class="line line-v"  style="grid-area: 10/6/12/6"></div>
         <div class="line line-se" style="grid-area: 12/6/12/6"></div>
     `;
 
@@ -115,7 +117,11 @@ export function renderBracket(showIcons, showNames) {
         </div>`;
     } else {
         output += `
-            <div class="matchup finals">
+            <div class="matchup finals1">
+                <div class="team unknown">?</div>
+                <div class="team unknown">?</div>
+            </div>
+            <div class="matchup finals2">
                 <div class="team unknown">?</div>
                 <div class="team unknown">?</div>
             </div>

@@ -14,14 +14,6 @@ Index:
 
 - Adjust colouring of the FAQ  - VOICE
 
-Teams:
-
-- Track teams knocked out in JSON data, add group for past teams with knocked out dates, sorted by most recently knocked out - BUG
-
-Standings:
-
-- Generate standings from results stored in schedule.json - BUG
-
 Schedule:
 
 - Show team card on hover

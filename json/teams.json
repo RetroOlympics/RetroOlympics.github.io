@@ -11,7 +11,7 @@
         "image": "img/team/GiovannisGrunts.png",
         "icon": "img/icon/GiovannisGrunts.png",
         "members": [ "ilikepie345", "Blazekickn", "Fruitpop" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Uchida's Ushers",
@@ -24,7 +24,7 @@
         "image": "img/team/DarkLinksDemons.png",
         "icon": "img/icon/DarkLinksDemons.png",
         "members": [ "r0ach3d", "Wimpyfox", "genesislover" ],
-        "knockedout": true
+        "knockedout": "group"
     }
 ],
 "B": [
@@ -33,28 +33,28 @@
         "image": "img/team/AlucardsAngels.png",
         "icon": "img/icon/AlucardsAngels.png",
         "members": [ "xClawz", "Xymjak", "Sairotra", "JAM" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Yang & Yun's Yappers",
         "image": "img/team/YangYunsYappers.png",
         "icon": "img/icon/YangYunsYappers.png",
         "members": [ "Retrokaiser", "BloodParade", "freezestar", "faronheights" ],
-        "knockedout": true
+        "knockedout": "quarters"
     },
     {
         "name": "Knuckles's Kommandos",
         "image": "img/team/KnucklesKommandos.png",
         "icon": "img/icon/KnucklesKommandos.png",
         "members": [ "VenHur", "AlexC25", "TheoVellum" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Kirby's Knights",
         "image": "img/team/KirbysKnights.png",
         "icon": "img/icon/KirbysKnights.png",
         "members": [ "GalacticSpear", "LivRetro", "DavidYTBR2", "SrOliveira" ],
-        "knockedout": true
+        "knockedout": "quarters"
     }
 ],
 "C": [
@@ -63,28 +63,28 @@
         "image": "img/team/RyusRonin.png",
         "icon": "img/icon/RyusRonin.png",
         "members": [ "mankodax", "SebaMardo", "ialfaro", "BeerBaron" ],
-        "knockedout": true
+        "knockedout": "quarters"
     },
     {
         "name": "Belmont's Brawlers",
         "image": "img/team/BelmontsBrawlers.png",
         "icon": "img/icon/BelmontsBrawlers.png",
         "members": [ "Nepiki", "Kiutgh", "Raichi" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Sonic's Speedsters",
         "image": "img/team/SonicSpeedsters.png",
         "icon": "img/icon/SonicSpeedsters.png",
         "members": [ "missiray", "DanielARP", "justyellow", "WhyNot360" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Terra's Titans",
         "image": "img/team/TerrasTitans.png",
         "icon": "img/icon/TerrasTitans.png",
         "members": [ "Eldorian", "Zexerous", "BalrogRPG", "Iggore" ],
-        "knockedout": true
+        "knockedout": "group"
     }
 ],
 "D": [
@@ -106,7 +106,7 @@
         "image": "img/team/RollsRaiders.png",
         "icon": "img/icon/RollsRaiders.png",
         "members": [ "psyduck", "Keywiz", "Zegjita" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Hyrule Heroes",
@@ -121,28 +121,28 @@
         "image": "img/team/EggmansEmeralds.png",
         "icon": "img/icon/EggmansEmeralds.png",
         "members": [ "Crazeuh", "Blueby", "HardSonicStorm" ],
-        "knockedout": true
+        "knockedout": "last16"
     },
     {
         "name": "Ganondorf's Guardians",
         "image": "img/team/GanondorfsGuardians.png",
         "icon": "img/icon/GanondorfsGuardians.png",
         "members": [ "Yoshikiller109", "Evllnk2565", "Readycard53", "MrRockTable" ],
-        "knockedout": true
+        "knockedout": "group"
     },
     {
         "name": "Peach's Power Stars",
         "image": "img/team/PeachsPowerStars.png",
         "icon": "img/icon/PeachsPowerStars.png",
         "members": [ "Pampa50", "hirumaspace", "Adenothe", "amine456" ],
-        "knockedout": true
+        "knockedout": "quarters"
     },
     {
         "name": "Pepsiman's Phantoms",
         "image": "img/team/PepsimansPhantoms.png",
         "icon": "img/icon/PepsimansPhantoms.png",
         "members": [ "AuburnRDM", "Amir96lx", "jelloknifee" ],
-        "knockedout": true
+        "knockedout": "last16"
     }
 ]
 }

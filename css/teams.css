@@ -21,6 +21,7 @@
 }
 
 .teamgroup .card {
+    position: relative;
     aspect-ratio: 4 / 6;
     flex: 1;
 }
@@ -29,6 +30,27 @@
     transform: scale(0.75);
     filter: grayscale(1);
     justify-self: flex-end;
+}
+
+.teamgroup .card.knockedout .card-back::after {
+    position: absolute;
+    top: 100%;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 0.25em;
+}
+
+.teamgroup .card.knockedout.group .card-back::after {
+    content: "Knocked out in group stage";
+}
+.teamgroup .card.knockedout.last16 .card-back::after {
+    content: "Knocked out in last 16";
+}
+.teamgroup .card.knockedout.quarters .card-back::after {
+    content: "Knocked out in quarter finals";
+}
+.teamgroup .card.knockedout.semis .card-back::after {
+    content: "Knocked out in semi finals";
 }
 
 .teamgroup > h1 {

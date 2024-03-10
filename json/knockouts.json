@@ -137,7 +137,28 @@
     "name": "Semi Finals",
     "date": "2024-03-16",
     "start": "17:00",
-    "timeslots": [ {}, {} ]
+    "timeslots": [
+        {
+            "team1": { "group": "D", "n": 2 },
+            "team2": { "group": "D", "n": 4 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "A", "n": 3 },
+            "team2": { "group": "A", "n": 1 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        }
+    ]
 },
 {
     "name": "Finals",

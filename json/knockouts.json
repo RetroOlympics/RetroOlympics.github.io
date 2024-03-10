@@ -114,11 +114,11 @@
         {
             "team1": { "group": "B", "n": 2 },
             "team2": { "group": "A", "n": 3 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Retrokaiser", "RetroGameMaster" ], "results": [ "(Black, Honey, Kotetsu) 3", "(Kotetsu, Honey, Gold) 2" ] },
+                { "users": [ "faronheights", "ChocoMilk" ], "results": [ "6:03.08", "5:08.06" ] },
+                { "users": [ "freezestar", "Maize" ], "results": [ "3:40, 3:25", "2:59, 2:59" ] }
             ]
         },
         {

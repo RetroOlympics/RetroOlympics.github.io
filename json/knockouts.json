@@ -104,11 +104,11 @@
         {
             "team1": { "group": "D", "n": 4 },
             "team2": { "group": "B", "n": 4 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "A3r1us", "LivRetro" ], "results": [ "(Gold, Kotetsu, Honey) 3", "(Cat, Kotetsu, Atomic) 1" ] },
+                { "users": [ "Nickyy", "DavidYTBR2" ], "results": [ "5:09.58", "5:09.28" ] },
+                { "users": [ "Doggy227", "GalacticSpear" ], "results": [ "3:01, 3:13", "3:12, 3:15" ] }
             ]
         },
         {

@@ -94,11 +94,11 @@
         {
             "team1": { "group": "C", "n": 1 },
             "team2": { "group": "D", "n": 2 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "mankodax", "AmazingBaha" ], "results": [ "(Gold, Atomic, Rubber) 3", "(Gold, Kotetsu, Rubber) 1" ] },
+                { "users": [ "SebaMardo", "MonkeyBug" ], "results": [ "8:06.66", "6:03.90" ] },
+                { "users": [ "ialfaro", "Prota" ], "results": [ "3:31, 3:25", "3:02, 3:05" ] }
             ]
         },
         {

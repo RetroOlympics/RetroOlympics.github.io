@@ -141,21 +141,21 @@
         {
             "team1": { "group": "D", "n": 2 },
             "team2": { "group": "D", "n": 4 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 2, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Joncky", "A3r1uS" ], "results": [ "6", "8" ] },
+                { "users": [ "MonkeyBug", "Doggy227" ], "results": [ "DNF", "16,453,720" ] },
+                { "users": [ "Prota", "Nickyy" ], "results": [ "3", "0" ] }
             ]
         },
         {
             "team1": { "group": "A", "n": 3 },
             "team2": { "group": "A", "n": 1 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 2, 2 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "ChocoMilk", "Bendyhuman" ], "results": [ "7", "6" ] },
+                { "users": [ "Maize", "Gamechamp" ], "results": [ "1,470,890", "23,872,530" ] },
+                { "users": [ "RetroGameMaster", "KlydeKadell" ], "results": [ "0", "3" ] }
             ]
         }
     ]

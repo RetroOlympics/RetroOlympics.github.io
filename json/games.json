@@ -347,7 +347,15 @@
         },
         {
             "name": "Mario Superstar Baseball (Project Rio)",
-            "challenge": "Project Rio (Rules T.B.D.)",
+            "challenge": [
+                "Star Skills ON",
+                "5 Innings",
+                "Mercy Rule OFF",
+                "Draft will work as follows:",
+                "Referee will perform a coinflip with the contestants. Coin Flip Winner will take the first captain pick, Coin Flip Loser will take the 2nd captain pick and first fielder pick. Both players then continue to fill their roster by picking 1 at a time: CFW > CFL > CFW > CFL etc.",
+                "Another coinflip is done, winner of this flip decides who starts at bat and who starts on defense.",
+                "The referee will roll a random number between 1-6 AFTER the draft has been completed to decide the stadium."
+            ],
             "image": "img/msb.png",
             "console": "img/console/shroom.png",
             "type": "",

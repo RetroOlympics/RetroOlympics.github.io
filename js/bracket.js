@@ -99,33 +99,32 @@ export function renderBracket(showIcons, showNames) {
         <div class="line line-se" style="grid-area: 12/6/12/6"></div>
     `;
 
-    const slot = knockouts[3].timeslots[0];
-    if (slot.hasOwnProperty("team1")) {
-        const teams = [
-            groups[slot.team1.group][slot.team1.n - 1],
-            groups[slot.team2.group][slot.team2.n - 1]
-        ]
-        output += `<div class="matchup finals">
-            <div class="team">
-                <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[0].name}" src="${teams[0].icon}">
-                <p class="${showNames ? "" : "hidden"}">${teams[0].name}</p>
-            </div>
-            <div class="team">
-                <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[1].name}" src="${teams[1].icon}">
-                <p class="${showNames ? "" : "hidden"}">${teams[1].name}</p>
-            </div>
-        </div>`;
-    } else {
-        output += `
-            <div class="matchup finals1">
-                <div class="team unknown">?</div>
-                <div class="team unknown">?</div>
-            </div>
-            <div class="matchup finals2">
-                <div class="team unknown">?</div>
-                <div class="team unknown">?</div>
-            </div>
-        `;
+    for (let [i, slot] of Object.entries(knockouts[3].timeslots)) {
+        if (slot.hasOwnProperty("team1")) {
+            const teams = [
+                groups[slot.team1.group][slot.team1.n - 1],
+                groups[slot.team2.group][slot.team2.n - 1]
+            ]
+            output += `
+                <div class="matchup finals${parseInt(i) + 1}">
+                    <div class="team">
+                        <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[0].name}" src="${teams[0].icon}">
+                        <p class="${showNames ? "" : "hidden"}">${teams[0].name}</p>
+                    </div>
+                    <div class="team">
+                        <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[1].name}" src="${teams[1].icon}">
+                        <p class="${showNames ? "" : "hidden"}">${teams[1].name}</p>
+                    </div>
+                </div>
+            `;
+        } else {
+            output += `
+                <div class="matchup finals${parseInt(i) + 1}">
+                    <div class="team unknown">?</div>
+                    <div class="team unknown">?</div>
+                </div>
+            `;
+        }
     }
 
     output += "</div>";

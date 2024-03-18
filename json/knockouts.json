@@ -164,6 +164,27 @@
     "name": "Finals",
     "date": "2024-03-23",
     "start": "17:00",
-    "timeslots": [ {} ]
+    "timeslots": [
+        {
+            "team1": { "group": "A", "n": 1 },
+            "team2": { "group": "D", "n": 4 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        },
+        {
+            "team1": { "group": "A", "n": 3 },
+            "team2": { "group": "D", "n": 2 },
+            "results": [ 0, 0, 0 ],
+            "details": [
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] },
+                { "users": [ "", "" ], "results": [ "", "" ] }
+            ]
+        }
+    ]
 }
 ]

@@ -166,8 +166,8 @@
     "start": "17:00",
     "timeslots": [
         {
-            "team1": { "group": "A", "n": 1 },
-            "team2": { "group": "D", "n": 4 },
+            "team1": { "group": "A", "n": 3 },
+            "team2": { "group": "D", "n": 2 },
             "results": [ 0, 0, 0 ],
             "details": [
                 { "users": [ "", "" ], "results": [ "", "" ] },
@@ -176,8 +176,8 @@
             ]
         },
         {
-            "team1": { "group": "A", "n": 3 },
-            "team2": { "group": "D", "n": 2 },
+            "team1": { "group": "A", "n": 1 },
+            "team2": { "group": "D", "n": 4 },
             "results": [ 0, 0, 0 ],
             "details": [
                 { "users": [ "", "" ], "results": [ "", "" ] },

@@ -47,11 +47,11 @@
     font-size: 2em;
 }
 
-.bracket .matchup.finals1::after {
+.bracket .matchup.finals2::after {
     content: "🥇🥈";
 }
 
-.bracket .matchup.finals2::after {
+.bracket .matchup.finals1::after {
     content: "🥉";
 }
 

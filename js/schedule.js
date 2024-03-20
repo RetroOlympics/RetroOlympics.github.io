@@ -249,7 +249,7 @@ let index = 0;
 const matches = document.querySelectorAll("#knockouts-schedule .sidebar .bracket .matchup");
 for (const schedule of document.querySelectorAll("#knockouts-schedule .schedule")) {
     for (const row of schedule.querySelectorAll(".table-data .row")) {
-        ((i) => {
+        (i => {
             row.addEventListener("mouseenter", (ev) => {
                 matches[i].classList.add("highlight")
             });

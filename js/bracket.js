@@ -100,6 +100,16 @@ export function renderBracket(showIcons, showNames) {
     `;
 
     for (let [i, slot] of Object.entries(knockouts[3].timeslots)) {
+        const wins = slot.results.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
+        let winner = 0;
+        if (wins.get(1) == undefined && wins.get(2) == undefined) {
+            winner = 0
+        } if (wins.get(1) > wins.get(2) || (wins.get(1) && wins.get(2) == undefined)) {
+            winner = 1;
+        } else if (wins.get(2) > wins.get(1) || (wins.get(2) && wins.get(1) == undefined)) {
+            winner = 2;
+        }
+
         if (slot.hasOwnProperty("team1")) {
             const teams = [
                 groups[slot.team1.group][slot.team1.n - 1],
@@ -107,11 +117,11 @@ export function renderBracket(showIcons, showNames) {
             ]
             output += `
                 <div class="matchup finals${parseInt(i) + 1}">
-                    <div class="team">
+                    <div class="team ${winner == 1 ? "winner" : ""}">
                         <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[0].name}" src="${teams[0].icon}">
                         <p class="${showNames ? "" : "hidden"}">${teams[0].name}</p>
                     </div>
-                    <div class="team">
+                    <div class="team ${winner == 2 ? "winner" : ""}">
                         <img class="icon ${showIcons ? "" : "hidden"}" title="${teams[1].name}" src="${teams[1].icon}">
                         <p class="${showNames ? "" : "hidden"}">${teams[1].name}</p>
                     </div>

@@ -168,21 +168,21 @@
         {
             "team1": { "group": "A", "n": 3 },
             "team2": { "group": "D", "n": 2 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 2, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "ChocoMilk", "Prota" ], "results": [ "10:22.05", "7:52.56" ] },
+                { "users": [ "Maize", "MonkeyBug" ], "results": [ "5", "2" ] },
+                { "users": [ "RetroGameMaster", "AmazingBaha" ], "results": [ "3", "1" ] }
             ]
         },
         {
             "team1": { "group": "A", "n": 1 },
             "team2": { "group": "D", "n": 4 },
-            "results": [ 0, 0, 0 ],
+            "results": [ 1, 1, 1 ],
             "details": [
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] },
-                { "users": [ "", "" ], "results": [ "", "" ] }
+                { "users": [ "Gamechamp", "A3r1uS" ], "results": [ "7:10.75", "7:33.53" ] },
+                { "users": [ "KlydeKadell", "Nickyy" ], "results": [ "5", "1" ] },
+                { "users": [ "Bendyhuman", "Doggy227" ], "results": [ "W", "L" ] }
             ]
         }
     ]

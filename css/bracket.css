@@ -40,19 +40,21 @@
     grid-row: 9;
 }
 
-.bracket .matchup.finals1::after,
-.bracket .matchup.finals2::after {
-    position: absolute;
-    left: 100%;
-    font-size: 2em;
+.bracket .matchup.finals1 .team::after,
+.bracket .matchup.finals2 .team::after {
+    font-size: 1.5em;
 }
 
-.bracket .matchup.finals2::after {
-    content: "🥇🥈";
-}
-
-.bracket .matchup.finals1::after {
+.bracket .matchup.finals1 .team.winner::after {
     content: "🥉";
+}
+
+.bracket .matchup.finals2 .team.winner::after {
+    content: "🥇";
+}
+
+.bracket .matchup.finals2 .team:not(.winner)::after {
+    content: "🥈";
 }
 
 .bracket .team {

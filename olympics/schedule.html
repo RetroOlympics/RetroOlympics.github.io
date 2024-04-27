@@ -4,12 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Retro Olympics</title>
-        <link rel="icon" type="image" href="img/favicon.ico">
+        <link rel="icon" type="image" href="/favicon.ico">
 
         <!--custom CSS link-->
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="css/cards.css">
-        <link rel="stylesheet" type="text/css" href="css/games.css">
+        <link rel="stylesheet" type="text/css" href="css/schedule.css">
 
         <!---boxicons link--->
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -22,7 +21,7 @@
     </head>
     <body>
         <header>
-            <a href="index.html" class="logo"><img src="img/logo.png" alt="Retro Olympics"></a>
+            <a href="../olympics/" class="logo"><img src="img/logo.png" alt="Retro Olympics"></a>
             <input type="checkbox" id="menu">
             <label for="menu" id="menu-label"><i class="bx bx-chevron-down"></i></label>
             <nav>
@@ -35,7 +34,19 @@
             </nav>
         </header>
 
-        <div id="games-container"></div>
-        <script src="js/games.js" type="module"></script>
+        <main>
+            <label id="tab-groups">
+                <input type="radio" name="tab-group-1">
+                <span>Groups</span>
+            </label>
+            <label id="tab-knockouts">
+                <input type="radio" name="tab-group-1" checked>
+                <span>Knockouts</span>
+            </label>
+            <div id="groups-schedule"></div>
+            <div id="knockouts-schedule"></div>
+        </main>
+        <script type="module" src="js/elements.js"></script>
+        <script type="module" src="js/schedule.js"></script>
     </body>
 </html>

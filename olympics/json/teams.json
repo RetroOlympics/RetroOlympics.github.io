@@ -4,7 +4,8 @@
         "name": "Proto Man's Protectors",
         "image": "img/team/ProtomansProtectors.png",
         "icon": "img/icon/ProtomansProtectors.png",
-        "members": [ "Bendyhuman", "KlydeKadell", "Gamechamp" ]
+        "members": [ "Bendyhuman", "KlydeKadell", "Gamechamp" ],
+        "result": "gold"
     },
     {
         "name": "Giovanni's Grunts",
@@ -17,7 +18,8 @@
         "name": "Uchida's Ushers",
         "image": "img/team/UchidasUshers.png",
         "icon": "img/icon/UchidasUshers.png",
-        "members": [ "ChocoMilk", "Maize", "RetroGameMaster" ]
+        "members": [ "ChocoMilk", "Maize", "RetroGameMaster" ],
+        "result": "bronze"
     },
     {
         "name": "Dark Link's Demons",
@@ -99,7 +101,8 @@
         "name": "Cress's Crusaders",
         "image": "img/team/CresssCrusaders.png",
         "icon": "img/icon/CresssCrusaders.png",
-        "members": [ "Prota", "AmazingBaha", "MonkeyBug", "Joncky" ]
+        "members": [ "Prota", "AmazingBaha", "MonkeyBug", "Joncky" ],
+        "knockedout": "semis"
     },
     {
         "name": "Roll's Raiders",
@@ -112,7 +115,8 @@
         "name": "Hyrule Heroes",
         "image": "img/team/HyruleHeroes.png",
         "icon": "img/icon/HyruleHeroes.png",
-        "members": [ "Nickyy", "A3r1uS", "Doggy227", "Proph" ]
+        "members": [ "Nickyy", "A3r1uS", "Doggy227", "Proph" ],
+        "result": "silver"
     }
 ],
 "E": [

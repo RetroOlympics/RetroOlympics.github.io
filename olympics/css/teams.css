@@ -53,6 +53,31 @@
     content: "Knocked out in semi finals";
 }
 
+.teamgroup .card.result.gold .card-front::after,
+.teamgroup .card.result.gold .card-back::after,
+.teamgroup .card.result.silver .card-front::after,
+.teamgroup .card.result.silver .card-back::after,
+.teamgroup .card.result.bronze .card-front::after,
+.teamgroup .card.result.bronze .card-back::after {
+    position: absolute;
+    top: 0px;
+    left: 0.5em;
+    font-size: 4em;
+}
+
+.teamgroup .card.result.gold .card-front::after,
+.teamgroup .card.result.gold .card-back::after {
+    content: "🥇";
+}
+.teamgroup .card.result.silver .card-front::after,
+.teamgroup .card.result.silver .card-back::after {
+    content: "🥈";
+}
+.teamgroup .card.result.bronze .card-front::after,
+.teamgroup .card.result.bronze .card-back::after {
+    content: "🥉";
+}
+
 .teamgroup > h1 {
     color: #fff;
     grid-column: 1 / span 4;

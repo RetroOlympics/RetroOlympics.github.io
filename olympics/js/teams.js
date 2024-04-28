@@ -7,7 +7,10 @@ let output = "";
 for (const [group, teams] of Object.entries(groups)) {
     output += `<div id="group${group}" class="teamgroup"><h1>Group ${group}</h1><div class="teams">`;
     for (const team of teams) {
-        output += `<div class="card ${team.hasOwnProperty("knockedout") ? `knockedout ${team.knockedout}` : ""}">
+        output += `<div class="card `;
+        output += `${team.hasOwnProperty("knockedout") ? `knockedout ${team.knockedout}` : ""} `;
+        output += `${team.hasOwnProperty("result") ? `result ${team.result}` : ""}">`;
+        output += `
             <div class="card-front">
                 <img src="${team.image}">
                 <h1>${team.name}</h1>

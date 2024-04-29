@@ -66,7 +66,7 @@ for (const [team, members] of Object.entries(volunteers)) {
         shuffle(members);
     }
     for (const member of members) {
-        output += `<ra-userpic>${member}</ra-userpic><p>${member}</p>`;
+        output += `<div class="member"><ra-userpic>${member}</ra-userpic><p>${member}</p></div>`;
     }
     output += `</div></div>`;
 }

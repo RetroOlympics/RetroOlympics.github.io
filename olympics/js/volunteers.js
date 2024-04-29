@@ -50,11 +50,21 @@ const volunteers = {
     ],
 };
 
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 const container = document.getElementById("volunteers-container");
 let output = "";
 
 for (const [team, members] of Object.entries(volunteers)) {
     output += `<div><h1>${team}</h1><hr><div class="memberlist">`;
+    if (team != "Hosts") {
+        shuffle(members);
+    }
     for (const member of members) {
         output += `<ra-userpic>${member}</ra-userpic><p>${member}</p>`;
     }

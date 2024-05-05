@@ -20,7 +20,6 @@ main {
     background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,1) 100%);
     font-family: "Farray";
     color: white;
-    gap: 2em;
 }
 
 header {
@@ -39,6 +38,8 @@ section {
 }
 
 a.button {
+    position: relative;
+    max-width: 300px;
     font-size: 1.5em;
     display: flex;
     align-items: center;
@@ -47,16 +48,42 @@ a.button {
     color: #222;
     color: white;
     gap: 0.25em;
+    text-align: center;
 }
 
-a.button.disabled {
+a.button span.disabled {
     color: #666;
 }
 
+a.button p {
+    position: absolute;
+    top: 0;
+    padding-top: 6px;
+    font-size: 1.75em;
+    transition: transform 0.5s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(3px 0px 2px black);
+}
+
 a.button img {
-    max-width: 300px;
+    width: 100%;
     transition: box-shadow 0.25s;
     border-radius: 20px;
+}
+
+a.button.olympics p {
+    background-image: linear-gradient(#ddd 0%, #ddd 80%, #288ec9);
+}
+
+a.button.colosso p {
+    background-image: linear-gradient(#ddd 0%, #ddd 80%, #dac449);
+}
+
+a.button.olympics:hover p,
+a.button.colosso:hover p {
+    transform: scale(1.05) translateY(-4px);
 }
 
 a.button.olympics:hover img {
@@ -87,9 +114,18 @@ a.button.colosso:hover ~ img.bg.colosso {
     opacity: 1;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
+    main {
+        gap: 2em;
+    }
     section {
         flex-direction: column;
         gap: 2em;
+    }
+}
+
+@media (max-width: 400px) {
+    section {
+        font-size: 0.75em;
     }
 }

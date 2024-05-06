@@ -103,7 +103,7 @@ img.bg {
     object-fit: cover;
     opacity: 0;
     transition: opacity 0.5s;
-    filter: grayscale(1) blur(4px);
+    filter: blur(4px);
 }
 
 a.button.olympics:hover ~ img.bg.olympics {

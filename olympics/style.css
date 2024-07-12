@@ -102,13 +102,15 @@ body {
 }
 
 .hero-text h2 {
+    font-family: "Farray";
     font-size: 1.75em;
     opacity: 0;
     animation: 0.5s ease 0s forwards fade-in-down;
 }
 
 .hero-text h1 {
-    font-size: 4em;
+    font-family: "Farray";
+    font-size: 5em;
     opacity: 0;
     animation: 0.5s ease 1s forwards fade-in-down;
 }

@@ -1,0 +1,25 @@
+header nav a.disabled {
+    color: #666;
+}
+
+header nav a.disabled:hover {
+    border-bottom: 2px solid #666;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+}
+
+main iframe {
+    aspect-ratio: 16 / 9;
+}
+
+@media (max-aspect-ratio: 1) {
+    main {
+        flex-direction: column;
+    }
+}

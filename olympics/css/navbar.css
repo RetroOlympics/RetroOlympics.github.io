@@ -43,13 +43,22 @@ header div img {
     max-height: 100px;
 }
 
-header div > a ~ a {
+header.olympics div > a ~ a {
     font-size: 0.75em;
     color: #0028ee;
 }
 
 header.olympics div > a ~ a:hover {
     border-bottom: 2px solid #0028ee;
+}
+
+header.colosso div > a ~ a {
+    font-size: 0.75em;
+    color: #cb9800;
+}
+
+header.colosso div > a ~ a:hover {
+    border-bottom: 2px solid #cb9800;
 }
 
 header nav {

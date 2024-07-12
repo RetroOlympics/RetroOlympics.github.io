@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,1) 100%);
+    background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,0.95) 100%);
     background-attachment: fixed;
     padding-top: 100px;
     display: flex;

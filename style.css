@@ -24,13 +24,18 @@ main {
     justify-content: center;
     flex-direction: column;
     min-height: 100dvh;
-    background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,1) 100%);
+    background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,0.95) 100%);
+    background-attachment: fixed;
     font-family: "Farray";
     color: white;
 }
 
 header {
     padding: 2em;
+}
+
+header div {
+    gap: 0;
 }
 
 header div span:nth-child(1) {
@@ -41,7 +46,28 @@ header div span:nth-child(2) {
     color: #cb9800;
 }
 
-section {
+header div a {
+    display: contents;
+}
+
+header div a:hover {
+    border-bottom: 2px solid transparent;
+}
+
+header div a span {
+    transition: border 0.25s ease;
+    border-bottom: 2px solid transparent;
+}
+
+header div a:hover > span:nth-child(1) {
+    border-bottom: 2px solid #0028ee;
+}
+
+header div a:hover > span:nth-child(2) {
+    border-bottom: 2px solid #cb9800;
+}
+
+section.buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,11 +150,44 @@ a.button.colosso:hover ~ img.bg.colosso {
     opacity: 1;
 }
 
+main.volunteers {
+    text-align: center;
+}
+
+main.volunteers div.team {
+    padding: 2em;
+}
+
+main.volunteers div.team > h1 + hr {
+    color: white;
+    margin: 0.25em 0 1em 0;
+}
+
+main.volunteers .memberlist {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+main.volunteers .memberlist .member {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main.volunteers .memberlist .member ra-userpic {
+    width: 100px;
+}
+
 @media (max-width: 800px) {
     main {
         gap: 2em;
     }
-    section {
+    main {
         flex-direction: column;
         gap: 2em;
     }
@@ -147,7 +206,7 @@ a.button.colosso:hover ~ img.bg.colosso {
 }
 
 @media (max-width: 400px) {
-    section {
+    main {
         font-size: 0.75em;
     }
 }

@@ -57,11 +57,11 @@ function shuffle(array) {
     }
 }
 
-const container = document.getElementById("volunteers-container");
+const container = document.querySelector("main");
 let output = "";
 
 for (const [team, members] of Object.entries(volunteers)) {
-    output += `<div><h1>${team}</h1><hr><div class="memberlist">`;
+    output += `<div class="team"><h1>${team}</h1><hr><div class="memberlist">`;
     if (team != "Hosts") {
         shuffle(members);
     }

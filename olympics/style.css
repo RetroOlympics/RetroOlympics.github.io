@@ -1,6 +1,11 @@
 @import url("css/navbar.css");
 
 @font-face {
+    font-family: "Farray";
+    src: url("css/FARRAY.otf");
+}
+
+@font-face {
     font-family: "PixelOperator";
     src: url("css/PixelOperator8.ttf");
 }
@@ -15,16 +20,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'PixelOperator', sans-serif;
     text-decoration: none;
 }
 
 html {
+    font-family: "PixelOperator", sans-serif;
     font-size: 12px;
 }
 
 body {
-    background: linear-gradient(245.59deg, #36393f 0%, #242629 38.53%, #050505 68.52%, #050505 100%);
+    background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,1) 100%);
     background-attachment: fixed;
     padding-top: 100px;
     display: flex;

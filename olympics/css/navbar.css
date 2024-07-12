@@ -1,4 +1,5 @@
 header {
+    font-family: "Farray";
     position: fixed;
     top: 0;
     z-index: 9999;
@@ -6,49 +7,74 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4em;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(8px) brightness(95%);
 }
 
-header > a img {
-    max-height: 100px;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4em;
-}
-
-header nav a {
+header a {
     color: white;
-    font-size: 1.5em;
     border-bottom: 2px solid transparent;
     transition: border 0.25s ease;
 }
 
-header nav a:hover {
+header a:hover {
     border-bottom: 2px solid white;
 }
 
+header > * {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+header *:not(:has(> *)) {
+    margin-top: -0.15em;
+}
+
+header div {
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15em;
+}
+
+header div img {
+    margin: 0;
+    max-height: 100px;
+}
+
+header div > a ~ a {
+    font-size: 0.75em;
+    color: #0028ee;
+}
+
+header.olympics div > a ~ a:hover {
+    border-bottom: 2px solid #0028ee;
+}
+
+header nav {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
 
 #menu, #menu-label {
     display: none;
 }
 
 @media (max-width: 1200px) {
-    header nav {
-        gap: 2em;
+    header div#logo {
+        font-size: 3em;
     }
 
-    header nav a {
+    header nav {
         font-size: 1.25em;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -1,3 +1,5 @@
+@import url("olympics/css/navbar.css");
+
 @font-face {
     font-family: "Farray";
     src: url("olympics/css/FARRAY.otf");
@@ -10,8 +12,13 @@
     text-decoration: none;
 }
 
+html {
+    font-size: 12px;
+}
+
 main {
     padding: 50px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,10 +30,15 @@ main {
 }
 
 header {
-    color: white;
-    text-align: center;
-    text-shadow: 4px 4px 2px black;
-    font-size: 1.5em;
+    padding: 2em;
+}
+
+header div span:nth-child(1) {
+    color: #0028ee;
+}
+
+header div span:nth-child(2) {
+    color: #cb9800;
 }
 
 section {
@@ -40,7 +52,7 @@ section {
 a.button {
     position: relative;
     max-width: 300px;
-    font-size: 1.5em;
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,10 +73,16 @@ a.button p {
     padding-top: 6px;
     font-size: 1.75em;
     transition: transform 0.5s;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(3px 0px 2px black);
+    text-shadow: 2px 1px 2px black;
+    color: white;
+}
+
+a.button.olympics p span {
+    color: #0028ee;
+}
+
+a.button.colosso p span {
+    color: #cb9800;
 }
 
 a.button img {
@@ -73,25 +91,17 @@ a.button img {
     border-radius: 20px;
 }
 
-a.button.olympics p {
-    background-image: linear-gradient(#ddd 0%, #ddd 80%, #288ec9);
-}
-
-a.button.colosso p {
-    background-image: linear-gradient(#ddd 0%, #ddd 80%, #dac449);
-}
-
 a.button.olympics:hover p,
 a.button.colosso:hover p {
     transform: scale(1.05) translateY(-4px);
 }
 
 a.button.olympics:hover img {
-    box-shadow: 0px 0px 40px #288ec9;
+    box-shadow: 0px 0px 40px #001dc0;
 }
 
 a.button.colosso:hover img {
-    box-shadow: 0px 0px 40px #dac449;
+    box-shadow: 0px 0px 40px #cb9800;
 }
 
 img.bg {
@@ -121,6 +131,18 @@ a.button.colosso:hover ~ img.bg.colosso {
     section {
         flex-direction: column;
         gap: 2em;
+    }
+    header div {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 600px) {
+    header div {
+        align-items: start;
+        justify-content: start;
+        flex-wrap: wrap;
+        font-size: 2em;
     }
 }
 

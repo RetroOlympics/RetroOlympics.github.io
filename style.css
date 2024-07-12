@@ -172,6 +172,8 @@ main.volunteers .memberlist {
 }
 
 main.volunteers .memberlist .member {
+    font-family: "Roboto Condensed", sans;
+    font-size: 1.5em;
 	display: flex;
 	align-items: center;
 	justify-content: center;

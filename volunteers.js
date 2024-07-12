@@ -27,6 +27,9 @@ const volunteers = {
         "r0ach3d",
         "Tayadaoc",
         "Zexerous",
+        "HardSonicStorm",
+        "Mindez",
+        "RetroGameMaster",
     ],
     "Leaderboard Devs": [
         "Bartis1989",
@@ -38,6 +41,10 @@ const volunteers = {
         "drisc",
         "MonkeyBug",
         "Daisey",
+        "amine456",
+        "falsepopsky",
+        "Joncky",
+        "Rooksie",
     ],
     "Media Team": [
         "PrinnyPrinny",

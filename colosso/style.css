@@ -11,7 +11,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 8rem;
+    padding: 8rem 4rem;
 }
 
 main iframe {

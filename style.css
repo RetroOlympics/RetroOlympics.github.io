@@ -73,6 +73,7 @@ section.buttons {
     justify-content: center;
     flex: 1;
     gap: 4em;
+    padding-top: 2em;
 }
 
 a.button {
@@ -186,10 +187,7 @@ main.volunteers .memberlist .member ra-userpic {
 }
 
 @media (max-width: 800px) {
-    main {
-        gap: 2em;
-    }
-    main {
+    section.buttons {
         flex-direction: column;
         gap: 2em;
     }
@@ -208,7 +206,7 @@ main.volunteers .memberlist .member ra-userpic {
 }
 
 @media (max-width: 400px) {
-    main {
+    section.buttons {
         font-size: 0.75em;
     }
 }

@@ -21,11 +21,6 @@ header a:hover {
     border-bottom: 2px solid white;
 }
 
-header > * {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
 header *:not(:has(> *)) {
     margin-top: -0.15em;
 }
@@ -67,6 +62,7 @@ header nav {
     align-items: center;
     justify-content: center;
     gap: 2em;
+    margin-right: 2em;
 }
 
 #menu, #menu-label {
@@ -119,5 +115,11 @@ header nav {
 
     #menu:checked + label {
         transform: rotateZ(180deg);
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        font-size: 0.75em;
     }
 }

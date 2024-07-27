@@ -10,16 +10,20 @@ main {
     flex: 1;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 8rem 4rem;
 }
 
 main iframe {
     aspect-ratio: 16 / 9;
+    max-width: 100%;
+    flex: 1;
 }
 
 @media (max-aspect-ratio: 1) {
     main {
-        flex-direction: column;
+        flex-direction: row;
     }
 }

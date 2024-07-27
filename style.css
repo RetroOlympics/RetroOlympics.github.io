@@ -1,5 +1,3 @@
-@import url("olympics/css/navbar.css");
-
 @font-face {
     font-family: "Farray";
     src: url("olympics/css/FARRAY.otf");
@@ -13,12 +11,15 @@
 }
 
 html {
-    font-size: 12px;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Farray";
 }
 
 main {
-    padding: 50px;
-    padding-top: 100px;
+    padding: 0 4em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,45 +27,27 @@ main {
     min-height: 100dvh;
     background-image: radial-gradient(75% 75% at 50% 25%, rgba(0,0,0,0.7) 0%, rgb(0,0,0,0.95) 100%);
     background-attachment: fixed;
-    font-family: "Farray";
     color: white;
+    text-align: center;
 }
 
-header {
-    padding: 2em;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 1.25em;
 }
 
-header div {
-    gap: 0;
-}
-
-header div span:nth-child(1) {
-    color: #0028ee;
-}
-
-header div span:nth-child(2) {
-    color: #cb9800;
-}
-
-header div a {
-    display: contents;
-}
-
-header div a:hover {
+nav a, nav a:visited {
+    color: white;
     border-bottom: 2px solid transparent;
 }
 
-header div a span {
-    transition: border 0.25s ease;
-    border-bottom: 2px solid transparent;
-}
-
-header div a:hover > span:nth-child(1) {
-    border-bottom: 2px solid #0028ee;
-}
-
-header div a:hover > span:nth-child(2) {
-    border-bottom: 2px solid #cb9800;
+nav a:hover {
+    border-bottom-color: white;
 }
 
 section.buttons {
@@ -73,34 +56,28 @@ section.buttons {
     justify-content: center;
     flex: 1;
     gap: 4em;
-    padding-top: 2em;
+    padding: 4em 0;
 }
 
 a.button {
     position: relative;
     max-width: 300px;
-    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #222;
+    font-size: 1.5em;
     color: white;
     gap: 0.25em;
-    text-align: center;
-}
-
-a.button span.disabled {
-    color: #666;
 }
 
 a.button p {
     position: absolute;
     top: 0;
-    padding-top: 6px;
-    font-size: 1.75em;
+    padding-top: 0.5em;
     transition: transform 0.5s;
     text-shadow: 2px 1px 2px black;
+    font-size: 1.5em;
     color: white;
 }
 
@@ -152,11 +129,8 @@ a.button.colosso:hover ~ img.bg.colosso {
 }
 
 main.volunteers {
-    text-align: center;
-}
-
-main.volunteers div.team {
-    padding: 2em;
+    padding: 4em;
+    gap: 4em;
 }
 
 main.volunteers div.team > h1 + hr {
@@ -183,29 +157,36 @@ main.volunteers .memberlist .member {
 }
 
 main.volunteers .memberlist .member ra-userpic {
-    width: 100px;
+    width: 4em;
+}
+
+main.volunteers nav a i {
+    position: relative;
+    top: 2px;
+    padding-right: 0.25em;
 }
 
 @media (max-width: 800px) {
     section.buttons {
         flex-direction: column;
-        gap: 2em;
     }
-    header div {
-        font-size: 3em;
+
+    main.volunteers {
+        font-size: 0.75em;
     }
 }
 
-@media (max-width: 600px) {
-    header div {
-        align-items: start;
-        justify-content: start;
-        flex-wrap: wrap;
-        font-size: 2em;
+@media (max-width: 380px) {
+    main:not(.volunteers) {
+        padding: 0 2em;
+    }
+
+    section.buttons {
+        padding-top: 2em;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
     section.buttons {
         font-size: 0.75em;
     }

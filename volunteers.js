@@ -78,4 +78,4 @@ for (const [team, members] of Object.entries(volunteers)) {
     output += `</div></div>`;
 }
 
-container.innerHTML = output;
+container.innerHTML += output;

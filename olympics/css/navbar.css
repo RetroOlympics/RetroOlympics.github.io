@@ -8,56 +8,93 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(8px) brightness(95%);
+    backdrop-filter: blur(8px) brightness(80%);
 }
 
 header a {
+    display: inline-block;
     color: white;
     border-bottom: 2px solid transparent;
     transition: border 0.25s ease;
+    /* hack for the Farray font to vertically center */
+    margin-top: -0.15em;
 }
 
 header a:hover {
     border-bottom: 2px solid white;
 }
 
-header *:not(:has(> *)) {
-    margin-top: -0.15em;
+header a.glow {
+    margin-top: 0px;
+    border: none;
 }
 
-header div {
-    font-size: 4em;
+header a.glow:hover, header a.glow:hover {
+    filter: drop-shadow(0 0 4px white);
+}
+
+header div#logo {
+    font-size: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.15em;
 }
 
-header div img {
+header div#logo img {
+    display: block;
     margin: 0;
-    max-height: 100px;
+    max-height: 80px;
+    aspect-ratio: 1 / 1;
 }
 
-header.olympics div > a ~ a {
-    font-size: 0.75em;
+header div#logo i.bxs-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 80px;
+    width: 80px;
+}
+
+header div#logo div.bar {
+    align-self: stretch;
+    width: 2px;
+}
+
+header div.dropdown {
+    position: relative;
+    height: 80px;
+    margin-right: 0.25em;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+header div.dropdown div.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: calc(-100% - 2px);
+    top: 80px;
+    transition: opacity 0.5s ease, left 0.5s ease;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px) brightness(80%);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+header div.dropdown:hover div.content {
+    left: 0;
+}
+
+header.olympics div#logo > a span {
     color: #0028ee;
 }
 
-header.olympics div > a ~ a:hover {
-    border-bottom: 2px solid #0028ee;
-}
-
-header.colosso div > a ~ a {
-    font-size: 0.75em;
+header.colosso div#logo > a span {
     color: #cb9800;
 }
 
-header.colosso div > a ~ a:hover {
-    border-bottom: 2px solid #cb9800;
-}
-
 header nav {
-    font-size: 1.5em;
+    font-size: 1.25em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,22 +106,23 @@ header nav {
     display: none;
 }
 
-@media (max-width: 1200px) {
-    header div#logo {
-        font-size: 3em;
-    }
-
-    header nav {
-        font-size: 1.25em;
+@media (max-width: 1000px) {
+    header {
+        font-size: 0.75em;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     header {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 80px 1fr 1fr;
         justify-items: center;
         padding: 0;
+    }
+
+    header div#logo {
+        grid-area: 2 / 1 / 2 / span 2;
+        justify-self: start;
     }
 
     #menu-label {
@@ -98,14 +136,15 @@ header nav {
         display: flex;
         align-items: center;
         justify-content: center;
+        grid-row-start: 2;
     }
 
     header nav {
-        height: 14em;
+        height: 160px;
         flex-direction: column;
-        grid-area: 1 / 1 / 1 / span 2;
+        grid-area: 1 / 2 / 1 / span 2;
         gap: 0.5em;
-        margin-top: -14em;
+        margin-top: -160px;
         transition: all 0.5s ease;
     }
 
@@ -116,10 +155,22 @@ header nav {
     #menu:checked + label {
         transform: rotateZ(180deg);
     }
+
+    header div.dropdown div.content {
+        left: 0;
+        top: -160px;
+        flex-direction: column-reverse;
+        background: none;
+        backdrop-filter: none;
+    }
 }
 
 @media (max-width: 500px) {
-    header {
+    header div#logo a:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: start;
         font-size: 0.75em;
     }
 }

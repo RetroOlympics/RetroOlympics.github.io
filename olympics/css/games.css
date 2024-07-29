@@ -64,7 +64,6 @@
 }
 
 .gamegroup .card-info > p.card-hash {
-    font-size: 0.75em;
     flex: 0;
     display: inline-block;
     padding: 4px;

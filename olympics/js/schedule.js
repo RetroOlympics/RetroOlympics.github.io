@@ -166,7 +166,7 @@ let output = "";
 for (const [index, week] of schedule.entries()) {
     week.num = index;
     const date = new Date(`${week.date}T${week.start}Z`);
-    output += `<div class="schedule"><div class="header"><h3>${week.name}</h3>${date.toDateString()}`;
+    output += `<div class="schedule"><div class="header"><h1>${week.name}</h1>${date.toDateString()}`;
     if (week.timeslots.length == 0) {
         output += `<span class="right">TBD</span></div></div>`;
         continue;
@@ -205,7 +205,7 @@ output = "";
 for (const [index, week] of knockouts.entries()) {
     week.num = index;
     const date = new Date(`${week.date}T${week.start}Z`);
-    output += `<div class="schedule knockout"><div class="header"><h3>${week.name}</h3>${date.toDateString()}`;
+    output += `<div class="schedule knockout"><div class="header"><h1>${week.name}</h1>${date.toDateString()}`;
     if (week.timeslots.length == 0 || !week.timeslots.some(v => v.hasOwnProperty("team1"))) {
         output += `<span class="right">TBD</span></div></div>`;
     } else {

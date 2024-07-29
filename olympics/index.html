@@ -15,15 +15,19 @@
         <!---google fonts link-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="olympics">
             <div id="logo">
-                <img src="img/mascot.png"></img>
-                <a href="../">RETRO</a>
-                <a href="./">OLYMPICS</a>
+                <div class="dropdown">
+                    <a href="./" class="glow"><img src="img/mascot.png"></img></a>
+                    <div class="content">
+                        <a href="../colosso/" class="glow"><img src="../colosso/logo.png"></img></a>
+                        <a href="../" class="glow"><i class="bx bxs-home"></i></a>
+                    </div>
+                </div>
+                <a href="./">RETRO<span>OLYMPICS</span></a>
             </div>
             <input type="checkbox" id="menu">
             <label for="menu" id="menu-label"><i class="bx bx-chevron-down"></i></label>

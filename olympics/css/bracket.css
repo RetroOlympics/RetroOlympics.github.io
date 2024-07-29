@@ -6,7 +6,7 @@
     grid-auto-flow: column;
     width: 100%;
     height: 100%;
-    font-size: 0.8em;
+    font-size: 0.6em;
     border-radius: 8px;
     overflow-x: auto;
 }
@@ -42,7 +42,7 @@
 
 .bracket .matchup.finals1 .team::after,
 .bracket .matchup.finals2 .team::after {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .bracket .matchup.finals1 .team.winner::after {

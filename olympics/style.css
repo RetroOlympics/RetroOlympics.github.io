@@ -42,7 +42,7 @@ body {
 .hero {
     height: 100%;
     width: 100%;
-    min-height: calc(100vh - 100px);
+    min-height: 75dvh;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,7 +50,7 @@ body {
     justify-content: center;
     gap: 2em;
     overflow-x: hidden;
-    padding: 0 15%;
+    padding: 4rem 15%;
 }
 
 .hero-text {
@@ -97,14 +97,14 @@ body {
 
 .hero-text h2 {
     font-family: "Farray";
-    font-size: 1.5em;
+    font-size: 1.25em;
     opacity: 0;
     animation: 0.5s ease 0s forwards fade-in-down;
 }
 
 .hero-text h1 {
     font-family: "Farray";
-    font-size: 4em;
+    font-size: 3em;
     opacity: 0;
     animation: 0.5s ease 1s forwards fade-in-down;
 }
